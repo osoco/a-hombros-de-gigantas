@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #D8DBE2;
+}
+
+.Detail .logo {
+    text-transform: uppercase;
+    margin: 24px;
+    font-weight: 300;
+    color: #373F51;
+    position: absolute; 
+    z-index: 2;
+}
+.Detail article {
+    text-align: center;
+}
+.Detail article header {
+    display: inline-block;
+}
+
+.Detail article .wrapper {
+    /*background: rgba(192, 199, 185, 1);*/
+    background: #A9BCD0;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.Detail article  header {
+    padding: 36px;
+    text-align: center;
+    margin-bottom: 56px;
+}
+.Detail article .title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+.Detail article .subtitle { 
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.Detail .portrait {
+    width: fit-content;
+    left: -50%;
+    position: relative;
+}
+
+.Detail article .wrapper p {
+    text-align: left;
+    margin: 24px;
+    line-height: 1.6rem;
+}
+
+.header-text {
+    position: relative;
+    z-index: 2;
+}
+
+a.nav {
+  position: absolute;
+  padding: 3rem; /* Arrow size */
+          box-shadow: 1px -1px 0 1px plum inset;
+  -webkit-box-shadow: 2px -2px plum inset;
+  border: solid transparent;
+  border-width: 0 0 1rem 1rem;
+  transition: 0.2s;
+}
+
+.next { transform:rotate(225deg) }
+.previous  { transform:rotate(45deg) }
+
+.read-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+/* .Detail .logo {position: absolute; z-index: 2;}
+.Detail article header {position: relative;}
+.Detail article .wrapper {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 90vh;
+    z-index: 0;
+}
+.Detail .portrait {
+    max-width: 100%;
+}
+
+.Detail article h1, .Detail article h2 {position: relative; z-index: 2;}
+*/
+@media (min-width: 640px) {
+    .Detail .logo {
+        position: static;; 
+    }
+    .Detail article .wrapper { height: initial;}
+    .Detail article .wrapper {
+        /*background: rgba(192, 199, 185, 1);*/
+        background: #A9BCD0;
+        flex-direction: initial;
+        max-width: 1200px;
+        margin: 0 auto;
+        justify-content: space-around;
+    }   
+
+    .Detail .portrait {
+        position: static;
+        margin-top: -50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+}   
