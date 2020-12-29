@@ -10,6 +10,7 @@ body {
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
+
 @keyframes slideInFromLeft {
     0% {
       transform: translateX(100%);
@@ -19,32 +20,45 @@ body {
     }
 }
   
-
+.Detail .detail-body {position: relative;}
+.Detail .detail-info {
+    position: relative;
+    top: -45vh;
+    left: 16px;
+    margin-bottom: -30vh;
+}
+.Detail .detail-info p {
+    padding: 0 16px 16px;
+    line-height: 1.5;
+}
 .Detail .portrait {
     width:auto;
-    height:115vh;
+    height:105vh;
 }
 
 .logo img {width: 100%;}
 .Detail .logo {
-    width: 150px;
-    position: fixed;
-    top:24px;
-    left: 24px;
+    width: 100px;
+    top:16px;
+    left: 16px;
+    z-index: 10;
+    position: absolute;
 }
 
 
 .Detail .title {
-    padding-top: 10vh;
-    font-size: 3.4rem;
+    font-size: 2.8rem;
     font-family: 'Playfair Display', serif;
-    line-height: 1.5;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
 }
 
 .Detail .subtitle {
-    margin-bottom: 100px;
+    color: #fff;
     opacity: .7;
-}
+    margin-bottom: 35vh;}
 
 .Detail .shop-buttom {
     background: #252525;
@@ -64,7 +78,11 @@ body {
     left: -20px;
     transform: rotate(-3deg);
 }
-.Detail .widget-shop { margin: 24px 0;}
+.Detail .widget-shop {
+    margin: 24px auto;
+    text-align: center;
+}
+
 .Detail .shirt {
     width: 120px;
     border-radius: 25px;
@@ -75,9 +93,11 @@ body {
     color:rgba(255, 255, 255, 0.733);
     padding: 16px;
     font-size: .85rem;
-    display: flex;
     align-items: baseline;
     justify-content: flex-start;
+    position: relative;
+    z-index: 20;
+    text-align: center;
 }
 .footer a {
     text-decoration: none;
@@ -85,18 +105,19 @@ body {
     color:#fff;
     opacity: .7;
 }
+.footer nav ul{
+    margin: 16px auto;
+    line-height: 1.8;
+}
 .footer a:hover { opacity: 1;}
-.footer .logo {
+
+.Detail .footer .logo {
     width: 100px;
     position: static;
     display: inline-block;
 }
-.footer nav ul{
-    display: inline-flex;
-}
-.social a::before {
-    filter: invert(1);
-}
+
+
 .social .github a::before {
     content: url("img/ico-github.svg");
     display: inline-block;
@@ -147,9 +168,9 @@ body {
 nav .st0 {fill:#fff;}
 
 .related .nav-previous, .related .nav-next {
-    z-index: 9999;
+    z-index: 6;
     position: fixed;
-    top: calc(50% - 30px);
+    top: calc(95vh - 30px);
 
 }
 .related .nav-previous a, .related .nav-next a {text-decoration: none;}
@@ -158,7 +179,7 @@ nav .st0 {fill:#fff;}
 
 .related .nav-previous a::before {
     content: " ";
-    border: solid #000; 
+    border: solid #fff; 
     border-width: 0 .2em .2em 0; 
     display: inline-block; 
     padding: .70em; transform:rotate(135deg); 
@@ -167,54 +188,33 @@ nav .st0 {fill:#fff;}
 }
 .related .nav-next a::after {
     content: " ";
-    border: solid #000; 
+    border: solid #fff; 
     border-width: 0 .2em .2em 0; 
     display: inline-block; 
     padding: .70em; transform:rotate(135deg); 
     transform:rotate(135deg); -webkit-transform:rotate(-45deg);
     box-shadow: 3px 2px 3px #aba6a6cc;
 }
+
 .related .nav-previous a article, .related .nav-next a article {
-    visibility: hidden;
-    opacity: 0;
-    height: 110px;
-    width: 280px;
-    display: inline-flex;
-    align-items: center;
-    font-family: 'Playfair Display', serif;
-    color:#000;
-    transition: opacity 1s ease-out;
-    -moz-transition: opacity 1s ease-out;
-    -webkit-transition: opacity 1s ease-out;    
-}
-.related article h1 { font-size: 1.2rem;}
-
-.related .nav-next a article {flex-direction: row-reverse;}
-.related .nav-previous a:hover article, .related .nav-next a:hover article {
-    visibility: visible;
-    opacity: 1;
-    transition: opacity 1s ease-out;
-    -moz-transition: opacity 1s ease-out;
-    -webkit-transition: opacity 1s ease-out;
-    display: inline-flex;
-}
-
-.related .thumbnail {
-    position: relative;
-    top: -8px;
+   display: none;
 }
 @media (min-width: 640px) {
     .Detail .detail-body { 
-        margin-top: -35vh; 
+        margin-top: -5vh; 
         margin-right: -20%;
     }
     .Detail .detail-info {
         font-size: 1.2rem;
         line-height: 1.5;
         margin: 20vh auto auto 50px;
+        
     }
-    .Detail .title {
-      
+    .Detail .logo {
+        width: 150px;
+        top:24px;
+        left: 24px;
+        position: fixed;
     }
     .Detail .portrait {
         float: right;
@@ -222,12 +222,27 @@ nav .st0 {fill:#fff;}
         right: 0;
         shape-margin:3em;
     }
+    .related .nav-previous, .related .nav-next {
+        top: calc(50% - 30px);
+    
+    }
+    .Detail .widget-shop { margin: 24px 0; text-align: initial;}
+    .footer {
+        display: flex;
+        text-align: initial;
+    }
+    .footer nav ul{
+        display: inline-flex;
+        margin: initial;
+    }
+    .social a::before {
+        filter: invert(1);
+    }
 
-
+} 
 
 @media (min-width: 960px) {
     .Detail .detail-body { 
-        margin-top: -35vh; 
         margin-right: -30%;
     }
     .social {
@@ -237,15 +252,45 @@ nav .st0 {fill:#fff;}
         top: 5vh;
         right: 20px;
     }
+    .Detail .subtitle {
+        margin-bottom: 100px;}
     
 }
 
 @media (min-width:1280px) {
-.Detail .portrait { height:120vh;}
+    .related .nav-previous a article, .related .nav-next a article {
+        visibility: hidden;
+        opacity: 0;
+        height: 110px;
+        width: 280px;
+        display: inline-flex;
+        align-items: center;
+        font-family: 'Playfair Display', serif;
+        color:#000;
+        transition: opacity 1s ease-out;
+        -moz-transition: opacity 1s ease-out;
+        -webkit-transition: opacity 1s ease-out;    
+    }
+    .related article h1 { font-size: 1.2rem;}
+    
+    .related .nav-next a article {flex-direction: row-reverse;}
+    .related .nav-previous a:hover article, .related .nav-next a:hover article {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 1s ease-out;
+        -moz-transition: opacity 1s ease-out;
+        -webkit-transition: opacity 1s ease-out;
+        display: inline-flex;
+    }
+    
+    .related .thumbnail {
+        position: relative;
+        top: -8px;
+    }
+
 }
 @media (min-width: 1520px) {
     .Detail .detail-body { 
-        margin-top: -20vh; 
         margin-right: -5%;
     }
     .Detail .detail-content {
@@ -260,6 +305,16 @@ nav .st0 {fill:#fff;}
         font-size: 1.2rem;
         line-height: 1.8;
         margin-top: 20vh;
+        position: initial;
     }
+    .Detail .title {
+        padding-top: 10vh;
+        font-size: 3.4rem;
+        font-family: 'Playfair Display', serif;
+        line-height: 1.5;
+        color: #222;
+        text-shadow: initial;
+    }
+    .Detail .subtitle { color:#222;}
 
 }
