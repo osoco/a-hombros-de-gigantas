@@ -94,7 +94,14 @@
             <article class="detail-content">                            
 
                 <div class="detail-body">     
-                    <img class="portrait frances_allen" src="Assets/img/frances_allen.png" alt="retrato de Frances Allen" >                                  
+                    <picture class="portrait frances_allen"  alt="retrato de Frances Allen" >  
+                        <source 
+                          media="(min-width: 650px)"
+                          srcset="Assets/img/frances_allen.png">
+                        <img class="portrait frances_allen"
+                          src="Assets/img/frances_allen-m.png" 
+                          alt="retrato de Frances Allen">
+                      </picture>     
                     <div class="detail-info">
                         <h1 class="title">Frances Allen</h1>
                         <h2 class="subtitle">Desarrolló muchas cosas buenas</h2>
@@ -120,12 +127,11 @@
     <!-- ==== footer ==== -->
     <footer class="footer">
 
+        
         <ul class="social">
-            <ul class="social">
-                <li class="instagram"><a href="#"><span>Instagram</span></a></li>
-                <li class="github"><a href="https://github.com/osoco/a-hombros-de-gigantas/"><span>GitHub</span></a></li>
-                <li class="twitter" n=""><a href="#"><span>Twitter</span></a></li>
-            </ul>
+            <li class="instagram"><a href="#"><span>Instagram</span></a></li>
+            <li class="github"><a href="https://github.com/osoco/a-hombros-de-gigantas/"><span>GitHub</span></a></li>
+            <li class="twitter" n=""><a href="#"><span>Twitter</span></a></li>
         </ul>
     
         <nav>
@@ -139,7 +145,7 @@
         <address>
             <strong class="logo"> <img src="Assets/img/Logo.png" alt="A hombros de gigantas"></strong>
             <a href="" class="e-mail">hola@ahombrosdegigantas.com</a>
-            <small>©2021 OSOCO // <a href="https://www.instagram.com/lureka_es/">Ilustraciones byLureka</a></small>
+            <small>©2021 OSOCO // <a href="https://www.instagram.com/lureka_es/">Ilustraciones by Lureka</a></small>
         </address>	
         
     </footer>
