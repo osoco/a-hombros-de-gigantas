@@ -1,4 +1,11 @@
+/*
+ /- 01 Commons
+ /- 02 Home
+ /- 03 Details
+*/
 
+
+/* / - 01 Commons / */
 body {
     font-family: 'Roboto', sans-serif;
     background: #D8DBE2;
@@ -7,6 +14,147 @@ body {
 }
 p > a {color:#3f51b5;}
 p > strong {color:#000}
+
+.logo img {width: 100%;}
+.header .logo {
+    width: 100px;
+    top:16px;
+    left: 16px;
+    z-index: 10;
+    position: absolute;
+}
+
+.footer {
+    width: 100%;
+    background: #000;
+    color:rgba(255, 255, 255, 0.733);
+    padding: 16px;
+    font-size: .85rem;
+    align-items: baseline;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 20;
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+    padding: 16px;
+    color:#fff;
+    opacity: .7;
+}
+.footer nav ul{
+    margin: 16px auto;
+    line-height: 1.8;
+}
+.footer a:hover { opacity: 1;}
+
+.footer .logo  {
+    width: 100px;
+    position: static;
+    display: inline-block;
+}
+.footer address {max-width: 90%;}
+
+
+.social .github a::before {
+    content: url("img/ico-github.svg");
+    display: inline-block;
+    width: 32px;
+    top: 8px;
+    position: relative;
+}
+.social .instagram a::before {
+    content: url("img/ico-instagram.svg");
+    display: inline-block;
+    width: 32px;
+    top: 5px;
+    position: relative;
+}
+.social .twitter a::before {
+    content: url("img/ico-twitter.svg");
+    display: inline-block;
+    width: 32px;
+    top: 11px;
+    position: relative;
+}
+.social {
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+}
+
+.social li {
+    display: inline-block;
+    margin: 1em 0.5em;
+}
+.social li a {
+   opacity: .6;
+}
+.social li a:hover {
+    opacity: 1;
+} 
+.social li a span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+
+.widget-shop .shop-buttom {
+    background: #252525;
+    padding: 16px;
+    color: #fff;
+    text-decoration: none;
+    margin: 24px 0;
+    display: inline-block;
+    font-family: 'Playfair Display';
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #6b6b6b;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    left: -20px;
+    position: relative;
+    left: -20px;
+    transform: rotate(-3deg);
+}
+.widget-shop {
+    margin: 24px auto;
+    text-align: center;
+}
+.widget-shop .shirt {
+    width: 120px;
+    border-radius: 25px;
+}
+
+@media (min-width: 640px) {
+   /* .header .logo {
+        width: 150px;
+        top:24px;
+        left: 24px;
+        position: fixed;
+    }
+    .footer {
+        display: flex;
+        text-align: initial;
+    }
+    .footer nav ul{
+        display: inline-flex;
+        margin: initial;
+    }
+    .social a::before {
+        filter: invert(1);
+    }
+    .widget-shop { margin: 24px 0; text-align: initial;}*/
+} 
+
+
+/* / - 02 Home / */
 .Home .giants {overflow-x: auto;}
 .Home .giants ul {
    margin: 0 auto;
@@ -90,10 +238,10 @@ p > strong {color:#000}
     max-width: 800px;
 }
 
+/* / - 03 Detail / */
 .Detail .container {
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
-
 
 @keyframes slideInFromLeft {
     0% {
@@ -110,23 +258,22 @@ p > strong {color:#000}
     top: -45vh;
     left: 16px;
     margin-bottom: -30vh;
+    padding-right: 16px;
 }
-.Detail .detail-info p {
+.Detail .detail-info p{
     padding: 0 16px 16px;
     line-height: 1.5;
 }
+.Detail .detail-info h3 {
+    padding: 0 16px 8px;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+}
+.Detail picture {display: contents;}
 .Detail .portrait {
     width:auto;
     height:105vh;
-}
-
-.logo img {width: 100%;}
-.header .logo {
-    width: 100px;
-    top:16px;
-    left: 16px;
-    z-index: 10;
-    position: absolute;
 }
 
 
@@ -145,112 +292,7 @@ p > strong {color:#000}
     margin-bottom: 35vh;
 }
 
-.widget-shop .shop-buttom {
-    background: #252525;
-    padding: 16px;
-    color: #fff;
-    text-decoration: none;
-    margin: 24px 0;
-    display: inline-block;
-    font-family: 'Playfair Display';
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px #6b6b6b;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    position: relative;
-    left: -20px;
-    position: relative;
-    left: -20px;
-    transform: rotate(-3deg);
-}
-.widget-shop {
-    margin: 24px auto;
-    text-align: center;
-}
-.widget-shop .shirt {
-    width: 120px;
-    border-radius: 25px;
-}
 
-.footer {
-    width: 100%;
-    background: #000;
-    color:rgba(255, 255, 255, 0.733);
-    padding: 16px;
-    font-size: .85rem;
-    align-items: baseline;
-    justify-content: flex-start;
-    position: relative;
-    z-index: 20;
-    text-align: center;
-}
-.footer a {
-    text-decoration: none;
-    padding: 16px;
-    color:#fff;
-    opacity: .7;
-}
-.footer nav ul{
-    margin: 16px auto;
-    line-height: 1.8;
-}
-.footer a:hover { opacity: 1;}
-
-.footer .logo  {
-    width: 100px;
-    position: static;
-    display: inline-block;
-}
-
-
-.social .github a::before {
-    content: url("img/ico-github.svg");
-    display: inline-block;
-    width: 32px;
-    top: 8px;
-    position: relative;
-}
-.social .instagram a::before {
-    content: url("img/ico-instagram.svg");
-    display: inline-block;
-    width: 32px;
-    top: 5px;
-    position: relative;
-}
-.social .twitter a::before {
-    content: url("img/ico-twitter.svg");
-    display: inline-block;
-    width: 32px;
-    top: 11px;
-    position: relative;
-}
-.social {
-    text-align: center; 
-    display: flex;
-    justify-content: center;
-}
-
-.social li {
-    display: inline-block;
-    margin: 1em 0.5em;
-}
-.social li a {
-   opacity: .6;
-}
-.social li a:hover {
-    opacity: 1;
-} 
-.social li a span {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-nav .st0 {fill:#fff;}
 
 .related .nav-previous, .related .nav-next {
     z-index: 6;
@@ -284,47 +326,35 @@ nav .st0 {fill:#fff;}
 .related .nav-previous a article, .related .nav-next a article {
    display: none;
 }
-@media (min-width: 640px) {
+@media (min-width: 540px) and (orientation: landscape) { 
+/*@media (min-width: 730px) {*/
     .Detail .detail-body { 
-        margin-top: -5vh; 
-        margin-right: -20%;
+        margin-top: -25vh;
+        margin-right: -5%;
     }
     .Detail .detail-info {
-        font-size: 1.2rem;
-        line-height: 1.5;
-        margin: 20vh auto auto 50px;
-        
-    }
-    .header .logo {
-        width: 150px;
-        top:24px;
-        left: 24px;
-        position: fixed;
+       font-size: 1.2rem;
+       line-height: 1.5;
+       margin: 20vh auto auto 90px;
+       position: static;
+       padding-right: 17vw;       
     }
     .Detail .portrait {
         float: right;
         left: initial;
         right: 0;
-        shape-margin:3em;
+        shape-margin:16px;
+        margin-bottom: 2rem;
     }
-    .related .nav-previous, .related .nav-next {
-        top: calc(50% - 30px);
-    
-    }
-    .Detail .widget-shop { margin: 24px 0; text-align: initial;}
-    .footer {
-        display: flex;
-        text-align: initial;
-    }
-    .footer nav ul{
-        display: inline-flex;
-        margin: initial;
-    }
-    .social a::before {
-        filter: invert(1);
-    }
+    .Detail .title {padding-top: 150px;}
+    .Detail .subtitle { margin-bottom: 2rem;}
+    .Detail .detail-info p, .Detail .detail-info h3{ padding-left: 0;}  
 
 } 
+
+
+/*
+
 
 @media (min-width: 960px) {
     .Home .giants ul {
@@ -415,3 +445,4 @@ nav .st0 {fill:#fff;}
     .Detail .subtitle { color:#222;}
 
 }
+*/
