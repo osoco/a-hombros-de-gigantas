@@ -354,108 +354,13 @@ p > strong {color:#000}
 } 
 
 
-
-
-
-@media (min-width: 960px) {
-    .Home .giants ul {
-        flex-wrap: wrap;
-        padding-left: 0;
-        margin-top: 26px;
-     }
-    .Detail .detail-body { 
-        margin-right: -30%;
-    }
-    .social {
-        flex-direction: column;
-        position: fixed;
-        z-index: 5;
-        top: 5vh;
-        right: 20px;
-    }
-    .Detail .subtitle {
-        margin-bottom: 100px;}
-    
-}
-
-@media (min-width:1280px) {
-    .project .media {
-        float: right;
-        max-width: 600px;
-        margin-left: 50px;
-        display: initial;
-    }
-    .related .nav-previous a article, .related .nav-next a article {
-        visibility: hidden;
-        opacity: 0;
-        height: 110px;
-        width: 280px;
-        display: inline-flex;
-        align-items: center;
-        font-family: 'Playfair Display', serif;
-        color:#000;
-        transition: opacity 1s ease-out;
-        -moz-transition: opacity 1s ease-out;
-        -webkit-transition: opacity 1s ease-out;    
-    }
-    .related article h1 { font-size: 1.2rem;}
-    
-    .related .nav-next a article {flex-direction: row-reverse;}
-    .related .nav-previous a:hover article, .related .nav-next a:hover article {
-        visibility: visible;
-        opacity: 1;
-        transition: opacity 1s ease-out;
-        -moz-transition: opacity 1s ease-out;
-        -webkit-transition: opacity 1s ease-out;
-        display: inline-flex;
-    }
-    
-    .related .thumbnail {
-        position: relative;
-        top: -8px;
-    }
-
-}
-@media (min-width: 1520px) {
-    .Detail .detail-body { 
-        margin-right: -5%;
-    }
-    .Detail .detail-content {
-        display: flex;
-        width: 100%;
-        justify-content: flex-end;  
-
-    } 
-    .Detail .detail-info {
-        max-width: 1200px;
-        width: 100%;
-        font-size: 1.2rem;
-        line-height: 1.8;
-        margin-top: 20vh;
-        position: initial;
-    }
-    .Detail .title {
-        padding-top: 10vh;
-        font-size: 3.4rem;
-        font-family: 'Playfair Display', serif;
-        line-height: 1.5;
-        color: #222;
-        text-shadow: initial;
-    }
-
-    .Detail .subtitle { color:#222;}
-
-}
-
-
-
 /* /- 04 Home-2 - Gigants-ts */
 .Home .gigants-ts{
     background-color: #333;
 }
 .Home .gigants-ts ul{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
 }
 .Home .gigants-ts ul li{ overflow: hidden;}
 .Home .gigants-ts h1,
@@ -506,3 +411,101 @@ p > strong {color:#000}
 .Home .gigants-ts .bgc-lovelace{
     background-color:#C4A33A;
 }
+
+
+
+
+@media (min-width: 960px) {
+    .Home .giants ul {
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-top: 26px;
+     }
+    .Detail .detail-body { 
+        margin-right: -30%;
+    }
+    .social {
+        flex-direction: column;
+        position: fixed;
+        z-index: 5;
+        top: 5vh;
+        right: 20px;
+    }
+    .Detail .subtitle {
+        margin-bottom: 100px;}
+    
+    .Home .gigants-ts ul{ grid-template-columns: repeat(auto-fill, minmax(33%, 1fr))}
+}
+
+@media (min-width:1280px) {
+    .project .media {
+        float: right;
+        max-width: 600px;
+        margin-left: 50px;
+        display: initial;
+    }
+    .related .nav-previous a article, .related .nav-next a article {
+        visibility: hidden;
+        opacity: 0;
+        height: 110px;
+        width: 280px;
+        display: inline-flex;
+        align-items: center;
+        font-family: 'Playfair Display', serif;
+        color:#000;
+        transition: opacity 1s ease-out;
+        -moz-transition: opacity 1s ease-out;
+        -webkit-transition: opacity 1s ease-out;    
+    }
+    .related article h1 { font-size: 1.2rem;}
+    
+    .related .nav-next a article {flex-direction: row-reverse;}
+    .related .nav-previous a:hover article, .related .nav-next a:hover article {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 1s ease-out;
+        -moz-transition: opacity 1s ease-out;
+        -webkit-transition: opacity 1s ease-out;
+        display: inline-flex;
+    }
+    
+    .related .thumbnail {
+        position: relative;
+        top: -8px;
+    }
+    .Home .gigants-ts ul{ grid-template-columns: repeat(auto-fill, minmax(25%, 1fr))}
+    
+}
+@media (min-width: 1520px) {
+    .Detail .detail-body { 
+        margin-right: -5%;
+    }
+    .Detail .detail-content {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;  
+
+    } 
+    .Detail .detail-info {
+        max-width: 1200px;
+        width: 100%;
+        font-size: 1.2rem;
+        line-height: 1.8;
+        margin-top: 20vh;
+        position: initial;
+    }
+    .Detail .title {
+        padding-top: 10vh;
+        font-size: 3.4rem;
+        font-family: 'Playfair Display', serif;
+        line-height: 1.5;
+        color: #222;
+        text-shadow: initial;
+    }
+
+    .Detail .subtitle { color:#222;}
+    .Home .gigants-ts ul{ grid-template-columns: repeat(auto-fill, minmax(20%, 1fr))}
+}
+
+
+
