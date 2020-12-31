@@ -326,7 +326,7 @@ p > strong {color:#000}
 .related .nav-previous a article, .related .nav-next a article {
    display: none;
 }
-@media (min-width: 540px) and (orientation: landscape) { 
+@media (min-width: 730px), (min-width: 540px) and (orientation: landscape) { 
 /*@media (min-width: 730px) {*/
     .Detail .detail-body { 
         margin-top: -25vh;
