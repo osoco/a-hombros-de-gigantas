@@ -2,6 +2,7 @@
  /- 01 Commons
  /- 02 Home
  /- 03 Details
+ /- 04 Home-2 - Gigants-ts
 */
 
 
@@ -353,7 +354,65 @@ p > strong {color:#000}
 } 
 
 
-/*
+/* /- 04 Home-2 - Gigants-ts */
+.Home .gigants-ts{
+    background-color: #333;
+}
+.Home .gigants-ts ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+}
+.Home .gigants-ts ul li{ overflow: hidden;}
+.Home .gigants-ts h1,
+.Home .gigants-ts h2{
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
+.Home .gigants-ts a img{
+    transform: scale(1);
+    transition: all .5s ease-in-out;
+}
+.Home .gigants-ts a:hover img{
+    transform: scale(1.05);
+    transition: all .5s ease-in-out;
+}
+.Home .gigants-ts img{
+    max-width: 100%;
+}
+.Home .gigants-ts .bgc-goldberg{
+    background-color: #003845;
+}
+.Home .gigants-ts .bgc-liskov{
+    background-color:#7F7581;
+}
+.Home .gigants-ts .bgc-allen{
+    background-color:#987B69;
+}
+.Home .gigants-ts .bgc-hopper{
+    background-color:#4C5181;
+}
+.Home .gigants-ts .bgc-hamilton{
+    background-color:#668FAD;
+}
+.Home .gigants-ts .bgc-croak{
+    background-color:#004DA9;
+}
+.Home .gigants-ts .bgc-lynch{
+    background-color:#07747F;
+}
+.Home .gigants-ts .bgc-perlman{
+    background-color:#616161;
+}
+.Home .gigants-ts .bgc-goldwasser{
+    background-color:#3768A7;
+}
+.Home .gigants-ts .bgc-lovelace{
+    background-color:#C4A33A;
+}
+
+
 
 
 @media (min-width: 960px) {
@@ -375,6 +434,7 @@ p > strong {color:#000}
     .Detail .subtitle {
         margin-bottom: 100px;}
     
+    .Home .gigants-ts ul{ grid-template-columns: repeat(auto-fill, minmax(33%, 1fr))}
 }
 
 @media (min-width:1280px) {
@@ -413,7 +473,8 @@ p > strong {color:#000}
         position: relative;
         top: -8px;
     }
-
+    .Home .gigants-ts ul{ grid-template-columns: repeat(auto-fill, minmax(25%, 1fr))}
+    
 }
 @media (min-width: 1520px) {
     .Detail .detail-body { 
@@ -443,6 +504,8 @@ p > strong {color:#000}
     }
 
     .Detail .subtitle { color:#222;}
-
+    .Home .gigants-ts ul{ grid-template-columns: repeat(auto-fill, minmax(20%, 1fr))}
 }
-*/
+
+
+
