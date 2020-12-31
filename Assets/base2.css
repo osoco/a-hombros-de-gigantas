@@ -115,7 +115,7 @@ p > strong {color:#000}
     display: inline-block;
     font-family: 'Playfair Display';
     border-radius: 5px;
-    box-shadow: 2px 2px 2px #6b6b6b;
+    box-shadow: 2px 2px 2px #6b6b6b36;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
@@ -133,8 +133,40 @@ p > strong {color:#000}
     border-radius: 25px;
 }
 
-@media (min-width: 640px) {
-   /* .header .logo {
+.bgc-goldberg{
+    background-color: #003845;
+}
+.bgc-liskov{
+    background-color:#7F7581;
+}
+.bgc-allen{
+    background-color:#987B69;
+}
+.bgc-hopper{
+    background-color:#4C5181;
+}
+.bgc-hamilton{
+    background-color:#668FAD;
+}
+.bgc-croak{
+    background-color:#004DA9;
+}
+.bgc-lynch{
+    background-color:#07747F;
+}
+.bgc-perlman{
+    background-color:#616161;
+}
+.bgc-goldwasser{
+    background-color:#3768A7;
+}
+.bgc-lovelace{
+    background-color:#C4A33A;
+}
+
+
+@media (min-width: 1024px) {
+   .header .logo {
         width: 150px;
         top:24px;
         left: 24px;
@@ -151,7 +183,14 @@ p > strong {color:#000}
     .social a::before {
         filter: invert(1);
     }
-    .widget-shop { margin: 24px 0; text-align: initial;}*/
+    .social {
+        flex-direction: column;
+        position: fixed;
+        z-index: 5;
+        top: 5vh;
+        right: 20px;
+    }
+    .widget-shop { margin: 24px 0; text-align: initial;}
 } 
 
 
@@ -159,7 +198,6 @@ p > strong {color:#000}
 .Home .giants {overflow-x: auto;}
 .Home .giants ul {
    margin: 0 auto;
-   display: flex;
    max-width: 1300px;
 }
 .Home .giants a {
@@ -239,6 +277,33 @@ p > strong {color:#000}
     max-width: 800px;
 }
 
+.Home .gigants-ts{
+    background-color: #333;
+}
+.Home .gigants-ts ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+}
+.Home .gigants-ts ul li{ overflow: hidden;}
+.Home .gigants-ts h1,
+.Home .gigants-ts h2{
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+}
+.Home .gigants-ts a img{
+    transform: scale(1);
+    transition: all .5s ease-in-out;
+}
+.Home .gigants-ts a:hover img{
+    transform: scale(1.05);
+    transition: all .5s ease-in-out;
+}
+.Home .gigants-ts img{
+    max-width: 100%;
+}
+
 /* / - 03 Detail / */
 .Detail .container {
     animation: 1s ease-out 0s 1 slideInFromLeft;
@@ -254,6 +319,7 @@ p > strong {color:#000}
 }
   
 .Detail .detail-body {position: relative;}
+.negative .detail-body {color: #ffffff91;}
 .Detail .detail-info {
     position: relative;
     top: -45vh;
@@ -352,98 +418,20 @@ p > strong {color:#000}
     .Detail .detail-info p, .Detail .detail-info h3{ padding-left: 0;}  
 
 } 
-
-
-/* /- 04 Home-2 - Gigants-ts */
-.Home .gigants-ts{
-    background-color: #333;
-}
-.Home .gigants-ts ul{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
-}
-.Home .gigants-ts ul li{ overflow: hidden;}
-.Home .gigants-ts h1,
-.Home .gigants-ts h2{
-    position: absolute;
-    overflow: hidden;
-    width: 0;
-    height: 0;
-}
-.Home .gigants-ts a img{
-    transform: scale(1);
-    transition: all .5s ease-in-out;
-}
-.Home .gigants-ts a:hover img{
-    transform: scale(1.05);
-    transition: all .5s ease-in-out;
-}
-.Home .gigants-ts img{
-    max-width: 100%;
-}
-.Home .gigants-ts .bgc-goldberg{
-    background-color: #003845;
-}
-.Home .gigants-ts .bgc-liskov{
-    background-color:#7F7581;
-}
-.Home .gigants-ts .bgc-allen{
-    background-color:#987B69;
-}
-.Home .gigants-ts .bgc-hopper{
-    background-color:#4C5181;
-}
-.Home .gigants-ts .bgc-hamilton{
-    background-color:#668FAD;
-}
-.Home .gigants-ts .bgc-croak{
-    background-color:#004DA9;
-}
-.Home .gigants-ts .bgc-lynch{
-    background-color:#07747F;
-}
-.Home .gigants-ts .bgc-perlman{
-    background-color:#616161;
-}
-.Home .gigants-ts .bgc-goldwasser{
-    background-color:#3768A7;
-}
-.Home .gigants-ts .bgc-lovelace{
-    background-color:#C4A33A;
-}
-
-
-
-
-@media (min-width: 960px) {
-    .Home .giants ul {
-        flex-wrap: wrap;
-        padding-left: 0;
-        margin-top: 26px;
+@media (min-width: 730px) and (orientation:portrait) {
+    .Detail .detail-body {
+        margin-right: -30vw;
      }
-    .Detail .detail-body { 
-        margin-right: -30%;
-    }
-    .social {
-        flex-direction: column;
-        position: fixed;
-        z-index: 5;
-        top: 5vh;
-        right: 20px;
-    }
-    .Detail .subtitle {
-        margin-bottom: 100px;}
-    
-    .Home .gigants-ts ul{ grid-template-columns: repeat(auto-fill, minmax(33%, 1fr))}
 }
 
-@media (min-width:1280px) {
-    .project .media {
-        float: right;
-        max-width: 600px;
-        margin-left: 50px;
-        display: initial;
+@media (min-width: 1024px) {
+    .Detail .detail-info { 
+        max-width: 1124px;
+        margin: 20vh 2rem auto auto;
+        padding-left: 24px;
     }
+    .Detail .portrait { margin-bottom: 0;}
+    .Detail .title {padding-top: 200px;}
     .related .nav-previous a article, .related .nav-next a article {
         visibility: hidden;
         opacity: 0;
@@ -456,6 +444,12 @@ p > strong {color:#000}
         transition: opacity 1s ease-out;
         -moz-transition: opacity 1s ease-out;
         -webkit-transition: opacity 1s ease-out;    
+    }
+    .related .nav-previous, .related .nav-next {
+        z-index: 6;
+        position: fixed;
+        top: calc(50% - 30px);
+    
     }
     .related article h1 { font-size: 1.2rem;}
     
@@ -473,39 +467,5 @@ p > strong {color:#000}
         position: relative;
         top: -8px;
     }
-    .Home .gigants-ts ul{ grid-template-columns: repeat(auto-fill, minmax(25%, 1fr))}
-    
-}
-@media (min-width: 1520px) {
-    .Detail .detail-body { 
-        margin-right: -5%;
-    }
-    .Detail .detail-content {
-        display: flex;
-        width: 100%;
-        justify-content: flex-end;  
-
-    } 
-    .Detail .detail-info {
-        max-width: 1200px;
-        width: 100%;
-        font-size: 1.2rem;
-        line-height: 1.8;
-        margin-top: 20vh;
-        position: initial;
-    }
-    .Detail .title {
-        padding-top: 10vh;
-        font-size: 3.4rem;
-        font-family: 'Playfair Display', serif;
-        line-height: 1.5;
-        color: #222;
-        text-shadow: initial;
-    }
-
-    .Detail .subtitle { color:#222;}
-    .Home .gigants-ts ul{ grid-template-columns: repeat(auto-fill, minmax(20%, 1fr))}
-}
-
-
+}    
 
