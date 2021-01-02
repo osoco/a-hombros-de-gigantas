@@ -163,7 +163,9 @@ p > strong {color:#000}
 .bgc-lovelace{
     background-color:#C4A33A;
 }
-
+.bgc-wilson{
+    background-color:#FF795F;
+}
 
 @media (min-width: 1024px) {
    .header .logo {
@@ -415,7 +417,7 @@ p > strong {color:#000}
     }
     .Detail .title {padding-top: 150px;}
     .Detail .subtitle { margin-bottom: 2rem;}
-    .Detail .detail-info p, .Detail .detail-info h3{ padding-left: 0;}  
+    .Detail .detail-info p, .Detail .detail-info h3{ padding-left: 0;}
 
 } 
 @media (min-width: 730px) and (orientation:portrait) {
@@ -425,6 +427,7 @@ p > strong {color:#000}
 }
 
 @media (min-width: 1024px) {
+    .Home .gigants-ts ul{ grid-template-columns: repeat(auto-fill, minmax(33%, 1fr));}
     .Detail .detail-info { 
         max-width: 1124px;
         margin: 20vh 2rem auto auto;
@@ -468,4 +471,9 @@ p > strong {color:#000}
         top: -8px;
     }
 }    
-
+@media (min-width: 1500px) {
+    .Home .gigants-ts ul{ grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));}
+}
+@media (min-width: 1800px) {
+    .Home .gigants-ts ul{ grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));}
+}
