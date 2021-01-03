@@ -167,6 +167,9 @@ p > strong {color:#000}
 .bgc-wilson{
     background-color:#FF795F;
 }
+.bgc-wirfs{
+    background-color:#DEA12F;
+}
 
 @media (min-width: 1024px) {
    .header .logo {
