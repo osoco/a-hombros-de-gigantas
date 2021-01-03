@@ -26,6 +26,7 @@ p > strong {color:#000}
 }
 
 .footer {
+    display: block;
     width: 100%;
     background: #000;
     color:rgba(255, 255, 255, 0.733);
