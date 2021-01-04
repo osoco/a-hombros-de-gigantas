@@ -165,7 +165,7 @@ p > strong {color:#000}
     background-color:#C4A33A;
 }
 .bgc-wilson{
-    background-color:#FF795F;
+    background-color:#9c4c3d;
 }
 .bgc-wirfs{
     background-color:#DEA12F;
@@ -311,7 +311,8 @@ p > strong {color:#000}
 }
 
 /* / - 03 Detail / */
-.Detail .container {
+.Detail {display: block;}
+.Detail .content {
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
