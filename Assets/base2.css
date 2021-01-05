@@ -327,6 +327,12 @@ p > strong {color:#000}
   
 .Detail .detail-body {position: relative;}
 .negative .detail-body {color: #ffffff91;}
+.Detail .names {
+    height:8rem; 
+    max-width:98%; 
+   /* filter: invert();*/
+}
+
 .Detail .detail-info {
     position: relative;
     top: -45vh;
@@ -413,6 +419,11 @@ p > strong {color:#000}
        position: static;
        padding-right: 17vw;       
     }
+    .Detail .names {
+        height:auto; 
+        max-width:98%; 
+        width: 240px;
+    }
     .Detail .portrait {
         float: right;
         left: initial;
@@ -440,6 +451,11 @@ p > strong {color:#000}
     }
     .Detail .portrait { margin-bottom: 0;}
     .Detail .title {padding-top: 200px;}
+    .Detail .names {
+        height:12rem; 
+        max-width:98%; 
+        width: auto;
+    }
     .related .nav-previous a article, .related .nav-next a article {
         visibility: hidden;
         opacity: 0;
