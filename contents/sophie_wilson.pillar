@@ -94,12 +94,19 @@ accidente:
 
 {{{
     <blockquote>
-    “La placa de desarrollo a la que conectábamos el chip tenía un fallo: no enviaba corriente por las líneas de alimentación. El procesador funcionaba en realidad gracias a las fugas de los circuitos lógicos. Así que el bajo consumo de energía de ARM tan valorado hoy en día, que es el motivo por el que se usa en todos los teléfonos móviles, se debió a un accidente.”
+    La placa de desarrollo a la que conectábamos el chip tenía un fallo y
+    no enviaba corriente por las líneas de alimentación. El procesador funcionaba en 
+    realidad gracias a las fugas de los circuitos lógicos. Así que el bajo consumo de 
+    energía de ARM tan valorado hoy en día, que es el motivo por el que se usa en todos 
+    los teléfonos móviles, se debió a un accidente.
     </blockquote>
 }}}
 
 De esta manera, Wilson consiguió diseñar un potente procesador de 32 bits que consumía 
 menos de una décima de vatio.
+
++Wilson junto a una foto del diagrama del primer procesador ARM (imagen de Wikipedia con licencia CC BY)>file://figures/Sophie_Wilson_ARM.jpg|width=50+
+
 
 {{{ <hr/> }}}
 
@@ -107,7 +114,7 @@ En la actualidad Wilson es la Directora de Diseño de Circuitos Integrados en la
 oficina de Broadcom en Cambridge, Reino Unido.
 
 Las contribuciones de Wilson a la informática han sido reconocidas con multitud de 
-galardones, como el ""Premio Fellow del *Museo de la Historia del Ordenador>http://www.computerhistory.org/*""
+galardones, como el Premio Fellow del *Museo de la Historia del Ordenador>http://www.computerhistory.org/*
 de California en 2012 "por su trabajo, con Steve Furber, en el Computadora BBC Micro y 
 la arquitectura del procesador ARM". 
 
