@@ -1,5 +1,13 @@
 {
-    "gigantas": [
+    "index": "index.pillar",
+    "indexTemplate": "index.mustache.html",
+    "footerTemplate": "footer.mustache.html",
+    "cardTemplate": "giganta.mustache.html",
+    "assets": [
+        "../Assets",
+        "../contents/figures"
+    ],
+    "cards": [
         {
             "name": "Ada Lovelace",
             "headline": "En el principio fue Ada",
