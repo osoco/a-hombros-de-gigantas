@@ -1,0 +1,76 @@
+{
+    "index": "index.pillar",
+    "indexTemplate": "index.mustache.html",
+    "footerTemplate": "footer.mustache.html",
+    "cardTemplate": "giganta.mustache.html",
+    "assets": [
+        "../Assets",
+        "../contents/figures"
+    ],
+    "cards": [
+        {
+            "name": "Ada Lovelace",
+            "headline": "En el principio fue Ada",
+            "alias": "ada_lovelace"
+        },
+        {
+            "name": "Adele Goldberg",
+            "headline": "Desarrolladora de Smalltalk, precursor de la computación personal",
+            "alias": "adele_goldberg"
+        },
+        {
+            "name": "Barbara Liskov",
+            "headline": "Inventó los Tipos de Datos Abstractos",
+            "alias": "barbara_liskov"
+        },
+        {
+            "name": "Frances Allen",
+            "headline": "Su trabajo se usa para optimizar cada sistema de software actual",
+            "alias": "frances_allen"
+        },
+        {
+            "name": "Grace Hopper",
+            "headline": "Creó el primer lenguaje de programación de alto nivel",
+            "alias": "grace_hopper"
+        },
+        {
+            "name": "Margaret Hamilton",
+            "headline": "Su código nos llevó a la Luna",
+            "alias": "margaret_hamilton"
+        },
+        {
+            "name": "Marian Croak",
+            "headline": "Creó la tecnología de las llamadas por Internet",
+            "alias": "marian_croak"
+        },
+        {
+            "name": "Nancy Lynch",
+            "headline": "Pionera de los algoritmos distribuidos",
+            "alias": "nancy_lynch"
+        },
+        {
+            "name": "Radia Perlman",
+            "headline": "La madre de Internet",
+            "alias": "radia_perlman"
+        }, 
+        {
+            "name": "Shafi Goldwasser",
+            "headline": "Su investigación permite las transmisiones seguras en Internet",
+            "alias": "shafi_goldwasser"
+        },      
+        {
+            "name": "Rebecca Wirfs-Brock",
+            "headline": "Pionera del diseño orientado a objetos",
+            "alias": "rebecca_wirfs-brock"
+        },   
+        {
+            "name": "Sophie Wilson",
+            "headline": "Diseñó los procesadores ARM que utilizan los móviles y tablets",
+            "alias": "sophie_wilson",
+            "author": "Rafael Luque",
+            "authorUrl": "https://twitter.com/rafael_luque",
+            "illustrator": "Emilio Rodríguez",
+            "illustratorUrl": "https://instagram.com/lureka"
+        }
+    ]
+}
