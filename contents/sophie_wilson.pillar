@@ -1,0 +1,135 @@
+Es muy probable que tu ''smartphone'' funcione con un procesador de la familia 
+ARM en su interior. De hecho, este tipo de procesadores es tan ubicuo que se 
+encuentra en un 90% de los discos duros, un 80% de las cámaras digitales y en 
+muchos otros sistemas embebidos, como impresoras o televisiones digitales. Hasta 
+2020 se han producido unos 160.000 millones de chips basados en ARM. Este prodigio 
+del diseño de circuitos electrónicos se lo debemos al trabajo y genialidad de 
+Sophie Wilson, quien lo diseñó en 1983, junto a 
+*Steve Furber>https://es.wikipedia.org/wiki/Steve_Furber*.
+
+!!! La revolución del ordenador doméstico
+
+Antes de su contribución con el ARM, Wilson jugó un papel determinante en la carrera 
+por diseñar los primeros microordenadores para el mercado doméstico, que tuvo lugar a 
+finales de los 70 y comienzos de los 80. Esta historia de rivalidad empresarial y 
+genio técnico es tan apasionante que hasta la BBC emitió el docudrama 
+*Micro Men>https://en.wikipedia.org/wiki/Micro_Men* dedicado a ella, en el que la 
+propia Wilson aparece haciendo un cameo.
+
+Wilson comenzó sus estudios de informática y matemáticas en el Selwyn College de la 
+Universidad de Cambridge en 1975. En unas vacaciones de navidad, Wilson diseñó su 
+primer microordenador, basado en el clásico microprocesador de 8 bits
+*MOS 6502>https://es.wikipedia.org/wiki/MOS_6502*, que se empleó para controlar 
+electrónicamente la alimentación de unas vacas.
+
+En 1978, siendo aún estudiante, aceptó el desafío del emprendedor 
+*Hermann Hauser>https://en.wikipedia.org/wiki/Hermann_Hauser* de diseñar un ordenador 
+personal y entregarle un prototipo funcionando al finalizar sus vacaciones de verano. 
+Wilson volvió a diseñar un sistema basado en el micro 6502 que se convirtió en el 
+""System 1"", el primer microcomputador ofrecido por ""Acorn Computers"", la 
+compañía que fundó Hauser en 1979.
+
++Placa superior del Acorn System 1, con el teclado y display (imagen de Wikipedia con licencia CC BY-SA)>file://figures/Acorn-System-1-Front-Board.jpg|width=50+
+
+A comienzos de los 80, el célebre Spectrum ZX81 de Sinclair y el Atom (sucesor del System 1) 
+de Acorn competían en el Reino Unido por el mercado de los ordenadores domésticos con 
+precios asequibles. Fue entonces cuando la BBC propuso llevar a cabo un ambicioso proyecto 
+de educación informática (''Computer Literacy Project'' o CLP, según sus siglas en inglés) 
+para el que necesitaría que se fabricase un microcomputador estándar que denominó 
+""BBC Micro"", o simplemente ''Beeb'', como se le conocería coloquialmente.
+
+En su intento por conseguir este importante contrato, los responsables de Acorn prometieron 
+a la BBC mostrarles un prototipo en el plazo de una semana, pero la realidad era que el 
+sucesor del ''Atom'', el modelo conocido como ''Proton'', no era más que unos diagramas 
+de circuitos en papel. Así pues, Wilson y su colega Steve Furber trabajaron frenéticamente 
+durante una semana en la construcción y pruebas del prototipo. Como anécdota, Wilson recuerda 
+ver la retransmisión de la boda del Príncipe Carlos y Lady Diana en un pequeño televisor 
+portátil mientras soldaba los circuitos del prototipo.
+
+
+Finalmente, Wilson y Furber consiguieron tener listo el prototipo para la demostración a la 
+BBC y Acorn consiguió hacerse con el importante contrato para producir el BBC Micro. Wilson 
+participó en el diseño de todos los aspectos del BBC Micro, incluyendo también el intérprete 
+del lenguaje de programación BASIC (""BBC BASIC""), que Wilson seguiría manteniendo y 
+evolucionando durante 15 años.
+
+El producto se lanzó al mercado el 1 de diciembre de 1981 como BBC Microcomputer y 
+fue un gran éxito en el mercado educativo. El 80% de los colegios británicos llegaron a 
+tener un BBC Micro. El éxito fue tal que las predicciones iniciales de ventas, que Acorn 
+estimó en 12.000 unidades, se vieron ampliamente superadas, llegando a venderse más de 
+1,5 millones de BBC Micros.
+
++Wilson junto al resto del equipo que creó el BBC Micro en la celebración de su 30 aniversario en 2012 (imagen de Wikipedia con licencia CC BY-SA)>file://figures/BBC_Micro_creators_with_micro_in_2012.jpg|width=50+
+
+Este proyecto de educación en informática se desarrolló con el apoyo de la BBC y el 
+gobierno británico durante la década de 1980 y contribuyó a hacer más accesible la 
+informática, además de tener repercusiones positivas sobre todo el sector tecnológico 
+del país.
+
+
+!!! El chip prodigioso
+
+En 1985, Wilson, de nuevo junto a Furber, diseñó un nuevo procesador de 32 bits para 
+Acorn, siguiendo las ideas de una nueva arquitectura de ordenadores basada en un conjunto 
+reducido de instrucciones (RISC). Este nuevo procesador, denominado ''Acorn RISC Machine'' 
+o ""ARM"", fue utilizado por Acorn en 1987 en el primer ordenador de propósito general basado
+en ARM, el modelo ''Archimedes''. Apple también lo utilizó en su primer dispositivo tipo 
+PDA, la *Apple Newton>https://es.wikipedia.org/wiki/Apple_Newton*.
+
+Una de las características principales de la familia de procesadores ARM es su bajo consumo 
+de energía. Sin embargo, según reconoce Furber, parece que esta fue una consecuencia 
+derivada:
+
+{{{
+    <blockquote>
+    Diseñamos el ARM para un producto de escritorio de Acorn, con lo que el bajo consumo 
+    no era de gran importancia. Sin embargo, tenía que ser barato. Esto significaba que 
+    tenía que usarse plástico y el plástico tiene una resistencia térmica bastante alta, 
+    así que tuvimos que mantenerlo por debajo de 1W.
+    </blockquote>
+}}}
+
+Wilson explica cómo, en realidad, se consiguió un consumo de energía mínimo debido a un 
+accidente:
+
+{{{
+    <blockquote>
+    “La placa de desarrollo a la que conectábamos el chip tenía un fallo: no enviaba corriente por las líneas de alimentación. El procesador funcionaba en realidad gracias a las fugas de los circuitos lógicos. Así que el bajo consumo de energía de ARM tan valorado hoy en día, que es el motivo por el que se usa en todos los teléfonos móviles, se debió a un accidente.”
+    </blockquote>
+}}}
+
+De esta manera, Wilson consiguió diseñar un potente procesador de 32 bits que consumía 
+menos de una décima de vatio.
+
+{{{ <hr/> }}}
+
+En la actualidad Wilson es la Directora de Diseño de Circuitos Integrados en la 
+oficina de Broadcom en Cambridge, Reino Unido.
+
+Las contribuciones de Wilson a la informática han sido reconocidas con multitud de 
+galardones, como el ""Premio Fellow del *Museo de la Historia del Ordenador>http://www.computerhistory.org/*""
+de California en 2012 "por su trabajo, con Steve Furber, en el Computadora BBC Micro y 
+la arquitectura del procesador ARM". 
+
+En 2013, Wilson fue elegida miembro de la prestigiosa ""Royal Society of Engineering"".
+
+En 2014 recibió el ""Lovie Lifetime Achievement Award"" en reconocimiento por su 
+importante invención del procesador ARM. 
+
+En 2019 Wilson también fue nombrada ""comandante de la Orden del Imperio Británico"" por 
+sus servicios a la informática.
+
+!!! Referencias sobre Sophie Wilson
+
+- *Página personal de Wilson>https://www.sophie.org.uk/*
+- *Charla de Wilson sobre el futuro de los procesadores en la CodeMesh Londong 2016>https://www.youtube.com/watch?v=_9mzmvhwMqw*
+- *Informe sobre el legado del BBC Micro>https://media.nesta.org.uk/documents/the_legacy_of_bbc_micro.pdf*
+- *Sophie Wilson en Wikipedia>https://en.wikipedia.org/wiki/Sophie_Wilson*
+- *BBC Micro en Wikipedia>https://es.wikipedia.org/wiki/BBC_Micro*
+- *Págia de Sophie Wilson del Centro de Historia de la Informática>http://www.computinghistory.org.uk/det/6615/Sophie-Wilson/*
+- *Artículo sobre Sophie Wilson y Steve Furber como creadores de ARM>https://www.theregister.com/2012/05/02/unsung_heroes_of_tech_arm_creators_sophie_wilson_and_steve_furber/*
+
+
+
+
+    
