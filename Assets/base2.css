@@ -15,6 +15,16 @@ body {
 }
 p > a {color:#3f51b5;}
 p > strong {color:#000}
+em { font-style: italic }
+strong { font-weight: bold } 
+blockquote {
+    font: 1em serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+    padding-left: .5em;
+    border-left: 3px solid #666;
+}
 
 .logo img {width: 100%;}
 .header .logo {
@@ -134,40 +144,40 @@ p > strong {color:#000}
     border-radius: 25px;
 }
 
-.bgc-goldberg{
+.bgc-adele_goldberg{
     background-color: #003845;
 }
-.bgc-liskov{
+.bgc-barbara_liskov{
     background-color:#7F7581;
 }
-.bgc-allen{
+.bgc-frances_allen{
     background-color:#987B69;
 }
-.bgc-hopper{
+.bgc-grace_hopper{
     background-color:#4C5181;
 }
-.bgc-hamilton{
+.bgc-margaret_hamilton{
     background-color:#668FAD;
 }
-.bgc-croak{
+.bgc-marian_croak{
     background-color:#004DA9;
 }
-.bgc-lynch{
+.bgc-nancy_lynch{
     background-color:#07747F;
 }
-.bgc-perlman{
+.bgc-radia_perlman{
     background-color:#616161;
 }
-.bgc-goldwasser{
+.bgc-shafi_goldwasser{
     background-color:#3768A7;
 }
-.bgc-lovelace{
+.bgc-ada_lovelace{
     background-color:#C4A33A;
 }
-.bgc-wilson{
+.bgc-sophie_wilson{
     background-color:#9c4c3d;
 }
-.bgc-wirfs{
+.bgc-rebecca_wirfs{
     background-color:#DEA12F;
 }
 
