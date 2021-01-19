@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
-
-set -o errexit
-set -o pipefail
-set -o nounset
-set -o xtrace
+set -euxo pipefail
 
 PHARO_VERSION="${PHARO_VERSION:-80}"
 PHARO="./pharo Pharo.image --no-default-preferences"
