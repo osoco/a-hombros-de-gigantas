@@ -11,27 +11,47 @@
         {
             "name": "Ada Lovelace",
             "headline": "En el principio fue Ada",
-            "alias": "ada_lovelace"
+            "alias": "ada_lovelace",
+            "author": "Libertad Pozos",
+            "authorUrl": "https://twitter.com/LibertadPozos",
+            "illustrator": "Emilio Rodríguez",
+            "illustratorUrl": "https://instagram.com/lureka_es"
         },
         {
             "name": "Adele Goldberg",
             "headline": "Desarrolladora de Smalltalk, precursor de la computación personal",
-            "alias": "adele_goldberg"
+            "alias": "adele_goldberg",
+            "author": "Libertad Pozos",
+            "authorUrl": "https://twitter.com/LibertadPozos",
+            "illustrator": "Emilio Rodríguez",
+            "illustratorUrl": "https://instagram.com/lureka_es"
         },
         {
             "name": "Barbara Liskov",
             "headline": "Inventó los Tipos de Datos Abstractos",
-            "alias": "barbara_liskov"
+            "alias": "barbara_liskov",
+            "author": "Libertad Pozos",
+            "authorUrl": "https://twitter.com/LibertadPozos",
+            "illustrator": "Emilio Rodríguez",
+            "illustratorUrl": "https://instagram.com/lureka_es"
         },
         {
             "name": "Frances Allen",
             "headline": "Su trabajo se usa para optimizar cada sistema de software actual",
-            "alias": "frances_allen"
+            "alias": "frances_allen",
+            "author": "Libertad Pozos",
+            "authorUrl": "https://twitter.com/LibertadPozos",
+            "illustrator": "Emilio Rodríguez",
+            "illustratorUrl": "https://instagram.com/lureka_es"
         },
         {
             "name": "Grace Hopper",
             "headline": "Creó el primer lenguaje de programación de alto nivel",
-            "alias": "grace_hopper"
+            "alias": "grace_hopper",
+            "author": "Libertad Pozos",
+            "authorUrl": "https://twitter.com/LibertadPozos",
+            "illustrator": "Emilio Rodríguez",
+            "illustratorUrl": "https://instagram.com/lureka_es"
         },
         {
             "name": "Margaret Hamilton",
@@ -41,22 +61,38 @@
         {
             "name": "Marian Croak",
             "headline": "Creó la tecnología de las llamadas por Internet",
-            "alias": "marian_croak"
+            "alias": "marian_croak",
+            "author": "Libertad Pozos",
+            "authorUrl": "https://twitter.com/LibertadPozos",
+            "illustrator": "Emilio Rodríguez",
+            "illustratorUrl": "https://instagram.com/lureka_es"
         },
         {
             "name": "Nancy Lynch",
             "headline": "Pionera de los algoritmos distribuidos",
-            "alias": "nancy_lynch"
+            "alias": "nancy_lynch",
+            "author": "Libertad Pozos",
+            "authorUrl": "https://twitter.com/LibertadPozos",
+            "illustrator": "Emilio Rodríguez",
+            "illustratorUrl": "https://instagram.com/lureka_es"
         },
         {
             "name": "Radia Perlman",
             "headline": "La madre de Internet",
-            "alias": "radia_perlman"
+            "alias": "radia_perlman",
+            "author": "Libertad Pozos",
+            "authorUrl": "https://twitter.com/LibertadPozos",
+            "illustrator": "Emilio Rodríguez",
+            "illustratorUrl": "https://instagram.com/lureka_es"
         }, 
         {
             "name": "Shafi Goldwasser",
             "headline": "Su investigación permite las transmisiones seguras en Internet",
-            "alias": "shafi_goldwasser"
+            "alias": "shafi_goldwasser",
+            "author": "Libertad Pozos",
+            "authorUrl": "https://twitter.com/LibertadPozos",
+            "illustrator": "Emilio Rodríguez",
+            "illustratorUrl": "https://instagram.com/lureka_es"
         },      
         {
             "name": "Rebecca Wirfs-Brock",
