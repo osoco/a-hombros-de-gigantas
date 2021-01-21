@@ -56,7 +56,11 @@
         {
             "name": "Margaret Hamilton",
             "headline": "Su código nos llevó a la Luna",
-            "alias": "margaret_hamilton"
+            "alias": "margaret_hamilton",
+            "author": "Rafael Luque",
+            "authorUrl": "https://twitter.com/rafael_luque",
+            "illustrator": "Emilio Rodríguez",
+            "illustratorUrl": "https://instagram.com/lureka_es"            
         },
         {
             "name": "Marian Croak",

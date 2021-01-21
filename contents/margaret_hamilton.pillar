@@ -1,9 +1,85 @@
-At quaeque adversarium ius, sed at integre persius verterem. Sit summo tibique at, eam et fugit complectitur, vis te natum vivendum mandamus. Iudico quodsi cum ad, dicit everti sensibus in sea, ea eius paulo deterruisset pri. Pro id aliquam hendrerit definitiones. Per et legimus delectus.
-    
-Virtute equidem ceteros in mel. Id volutpat neglegentur eos. Eu eum facilisis voluptatum, no eam albucius verterem. Sit congue platonem adolescens ut. Offendit reprimique et has, eu mei homero imperdiet.
 
-### Sit summo tibique at
 
-At quaeque adversarium ius, sed at integre persius verterem. Sit summo tibique at, eam et fugit complectitur, vis te natum vivendum mandamus. Iudico quodsi cum ad, dicit everti sensibus in sea, ea eius paulo deterruisset pri. Pro id aliquam hendrerit definitiones. Per et legimus delectus.
-    
-Virtute equidem ceteros in mel. Id volutpat neglegentur eos. Eu eum facilisis voluptatum, no eam albucius verterem. Sit congue platonem adolescens ut. Offendit reprimique et has, eu mei homero imperdiet.
+El 20 de julio de 1969, millones de personas en todo el mundo presenciaron asombrados
+la transmisión por televisión de la llegada del hombre a la luna. Lo que la mayoría de ellos 
+ignoraba es que aquella proeza se logró en gran medida gracias al software que había diseñado
+el equipo dirigido por Hamilton, una joven matemática de 33 años.
+
+!!! La llegada del hombre a la luna
+
+Muchos años después, en 2014, alguien publicó en Twitter una foto de Hamilton
+en la que podemos verla de pie junto a una enorme pila con los listados de código 
+que ella y su equipo desarrollaron para los ordenadores del módulo lunar y del módulo de mando
+de la misión Apolo 11. El tuit se hizo viral y sirvió para que mucha gente conociera 
+la labor de esta pionera.
+
++Margaret Hamilton junto al software de navegación que ella y su equipo MIT produjeron para el Programa Apolo (imagen de Wikipedia con licencia Dominio Público)>file://figures/Margaret_Hamilton_code.jpg|width=50|class=right+
+
+
+En *OSOCO>https://osoco.es* incluso diseñamos nuestra propia pegatina inspirada en 
+la icónica fotografía de Hamilton:
+
++Pegatina diseñada por OSOCO inspirada en la foto de Hamilton.>file://figures/Margaret_Hamilton_OSOCO_sticker.png|width=50+
+
+Hamilton obtuvo una licenciatura de matemáticas en 1958 y se casó poco después. 
+Decidió posponer temporalmente sus estudios universitarios y buscar trabajo, 
+mientras su marido acababa sus estudios. 
+
+De esta manera Hamilton aprendió a programar mientras trabajaba en sistemas de 
+predicción meteorológica o de detección de aeronaves. Estos trabajos le permitieron 
+presentar su candidatura cuando la NASA anunció que buscaba gente para programar el 
+software para enviar al hombre a la luna. Hamilton fue la primera persona que contrataron.
+
+Hamilton se convirtió en directora de la División de Ingeniería de Software del Laboratorio
+de Instrumentación del MIT, que desarrolló el software para el *programa 
+Apolo de la NASA>https://es.wikipedia.org/wiki/Programa_Apolo*. Trabajó en todas las misiones tripuladas y algunas no tripuladas del 
+programa Apolo, además de en el software de vuelo de la estación
+espacial *Skylab>https://es.wikipedia.org/wiki/Skylab* y en los
+requisitos de software para el programada del *transbordador espacial>https://es.wikipedia.org/wiki/Programa_del_transbordador_espacial*.
+
+!!! Nosotros también somos ingenieros
+
+Además de su papel en el programa Apolo, Hamilton también está considerada uno de los 
+impulsores del concepto de ""ingeniería de software"".
+
+En tiempos de Hamilton, la programación aún se consideraba una tarea menor y
+tediosa, semejante a la mecanografía, al asociarse al uso de las tarjetas 
+perforadas. Por ejemplo, en el documento original de requisitos de ingeniería de la misión
+Apolo ni siquiera se mencionaba la palabra ''software''. 
+
+No obstante, Hamilton se propuso que el software se comenzara a tomar más en serio,
+al nivel de otras ingenierías, como la ingeniería de hardware, así que empezó a 
+utilizar el término ''ingeniería de software''. Al principio fue objeto de bromas, pero
+con el tiempo consiguió que el software se percibiera como una parte muy importante
+de los proyectos y ese nuevo campo se considerara tan serio y respetable como 
+otras disciplinas de ingeniería tradicionales.
+
+!!! Lecciones aprendidas
+
+En 1986 Hamilton fundó su propia empresa *Hamilton Technologies>http://htius.com/* con el objetivo
+de crear soluciones de software basadas en las lecciones aprendidas en el proyecto Apolo,
+en especial a sus ideas relacionadas con la fiabilidad del software y la protección
+frente a errores.
+
+Hamilton cree que deberíamos cambiar el actual paradigma de diseño de software y sistemas 
+en favor de uno más preventivo, que no permitiera los errores gracias a la forma de 
+diseñarse. Es lo que denomina ''Development Before The Fact'' (DBTF). Su compañía se
+dedica desde hace décadas a evolucionar y aplicar estas novedosas ideas en la forma del 
+''Universal Systems Language'' y su ciclo de vida automatizado (las herramientas 001).
+
+{{{ <hr/> }}}
+
+En 2016, Hamilton recibió la Medalla Presidencial de la Libertad de los Estados Unidos, por
+su trabajo en la misión Apolo y la creación del Universal Systems Language.
+
++Hamilton recibiendo la Medalla Presidencial de la Libertad por el presidente Barack Obama>file://figures/Hamilton_Medal_of_Freedom_from_Obama.jpg|width=50+
+
+!!! Referencias sobre Margaret Hamilton
+
+- *Homenaje del Museo de la Informática a Margaret Hamilton>https://www.youtube.com/watch?v=4sKY6_nBLG0*
+- *Margaret Hamilton en Wikipedia>https://es.wikipedia.org/wiki/Margaret_Hamilton_(cient%C3%ADfica)*
+- *Vídeo resumiendo la carrera de Hamilton>https://www.youtube.com/watch?v=kTn56jJW4zY*
+- *Artículo sobre su paradigma DBTF>http://htius.com/Articles/r12ham.pdf*
+- *Keynote de Hamilton en ICSE 2018>https://www.youtube.com/watch?v=ZbVOF0Uk5lU*
+- *Tributo de Google en la planta solar de Ivanpah>https://blog.google/products/maps/margaret-hamilton-apollo-11-tribute/*
+
