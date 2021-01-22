@@ -101,7 +101,11 @@
         {
             "name": "Rebecca Wirfs-Brock",
             "headline": "Pionera del diseño orientado a objetos",
-            "alias": "rebecca_wirfs-brock"
+            "alias": "rebecca_wirfs-brock",
+            "author": "Rafael Luque",
+            "authorUrl": "https://twitter.com/rafael_luque",
+            "illustrator": "Emilio Rodríguez",
+            "illustratorUrl": "https://instagram.com/lureka_es"            
         },   
         {
             "name": "Sophie Wilson",
