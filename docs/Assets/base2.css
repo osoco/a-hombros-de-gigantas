@@ -432,6 +432,21 @@ blockquote::before {
 .detail-header .authors div:not(:last-child){
     margin-right: 20px;
 }
+.detail-header .authors .btn-colabora{
+    background: #252525;
+    padding: .5em 1.5em;
+    color: #fff;
+    text-decoration: none;
+    margin: 24px 0;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #6b6b6b36;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    position: relative;
+    transform: rotate(-3deg);
+}
 .detail-header .ico-scrollDown{
     display: block;
     height: 80px;
