@@ -1,9 +1,3 @@
-Rebecca Wirfs-Brock es una pionera del diseño de software basado en el paradigma
-de objetos y es la inventora de ''Responsibility Driven Design'' o RDD, según sus
-siglas en inglés, una técnica que ha influido en otras técnicas de diseño más recientes,
-que quizá conozcas mejor, como TDD (''Test Driven Development''), 
-BDD (''Behaviour Driven Development'') o DDD (''Domain Driven Development'').
-
 Wirfs-Brock comenzó su carrera como probadora del código de bibliotecas gráficas 
 en *Tektronix>https://es.wikipedia.org/wiki/Tektronix*, una empresa que creaba productos
 de electrónica cuyo software estaba escrito en el 
