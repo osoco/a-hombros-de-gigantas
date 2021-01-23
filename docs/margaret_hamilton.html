@@ -65,10 +65,8 @@
     <link href="Assets/base2.css" rel="stylesheet" media="all" type="text/css">
     <link href="Assets/masks.css" rel="stylesheet" media="all" type="text/css">
 </head>
-<body  class="Detail bgc-margaret_hamilton">
+<body  class="Detail">
 
-    <!-- ==== container ==== -->
-    <div class="container">
 
         <!-- ==== header ==== -->
         <header class="header">
@@ -89,25 +87,31 @@
         </header>
 
         <!-- ==== content ==== -->
-        <div class="content">
+        <main class="content">
             <article class="detail-content">                            
-
-                <div class="detail-body">  
+                <div class="detail-header  bgc-margaret_hamilton">
                     <picture class="portrait margaret_hamilton"  alt="retrato de Margaret Hamilton" >  
                         <source 
-                          media="(min-width: 650px)"
-                          srcset="Assets/img/margaret_hamilton.png">
+                        media="(min-width: 650px)"
+                        srcset="Assets/img/margaret_hamilton.png">
                         <img class="portrait margaret_hamilton"
-                          src="Assets/img/margaret_hamilton-m.png" 
-                          alt="retrato de Margaret Hamilton" >
-                      </picture>      
-                    <div class="detail-info">
+                        src="Assets/img/margaret_hamilton-m.png" 
+                        alt="retrato de Margaret Hamilton" >
+                    </picture>
+                    <div>
                         <h1 class="title"><img src="Assets/img/nombres/margaret_hamilton.svg" class="names" alt="Margaret Hamilton"></h1>
                         <h2 class="subtitle">Su código nos llevó a la Luna</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed convallis justo. Phasellus dignissim bibendum orci, eu finibus nunc suscipit viverra.</p>
                         <address class="authors">
-                            <p>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</p>
-                            <p>Textos por <a rel="author" href="https://twitter.com/rafael_luque">Rafael Luque</a>.</p> 
+                            <div>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</div>
+                            <div>Textos por <a rel="author" href="https://twitter.com/rafael_luque">Rafael Luque</a>.</div> 
                         </address>
+                        <img class="ico-scrollDown" src="Assets/img/ico-scrollDown.svg">
+                    </div>
+                </div>
+                <div class="detail-body">  
+                       
+                    <div class="detail-info">
                         
 
 <p>
@@ -185,6 +189,13 @@ otras disciplinas de ingeniería tradicionales.
 <h3>Lecciones aprendidas</h3>
 
 <p>
+
+<figure>
+	<img src="figures/Hamilton_Medal_of_Freedom_from_Obama.jpg" width="50%" alt="Hamilton recibiendo la Medalla Presidencial de la Libertad por el presidente Barack Obama"/>
+	<figcaption>Hamilton recibiendo la Medalla Presidencial de la Libertad por el presidente Barack Obama</figcaption>
+</figure>
+</p>
+<p>
 En 1986 Hamilton fundó su propia empresa <a href="http://htius.com/">Hamilton Technologies</a> con el objetivo
 de crear soluciones de software basadas en las lecciones aprendidas en el proyecto Apolo,
 en especial a sus ideas relacionadas con la fiabilidad del software y la protección
@@ -197,17 +208,9 @@ diseñarse. Es lo que denomina <em>Development Before The Fact</em> (DBTF). Su c
 dedica desde hace décadas a evolucionar y aplicar estas novedosas ideas en la forma del 
 <em>Universal Systems Language</em> y su ciclo de vida automatizado (las herramientas 001).
 </p>
- <hr/> 
 <p>
 En 2016, Hamilton recibió la Medalla Presidencial de la Libertad de los Estados Unidos, por
 su trabajo en la misión Apolo y la creación del Universal Systems Language.
-</p>
-<p>
-
-<figure>
-	<img src="figures/Hamilton_Medal_of_Freedom_from_Obama.jpg" width="50%" alt="Hamilton recibiendo la Medalla Presidencial de la Libertad por el presidente Barack Obama"/>
-	<figcaption>Hamilton recibiendo la Medalla Presidencial de la Libertad por el presidente Barack Obama</figcaption>
-</figure>
 </p>
 <h3>Referencias sobre Margaret Hamilton</h3>
 
@@ -221,17 +224,53 @@ su trabajo en la misión Apolo y la creación del Universal Systems Language.
 </ul>
 
 
-                        <div class="widget-shop">
-                            <img class="shirt" src="Assets/img/Camiseta.jpg" alt="camiseta">
-                            <a href="#" class="shop-buttom">Comprar camiseta</a>
+                    </div>
+                </div>
+                <div class="widget-shop">
+                    <div>
+                        <h3>Colabora</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer <a href="/#proyecto">Sobre el proyecto</a> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                        <div class="shop">
+                            <div>
+                                <div  class="print">
+                                    <picture alt="retrato de Margaret Hamilton" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-margaret_hamilton.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-margaret_hamilton.png" 
+                                        alt="retrato de Margaret Hamilton" >
+                                    </picture>
+                                    <img src="Assets/img/shop-taza.png" alt="tazas">
+                                </div>
+                                <div class="action">
+                                    <div class="price">12€</div>
+                                    <div>donas <strong>3€</strong></div>
+                                    <a href="#">Taza</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="print">
+                                    <picture alt="retrato de Margaret Hamilton" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-margaret_hamilton.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-margaret_hamilton.png" 
+                                        alt="retrato de Margaret Hamilton" >
+                                    </picture>
+                                    <img src="Assets/img/shop-camiseta.png" alt="camiseta">
+                                </div>
+                                <div class="action">
+                                    <div class="price">20€</div>
+                                    <div>donas <strong>5€</strong></div>
+                                    <a href="#">Camiseta</a>
+                                </div>
+                            
                         </div>
                     </div>
-                </div>                
+                </div>               
             </article>            
-        </div>
+        </main>
         <!-- ==== End content ==== -->
-    </div>
-    <!-- ==== End container ==== -->
 
         <!-- ==== footer ==== -->
     <footer class="footer">
@@ -251,8 +290,7 @@ su trabajo en la misión Apolo y la creación del Universal Systems Language.
     <address>
         <strong class="logo"> <img src="Assets/img/logo.svg" alt="A hombros de gigantas"></strong>
         <a href="gigantas@osoco.es" class="e-mail">gigantas@osoco.es</a>
-        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a> con ilustraciones de <a href="https://www.instagram.com/lureka_es/"> 
-            Lureka</a></small>
+        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a></small>
     </address>	
     
 </footer>

@@ -65,10 +65,8 @@
     <link href="Assets/base2.css" rel="stylesheet" media="all" type="text/css">
     <link href="Assets/masks.css" rel="stylesheet" media="all" type="text/css">
 </head>
-<body  class="Detail bgc-ada_lovelace">
+<body  class="Detail">
 
-    <!-- ==== container ==== -->
-    <div class="container">
 
         <!-- ==== header ==== -->
         <header class="header">
@@ -89,25 +87,31 @@
         </header>
 
         <!-- ==== content ==== -->
-        <div class="content">
+        <main class="content">
             <article class="detail-content">                            
-
-                <div class="detail-body">  
+                <div class="detail-header  bgc-ada_lovelace">
                     <picture class="portrait ada_lovelace"  alt="retrato de Ada Lovelace" >  
                         <source 
-                          media="(min-width: 650px)"
-                          srcset="Assets/img/ada_lovelace.png">
+                        media="(min-width: 650px)"
+                        srcset="Assets/img/ada_lovelace.png">
                         <img class="portrait ada_lovelace"
-                          src="Assets/img/ada_lovelace-m.png" 
-                          alt="retrato de Ada Lovelace" >
-                      </picture>      
-                    <div class="detail-info">
+                        src="Assets/img/ada_lovelace-m.png" 
+                        alt="retrato de Ada Lovelace" >
+                    </picture>
+                    <div>
                         <h1 class="title"><img src="Assets/img/nombres/ada_lovelace.svg" class="names" alt="Ada Lovelace"></h1>
                         <h2 class="subtitle">En el principio fue Ada</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed convallis justo. Phasellus dignissim bibendum orci, eu finibus nunc suscipit viverra.</p>
                         <address class="authors">
-                            <p>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</p>
-                            <p>Textos por <a rel="author" href="https://twitter.com/LibertadPozos">Libertad Pozos</a>.</p> 
+                            <div>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</div>
+                            <div>Textos por <a rel="author" href="https://twitter.com/LibertadPozos">Libertad Pozos</a>.</div> 
                         </address>
+                        <img class="ico-scrollDown" src="Assets/img/ico-scrollDown.svg">
+                    </div>
+                </div>
+                <div class="detail-body">  
+                       
+                    <div class="detail-info">
                         <p>
 Se podría creer que la primera persona programadora data de la Segunda Guerra Mundial, quizá  alguna de las personas que trabajaron descifrando códigos de guerra, o tal vez alguna de las personas que trabajó en la creación de la Mark 1 en Harvard. Sin embargo, la primera persona que escribió un algoritmo destinado a ser procesado por una máquina nació hace más de 200 años. <strong>Augusta Ada King, condesa de Lovelace</strong>, fue la primera persona que tuvo la visión de ver el potencial de una máquina calculadora de números e ir más allá y pensar en su generalización y programación, redactando así el primer algoritmo en la historia. 
 </p>
@@ -135,17 +139,53 @@ Ada Lovelace es conmemorada a la fecha de distintas formas: La Asociación de Mu
 </ul>
 
 
-                        <div class="widget-shop">
-                            <img class="shirt" src="Assets/img/Camiseta.jpg" alt="camiseta">
-                            <a href="#" class="shop-buttom">Comprar camiseta</a>
+                    </div>
+                </div>
+                <div class="widget-shop">
+                    <div>
+                        <h3>Colabora</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer <a href="/#proyecto">Sobre el proyecto</a> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                        <div class="shop">
+                            <div>
+                                <div  class="print">
+                                    <picture alt="retrato de Ada Lovelace" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-ada_lovelace.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-ada_lovelace.png" 
+                                        alt="retrato de Ada Lovelace" >
+                                    </picture>
+                                    <img src="Assets/img/shop-taza.png" alt="tazas">
+                                </div>
+                                <div class="action">
+                                    <div class="price">12€</div>
+                                    <div>donas <strong>3€</strong></div>
+                                    <a href="#">Taza</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="print">
+                                    <picture alt="retrato de Ada Lovelace" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-ada_lovelace.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-ada_lovelace.png" 
+                                        alt="retrato de Ada Lovelace" >
+                                    </picture>
+                                    <img src="Assets/img/shop-camiseta.png" alt="camiseta">
+                                </div>
+                                <div class="action">
+                                    <div class="price">20€</div>
+                                    <div>donas <strong>5€</strong></div>
+                                    <a href="#">Camiseta</a>
+                                </div>
+                            
                         </div>
                     </div>
-                </div>                
+                </div>               
             </article>            
-        </div>
+        </main>
         <!-- ==== End content ==== -->
-    </div>
-    <!-- ==== End container ==== -->
 
         <!-- ==== footer ==== -->
     <footer class="footer">
@@ -165,8 +205,7 @@ Ada Lovelace es conmemorada a la fecha de distintas formas: La Asociación de Mu
     <address>
         <strong class="logo"> <img src="Assets/img/logo.svg" alt="A hombros de gigantas"></strong>
         <a href="gigantas@osoco.es" class="e-mail">gigantas@osoco.es</a>
-        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a> con ilustraciones de <a href="https://www.instagram.com/lureka_es/"> 
-            Lureka</a></small>
+        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a></small>
     </address>	
     
 </footer>

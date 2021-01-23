@@ -65,10 +65,8 @@
     <link href="Assets/base2.css" rel="stylesheet" media="all" type="text/css">
     <link href="Assets/masks.css" rel="stylesheet" media="all" type="text/css">
 </head>
-<body  class="Detail bgc-grace_hopper">
+<body  class="Detail">
 
-    <!-- ==== container ==== -->
-    <div class="container">
 
         <!-- ==== header ==== -->
         <header class="header">
@@ -89,25 +87,31 @@
         </header>
 
         <!-- ==== content ==== -->
-        <div class="content">
+        <main class="content">
             <article class="detail-content">                            
-
-                <div class="detail-body">  
+                <div class="detail-header  bgc-grace_hopper">
                     <picture class="portrait grace_hopper"  alt="retrato de Grace Hopper" >  
                         <source 
-                          media="(min-width: 650px)"
-                          srcset="Assets/img/grace_hopper.png">
+                        media="(min-width: 650px)"
+                        srcset="Assets/img/grace_hopper.png">
                         <img class="portrait grace_hopper"
-                          src="Assets/img/grace_hopper-m.png" 
-                          alt="retrato de Grace Hopper" >
-                      </picture>      
-                    <div class="detail-info">
+                        src="Assets/img/grace_hopper-m.png" 
+                        alt="retrato de Grace Hopper" >
+                    </picture>
+                    <div>
                         <h1 class="title"><img src="Assets/img/nombres/grace_hopper.svg" class="names" alt="Grace Hopper"></h1>
                         <h2 class="subtitle">Creó el primer lenguaje de programación de alto nivel</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed convallis justo. Phasellus dignissim bibendum orci, eu finibus nunc suscipit viverra.</p>
                         <address class="authors">
-                            <p>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</p>
-                            <p>Textos por <a rel="author" href="https://twitter.com/LibertadPozos">Libertad Pozos</a>.</p> 
+                            <div>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</div>
+                            <div>Textos por <a rel="author" href="https://twitter.com/LibertadPozos">Libertad Pozos</a>.</div> 
                         </address>
+                        <img class="ico-scrollDown" src="Assets/img/ico-scrollDown.svg">
+                    </div>
+                </div>
+                <div class="detail-body">  
+                       
+                    <div class="detail-info">
                         <p>
 Grace Hooper es una de las pioneras en el mundo de la computación y  miembro de la Marina de Estados Unidos. <em>Amazing Grace</em>, como la llamaban sus amigos, trabajó en la primera computadora y desarrolló el primer compilador. Asimismo, a pesar de la negativa por parte de sus superiores, desarrolló un lenguaje de programación que usó por primera vez palabras en inglés. 
 </p>
@@ -148,17 +152,53 @@ A lo largo de su vida, Hopper recibió distintos reconocimientos por su trabajo 
 
 
 
-                        <div class="widget-shop">
-                            <img class="shirt" src="Assets/img/Camiseta.jpg" alt="camiseta">
-                            <a href="#" class="shop-buttom">Comprar camiseta</a>
+                    </div>
+                </div>
+                <div class="widget-shop">
+                    <div>
+                        <h3>Colabora</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer <a href="/#proyecto">Sobre el proyecto</a> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                        <div class="shop">
+                            <div>
+                                <div  class="print">
+                                    <picture alt="retrato de Grace Hopper" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-grace_hopper.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-grace_hopper.png" 
+                                        alt="retrato de Grace Hopper" >
+                                    </picture>
+                                    <img src="Assets/img/shop-taza.png" alt="tazas">
+                                </div>
+                                <div class="action">
+                                    <div class="price">12€</div>
+                                    <div>donas <strong>3€</strong></div>
+                                    <a href="#">Taza</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="print">
+                                    <picture alt="retrato de Grace Hopper" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-grace_hopper.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-grace_hopper.png" 
+                                        alt="retrato de Grace Hopper" >
+                                    </picture>
+                                    <img src="Assets/img/shop-camiseta.png" alt="camiseta">
+                                </div>
+                                <div class="action">
+                                    <div class="price">20€</div>
+                                    <div>donas <strong>5€</strong></div>
+                                    <a href="#">Camiseta</a>
+                                </div>
+                            
                         </div>
                     </div>
-                </div>                
+                </div>               
             </article>            
-        </div>
+        </main>
         <!-- ==== End content ==== -->
-    </div>
-    <!-- ==== End container ==== -->
 
         <!-- ==== footer ==== -->
     <footer class="footer">
@@ -178,8 +218,7 @@ A lo largo de su vida, Hopper recibió distintos reconocimientos por su trabajo 
     <address>
         <strong class="logo"> <img src="Assets/img/logo.svg" alt="A hombros de gigantas"></strong>
         <a href="gigantas@osoco.es" class="e-mail">gigantas@osoco.es</a>
-        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a> con ilustraciones de <a href="https://www.instagram.com/lureka_es/"> 
-            Lureka</a></small>
+        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a></small>
     </address>	
     
 </footer>

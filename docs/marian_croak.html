@@ -65,10 +65,8 @@
     <link href="Assets/base2.css" rel="stylesheet" media="all" type="text/css">
     <link href="Assets/masks.css" rel="stylesheet" media="all" type="text/css">
 </head>
-<body  class="Detail bgc-marian_croak">
+<body  class="Detail">
 
-    <!-- ==== container ==== -->
-    <div class="container">
 
         <!-- ==== header ==== -->
         <header class="header">
@@ -89,25 +87,31 @@
         </header>
 
         <!-- ==== content ==== -->
-        <div class="content">
+        <main class="content">
             <article class="detail-content">                            
-
-                <div class="detail-body">  
+                <div class="detail-header  bgc-marian_croak">
                     <picture class="portrait marian_croak"  alt="retrato de Marian Croak" >  
                         <source 
-                          media="(min-width: 650px)"
-                          srcset="Assets/img/marian_croak.png">
+                        media="(min-width: 650px)"
+                        srcset="Assets/img/marian_croak.png">
                         <img class="portrait marian_croak"
-                          src="Assets/img/marian_croak-m.png" 
-                          alt="retrato de Marian Croak" >
-                      </picture>      
-                    <div class="detail-info">
+                        src="Assets/img/marian_croak-m.png" 
+                        alt="retrato de Marian Croak" >
+                    </picture>
+                    <div>
                         <h1 class="title"><img src="Assets/img/nombres/marian_croak.svg" class="names" alt="Marian Croak"></h1>
                         <h2 class="subtitle">Creó la tecnología de las llamadas por Internet</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed convallis justo. Phasellus dignissim bibendum orci, eu finibus nunc suscipit viverra.</p>
                         <address class="authors">
-                            <p>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</p>
-                            <p>Textos por <a rel="author" href="https://twitter.com/LibertadPozos">Libertad Pozos</a>.</p> 
+                            <div>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</div>
+                            <div>Textos por <a rel="author" href="https://twitter.com/LibertadPozos">Libertad Pozos</a>.</div> 
                         </address>
+                        <img class="ico-scrollDown" src="Assets/img/ico-scrollDown.svg">
+                    </div>
+                </div>
+                <div class="detail-body">  
+                       
+                    <div class="detail-info">
                         <p>
 ¿Te imaginas el teletrabajo sin poder hacer una videoconferencia, o el confinamiento sin poder hacer una videollamada con tu familia y amigos?
 </p>
@@ -139,17 +143,53 @@ Croak ha contribuido socialmente a través de la tecnología. Cuando el huracán
 </ul>
 
 
-                        <div class="widget-shop">
-                            <img class="shirt" src="Assets/img/Camiseta.jpg" alt="camiseta">
-                            <a href="#" class="shop-buttom">Comprar camiseta</a>
+                    </div>
+                </div>
+                <div class="widget-shop">
+                    <div>
+                        <h3>Colabora</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer <a href="/#proyecto">Sobre el proyecto</a> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                        <div class="shop">
+                            <div>
+                                <div  class="print">
+                                    <picture alt="retrato de Marian Croak" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-marian_croak.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-marian_croak.png" 
+                                        alt="retrato de Marian Croak" >
+                                    </picture>
+                                    <img src="Assets/img/shop-taza.png" alt="tazas">
+                                </div>
+                                <div class="action">
+                                    <div class="price">12€</div>
+                                    <div>donas <strong>3€</strong></div>
+                                    <a href="#">Taza</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="print">
+                                    <picture alt="retrato de Marian Croak" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-marian_croak.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-marian_croak.png" 
+                                        alt="retrato de Marian Croak" >
+                                    </picture>
+                                    <img src="Assets/img/shop-camiseta.png" alt="camiseta">
+                                </div>
+                                <div class="action">
+                                    <div class="price">20€</div>
+                                    <div>donas <strong>5€</strong></div>
+                                    <a href="#">Camiseta</a>
+                                </div>
+                            
                         </div>
                     </div>
-                </div>                
+                </div>               
             </article>            
-        </div>
+        </main>
         <!-- ==== End content ==== -->
-    </div>
-    <!-- ==== End container ==== -->
 
         <!-- ==== footer ==== -->
     <footer class="footer">
@@ -169,8 +209,7 @@ Croak ha contribuido socialmente a través de la tecnología. Cuando el huracán
     <address>
         <strong class="logo"> <img src="Assets/img/logo.svg" alt="A hombros de gigantas"></strong>
         <a href="gigantas@osoco.es" class="e-mail">gigantas@osoco.es</a>
-        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a> con ilustraciones de <a href="https://www.instagram.com/lureka_es/"> 
-            Lureka</a></small>
+        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a></small>
     </address>	
     
 </footer>
