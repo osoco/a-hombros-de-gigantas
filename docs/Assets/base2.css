@@ -10,22 +10,25 @@
 
 /* / - 01 Commons / */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
     background: #D8DBE2;
     line-height: 1.5em;
     overflow-x: hidden;
     color: #333333;
+    font-size: 20px;
 }
-p > a, li > a {color:#0080ff;}
+p > a, li > a {
+    color:#0080ff;
+    text-decoration: none;
+}
 p > strong {color:#000}
 em { font-style: italic }
 strong { font-weight: bold } 
 blockquote {
+    font-family: 'Roboto', sans-serif;
     background-color: #fffbe6;
     padding: 20px;
     border-radius: 4px;
-    font-size: 18px;
-    font-style: italic;
 }
 blockquote::before {
     display: inline-block;
@@ -65,7 +68,7 @@ blockquote::before {
 }
 .footer nav ul{
     margin: 16px auto;
-    line-height: 1.8;
+    line-height: 1.8em;
 }
 .footer a:hover { opacity: 1;}
 
@@ -125,7 +128,7 @@ blockquote::before {
   border: 0;
 }
 .widget-shop{
-    padding: 30px 10px 90px;
+    padding: 30px 0 90px;
     background-image: url("img/widgetShopShadow.svg");
     background-repeat: no-repeat;
     background-position: center 0;
@@ -135,30 +138,44 @@ blockquote::before {
 
 .widget-shop .shop{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     grid-gap: 30px;
 }
 .widget-shop .shop > div{
     position: relative;
-    padding: 30px;
-    display: flex;
+    padding: 30px 0;
+}
+.widget-shop .shop > div:not(:last-child)::after{
+    width: 100%;
+    height: 1px;
+    content: "";
+    background-color: #a8a8a8;
+    position: absolute;
+    bottom: -15px;
+    right: 0;
 }
 @media (min-width: 850px) {
+    .widget-shop .shop > div{
+        display: flex;
+    }
+    .widget-shop .shop{
+        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    }
     .widget-shop .shop > div:not(:last-child)::after{
         width: 1px;
-        content: "";
-        background-color: #a8a8a8;
         height: 100%;
-        position: absolute;
         top: 0;
+        bottom: auto;
         right: -15px;
     }
 }
 .widget-shop .shop .action{
     padding-left: 30px;
+    text-align: center;
 }
 .widget-shop .shop .action .price{
-    font-size: 30px;
+    margin-top: 10px;
+    font-size: 2em;
     display: block;
     padding-bottom: 10px;
 }
@@ -169,7 +186,10 @@ blockquote::before {
     background-color: #000;
     color: #fff;
 }
-.widget-shop .shop .print{position: relative;}
+.widget-shop .shop .print{
+    text-align: center;
+    position: relative;
+}
 .widget-shop .shop .print img.print{
     width: 70px;
     position: absolute;
@@ -184,8 +204,7 @@ blockquote::before {
     text-decoration: none;
     margin: 24px 0;
     display: inline-block;
-    font-family: 'Playfair Display';
-    font-size: 20px;
+
     border-radius: 5px;
     box-shadow: 2px 2px 2px #6b6b6b36;
     -webkit-font-smoothing: antialiased;
@@ -233,7 +252,7 @@ blockquote::before {
     background-color:#DEA12F;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) {
    .header .logo {
         width: 150px;
         top:24px;
@@ -286,8 +305,8 @@ blockquote::before {
 .Home .giants .media img {border-radius: 6px;}
 .Home .giants .title {
         font-size: 1.6rem;
-        font-family: 'Playfair Display', serif;
-        line-height: 1.2;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.2em;
         color: #fff;
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
         z-index: 5;
@@ -296,6 +315,7 @@ blockquote::before {
         text-align: right;
     }
 .Home .giants .subtitle {
+    font-family: 'Roboto', sans-serif;
     color: #fff;
     opacity: 0;
     z-index: 5;
@@ -316,10 +336,17 @@ blockquote::before {
 
 .Home .section-content h1 {
     font-size: 2.8rem;
-    font-family: 'Playfair Display', serif;
-    line-height: 1.2;
-    margin-bottom: 24px;
-    padding-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2em;
+    margin-bottom: 0.2em;
+    padding-top: 1em;
+}
+.Home .section-content h2 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2em;
+    margin-bottom: .2em;
+    padding-top: .5em;
 }
 .Home section.project {
     background: #fff;
@@ -339,7 +366,7 @@ blockquote::before {
 }
 .Home .section-content  p {
     margin-bottom: 16px;
-    line-height: 1.5;
+    line-height: 1.5em;
     color: #808080;
     max-width: 800px;
 }
@@ -354,6 +381,7 @@ blockquote::before {
 .Home .gigants-ts ul li{ overflow: hidden;}
 .Home .gigants-ts h1,
 .Home .gigants-ts h2{
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     overflow: hidden;
     width: 0;
@@ -391,14 +419,14 @@ blockquote::before {
     overflow-x: hidden;
 }
 .detail-header p{
-    font-size: 24px;
+    font-size: 1.3em;
     line-height: 1.5em;
 }
 .detail-header a{
     color: #fff;
 }
 .detail-header .authors{
-    font-size: 14px;
+    font-size: .8em;
     padding-bottom: 30px;
 }
 .detail-header .authors div:not(:last-child){
@@ -430,16 +458,15 @@ blockquote::before {
     -ms-transform-origin: 50% 50%;
 }
 .detail-body{
-    padding: 50px 10px 100px;
+    padding: 50px 0 100px;
     background-color: #fff;
 }
 .detail-body h3,
 .widget-shop h3{
-    margin: 2em 0 1em;
-    font-family: 'Playfair Display';
-    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    margin: 1em 0 .5em;
     display: block;
-    font-size: 35px;
+    font-size: 2em;
     line-height: 1em;
 }
 .detail-body ul{
@@ -493,7 +520,7 @@ blockquote::before {
 }
 .detail-body figure figcaption{
     padding-top: 20px;
-    font-size: 12px;
+    font-size: .8em;
     font-style: italic;
     line-height: 1.3em;
 }
@@ -517,8 +544,9 @@ blockquote::before {
 .Detail .portrait {
     width:auto;
     height:100vh;
+    max-width: 945px;
 }
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .Detail .portrait {
         float:right;
     }
@@ -526,19 +554,19 @@ blockquote::before {
 
 .Detail .title {
     font-size: 2.8rem;
-    font-family: 'Playfair Display', serif;
-    line-height: 1.2;
-    margin-top: 120px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2em;
+    margin-top: 200px;
     margin-bottom: 8px;
     color: #fff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
     position: absolute;
-    top: 45vh;
+    top: 35vh;
     left: 0;
     width: 100%;
     text-align: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     .Detail .title{
         position: relative;
         top: initial;
@@ -548,9 +576,10 @@ blockquote::before {
 }
 .Detail .subtitle {
     color: #fff;
-    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
     padding-top: 50px;
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
 
 .related .nav-previous, .related .nav-next {
