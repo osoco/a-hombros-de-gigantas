@@ -430,7 +430,7 @@ blockquote::before {
     -ms-transform-origin: 50% 50%;
 }
 .detail-body{
-    padding: 50px 10px;
+    padding: 50px 10px 100px;
     background-color: #fff;
 }
 .detail-body h3,
