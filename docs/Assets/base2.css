@@ -544,7 +544,6 @@ blockquote::before {
 .Detail .portrait {
     width:auto;
     height:100vh;
-    max-width: 945px;
 }
 @media (min-width: 900px) {
     .Detail .portrait {
