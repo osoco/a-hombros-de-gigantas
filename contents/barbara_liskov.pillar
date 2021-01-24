@@ -1,11 +1,22 @@
 
-Liskov es una científica de la computación reconocida por su trabajo en los lenguajes de programación orientado a objetos. Entre sus mayores proyectos se encuentran el diseño y la implementación de los lenguajes ''CLU'' y ''Argus''. Además, junto con *Jeannette Wing>https://es.wikipedia.org/wiki/Jeannette_Wing*, desarrolló un principio de la programación orientada a objetos comúnmente llamado el *principio de sustitución de Liskov>https://es.wikipedia.org/wiki/Principio_de_sustituci%C3%B3n_de_Liskov*.
+Liskov es una científica de la computación reconocida por su trabajo en los lenguajes 
+de programación orientado a objetos. Entre sus mayores proyectos se encuentran el diseño 
+y la implementación de los lenguajes ''CLU'' y ''Argus''. Además, junto con 
+*Jeannette Wing>https://es.wikipedia.org/wiki/Jeannette_Wing|target=_blank*, desarrolló un principio 
+de la programación orientada a objetos comúnmente llamado el 
+*principio de sustitución de Liskov>https://es.wikipedia.org/wiki/Principio_de_sustituci%C3%B3n_de_Liskov|target=_blank*.
 
 Barbara Liskov creció en San Francisco y estudió matemáticas en la Universidad de California Berkeley. Al graduarse decidió que no estaba preparada todavía para hacer un master por lo que buscó un trabajo. Mitre Corporation la contrató y ahí descubrió su pasión por la programación. Regresó a la universidad y fue de las primeras mujeres en Estados Unidos en conseguir un doctorado en Ciencias de la Computación por la Universidad de Stanford. 
 
-Liskov ha dirigido varios proyectos entre los que se encuentra el diseño e implementación del *lenguaje CLU>https://es.wikipedia.org/wiki/CLU*, el primer lenguaje de programación que soportaba los datos abstractos y estaba organizado en módulos de código. Este primer lenguaje es la base de otros lenguajes de programación como C++ y Java. También diseñó e implementó *Argus>https://es.wikipedia.org/wiki/Argus_(lenguaje_de_programaci%C3%B3n)*, el primer lenguaje de alto nivel para apoyar la implementación de programas distribuidos. 
-Además, ha trabajado en el sistema de base de datos orientado a objetos Thor, que proporciona acceso transaccional a objetos persistentes y de alta disponibilidad en entornos distribuidos a gran escala.
-
+Liskov ha dirigido varios proyectos entre los que se encuentra el diseño e implementación 
+del *lenguaje CLU>https://es.wikipedia.org/wiki/CLU|target=_blank*, el primer lenguaje de programación 
+que soportaba los datos abstractos y estaba organizado en módulos de código. Este primer 
+lenguaje es la base de otros lenguajes de programación como C++ y Java. También diseñó e 
+implementó *Argus>https://es.wikipedia.org/wiki/Argus_(lenguaje_de_programaci%C3%B3n)|target=_blank*, el 
+primer lenguaje de alto nivel para apoyar la implementación de programas distribuidos. 
+Además, ha trabajado en el sistema de base de datos orientado a objetos Thor, que 
+proporciona acceso transaccional a objetos persistentes y de alta disponibilidad 
+en entornos distribuidos a gran escala.
 
 Actualmente, es profesora y jefa del Grupo de Metodología de Programación en el Massachussets Institute of Technology (MIT). En 2008, MI la nombró como “Institute Professor” el mayor honor concedido a una persona miembro de la facultad. En palabras de la entonces Presidenta del MIT, Susan Hockfield:
 
@@ -19,10 +30,10 @@ Liskov es miembro de la Academia Nacional de Ingeniería y de la Asociación de 
 
 !!! Referencias sobre Barbara Liskov
 
--*ACM Turing Award>https://amturing.acm.org/award_winners/liskov_1108679.cfm*
--*Página de la Profesora Liskov en el MIT>https://www.csail.mit.edu/person/barbara-liskov*
--*Artículo sobre Liskov del MIT>https://news.mit.edu/2008/liskov-0630#:~:text=Barbara%20H.&text=Liskov%2C%20who%20also%20heads%20the,%2C%22%20said%20President%20Susan%20Hockfield*
--*Artículo sobre Liskov de la revista QuantaMagazine>https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/*
--*Liskov sobre el Principio de sustitución>https://www.youtube.com/watch?v=-Z-17h3jG0A*
+-*ACM Turing Award>https://amturing.acm.org/award_winners/liskov_1108679.cfm|target=_blank*
+-*Página de la Profesora Liskov en el MIT>https://www.csail.mit.edu/person/barbara-liskov|target=_blank*
+-*Artículo sobre Liskov del MIT>https://news.mit.edu/2008/liskov-0630#:~:text=Barbara%20H.&text=Liskov%2C%20who%20also%20heads%20the,%2C%22%20said%20President%20Susan%20Hockfield|target=_blank*
+-*Artículo sobre Liskov de la revista QuantaMagazine>https://www.quantamagazine.org/barbara-liskov-is-the-architect-of-modern-algorithms-20191120/|target=_blank*
+-*Liskov sobre el Principio de sustitución>https://www.youtube.com/watch?v=-Z-17h3jG0A|target=_blank*
 
 

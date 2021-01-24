@@ -1,7 +1,7 @@
 Wirfs-Brock comenzó su carrera como probadora del código de bibliotecas gráficas 
-en *Tektronix>https://es.wikipedia.org/wiki/Tektronix*, una empresa que creaba productos
+en *Tektronix>https://es.wikipedia.org/wiki/Tektronix|target=_blank*, una empresa que creaba productos
 de electrónica cuyo software estaba escrito en el 
-*lenguaje Smalltalk>https://es.wikipedia.org/wiki/Smalltalk* (puede interesarte también el
+*lenguaje Smalltalk>https://es.wikipedia.org/wiki/Smalltalk|target=_blank* (puede interesarte también el
 trabajo en Smalltalk de *Adele Goldberg>https://ahombrosdegigantas.xyz/adelege_goldberg.html*, otras de 
 nuestras ''gigantas''). Según recuerda Wirfs-Brock, en aquellos días los probadores 
 escribían para crear pruebas automatizadas tanto o más código que sus compañeros 
@@ -22,13 +22,13 @@ de como entidades y relaciones.
 
 Wirfs-Brock difundió sus ideas escribiendo algunos libros que
 se consideran clásicos en el campo del diseño orientado a objetos, como: 
-*Designing Object-Oriented Software>https://www.goodreads.com/book/show/1887814.Designing_Object_Oriented_Software* y
-*Object Design: Roles, Responsibilities, and Collaborations>https://www.goodreads.com/book/show/179204.Object_Design*.
+*Designing Object-Oriented Software>https://www.goodreads.com/book/show/1887814.Designing_Object_Oriented_Software|target=_blank* y
+*Object Design: Roles, Responsibilities, and Collaborations>https://www.goodreads.com/book/show/179204.Object_Design|target=_blank*.
 
 +Algunos de los clásicos sobre diseño de software escritos por Wirfs-Brock.>file://figures/Wirfs-Brock-books.jpg|width=50+
 
 En la actualidad, Wirfs-Brock vive en Portland, donde trabaja desde 1997
-en *Wirfs-Brock Associates>http://www.wirfs-brock.com/*, su propia empresa 
+en *Wirfs-Brock Associates>http://www.wirfs-brock.com/|target=_blank*, su propia empresa 
 de consultoría de diseño y arquitectura de software.
 
 Además, sigue siendo muy activa en la comunidad de software, ofreciendo charlas y talleres
@@ -36,10 +36,10 @@ sobre diseño de software, patrones de diseño, etc.
 
 !!! Referencias sobre Rebecca Wirfs-Brock
 
-- *Conferencia "Growing Your Personal Design Heuristics" en YOW! 2019>https://www.youtube.com/watch?v=2qcFEagDAuE*
-- *Conferencia "Design Matters" en DDD EU 2017>https://www.youtube.com/watch?v=NZ5mI6-tNUc*
-- *Conferencia "Why We Need Architects (and Architecture) on Agile Projects" en YOW! 2011>https://www.youtube.com/watch?v=vF86yrydQwM*
-- *Conferencia "What Drives Design" en OOPSLA 2008>https://www.infoq.com/presentations/What-Drives-Design-Rebecca-Wirfs-Brock/*
+- *Conferencia "Growing Your Personal Design Heuristics" en YOW! 2019>https://www.youtube.com/watch?v=2qcFEagDAuE|target=_blank*
+- *Conferencia "Design Matters" en DDD EU 2017>https://www.youtube.com/watch?v=NZ5mI6-tNUc|target=_blank*
+- *Conferencia "Why We Need Architects (and Architecture) on Agile Projects" en YOW! 2011>https://www.youtube.com/watch?v=vF86yrydQwM|target=_blank*
+- *Conferencia "What Drives Design" en OOPSLA 2008>https://www.infoq.com/presentations/What-Drives-Design-Rebecca-Wirfs-Brock/|target=_blank*
 
 
 
