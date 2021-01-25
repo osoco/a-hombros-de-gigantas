@@ -5,11 +5,11 @@
 	From: 
 
 	Diseño Web: Salugral Adriana Pazos
-	Twitter: @
+	Twitter: @Salugral
 	From: 
 
 	Textos: Libertad Pozos
-	Twitter: @
+	Twitter: @LibertadPozos
 	From: 
 
 	Textos + Generador del sitio en Pharo: Rafael Luque
@@ -22,7 +22,8 @@
     Idioma: Español
     Contacto: gigantas [at] osoco.es
     Estándares: HTML5, CSS3.
+    Licencia: CC BY-SA-NC 4.0
     Repositorios: 
         - https://github.com/osoco/a-hombros-de-gigantas/
         - https://github.com/osoco/ahdg-site-generator
-    Herramientas: Pharo Smalltalk, Visual Studio Code, Photoshop,  
+    Herramientas: Pharo Smalltalk, Visual Studio Code, Clip Studio Paint, Illustrator
