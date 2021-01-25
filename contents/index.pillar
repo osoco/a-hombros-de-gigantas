@@ -1,17 +1,46 @@
 ! Sobre el proyecto
 
-At ""quaeque adversarium"" ius, sed at verterem. Sit summo tibique at, eam et fugit complectitur, vis te natum vivendum mandamus. Iudico quodsi cum ad, dicit everti sensibus in sea, ea eius paulo deterruisset pri. Pro id aliquam hendrerit definitiones. Per et legimus delectus. 
+<<<<<<< HEAD
+
+A Hombros de “Gigantas” es un pequeño proyecto que trata de visibilizar el trabajo de mujeres que han realizado aportaciones relevantes en el campo del software o las tecnologías de la información.
+
+Cada una de las páginas dedicadas a estas pioneras incluye una ilustración realizada por nuestro diseñador *Emilio Rodríguez>https://instagram.com/lureka_es* y una breve reseña sobre los logros y contribuciones del personaje, así como referencias adicionales que te permitirán conocer más sobre su vida y trabajo.
+
+Además, hemos diseñado camisetas y tazas dedicadas a cada una de estas grandes mujeres que podrás adquirir desde este mismo sitio. Todos los beneficios de estas ventas se donarán a la organización sin ánimo de lucro XXXX dedicada a fomentar las vocaciones STEM entre niñas y jóvenes. Así que comprando estas camisetas, además de poder lucir a tus referentes favoritas en una camiseta o taza de calidad, estarás contribuyendo a la formación de nuevas generaciones de mujeres.
 
 
-Virtute equidem ceteros in mel. Id volutpat neglegentur eos. Eu eum facilisis voluptatum, no eam albucius verterem. Sit congue platonem adolescens ut. Offendit reprimique et has, eu mei homero imperdiet.
+!! ¿Por qué es necesario difundir su trabajo?
 
+Durante muchos años, las mujeres han luchado por un lugar en la mesa de sus respectivas industrias. Aunque muchas han roto barreras y empujado limitaciones, ser la única mujer en la sala sigue siendo la norma en el sector tecnológico. De acuerdo con datos de la Comisión Europea, sólo 29 mujeres de cada 1000 graduadas lo hace en una carrera relacionada con la computación y sólo 4 empiezan a trabajar en tecnología.  
 
-!! Cómo colaborar
+Se dice que las mujeres han luchado porque han enfrentado y siguen enfrentando muchos desafíos para nivelar el campo de juego en la industria de la tecnología. Con un bajo número de mujeres que ocupan puestos en la informática, la falta de representación fomenta el prejuicio de que las mujeres no tienen las habilidades técnicas para cumplir estos papeles, lo que hace difícil para las mujeres jóvenes verse a sí mismas encajando en este campo. ""Es por esto que la representación importa."" Saber de mujeres que han hecho aportaciones fundamentales en el campo tecnológico y ver mujeres desarrollándose hoy en día ayuda a consolidar su confianza y sentimiento de pertenencia, además de contribuir así a que más mujeres se interesen por este campo. 
+=======
+Durante muchos años, las mujeres han luchado por un lugar en la mesa de sus respectivas 
+industrias. Aunque muchas han roto barreras y empujado limitaciones, ser la única mujer 
+en la sala sigue siendo la norma en el sector tecnológico. De acuerdo con datos de la 
+Comisión Europea, sólo 29 mujeres de cada 1000 graduadas lo hace en una carrera relacionada 
+con la computación y sólo 4 empiezan a trabajar en tecnología.  
 
-Sit summo tibique at, eam et fugit complectitur vis te natum vivendum mandamus. Iudico quodsi cum ad, dicit everti sensibus in sea, ea eius paulo deterruisset pri. Pro id aliquam hendrerit definitiones. Per et legimus delectus.
+Se dice que las mujeres han luchado porque han enfrentado y siguen enfrentando muchos 
+desafíos para nivelar el campo de juego en la industria de la tecnología. Con un bajo 
+número de mujeres que ocupan puestos en la informática, la falta de representación 
+fomenta el prejuicio de que las mujeres no tienen las habilidades técnicas para cumplir 
+estos papeles, lo que hace difícil para las mujeres jóvenes verse a sí mismas encajando 
+en este campo. ""Es por esto que la representación importa."" Saber de mujeres que han 
+hecho aportaciones fundamentales en el campo tecnológico y ver mujeres desarrollándose 
+hoy en día ayuda a consolidar su confianza y sentimiento de pertenencia, además de 
+contribuir así a que más mujeres se interesen por este campo.
+>>>>>>> fa04227... Add page about the project
+
+!! ¿Cómo colaborar?
+
+Si quieres colaborar, lo puedes hacer a través de ''pull request'' 
+a *nuestro repositorio>https://github.com/osoco/a-hombros-de-gigantas* en GitHub,
+o bien, escribiéndonos a nuestro *correo de contacto>gigantas@osoco.es*.
 
 !! Licencia
 
-At quaeque adversarium ius, sed at integre persius verterem. Sit summo tibique at, eam et fugit complectitur, vis te natum vivendum mandamus. Iudico quodsi cum ad, dicit everti sensibus in sea, ea eius paulo deterruisset pri. Pro id aliquam hendrerit definitiones. Per et legimus delectus.
+Los textos e ilustraciones de este sitio web son compartidos por 
+OSOCO y Emilio Rodríguez Vila, respectivamente, bajo una *licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional>https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es|target=_blank*.
 
 
