@@ -66,6 +66,9 @@ blockquote::before {
     color:#fff;
     opacity: .7;
 }
+.copyright a {
+    padding: 0;
+}
 .footer nav ul{
     margin: 16px auto;
     line-height: 1.8em;
