@@ -1,9 +1,10 @@
 {
     "index": "index.pillar",
+    "intro": "intro.pillar",
     "indexTemplate": "index.mustache.html",
+    "introTemplate": "intro.mustache.html",
     "footerTemplate": "footer.mustache.html",
     "cardTemplate": "giganta.mustache.html",
-    "introTemplate": "intro.mustache.html",
     "assets": [
         "../Assets",
         "../contents/figures"
