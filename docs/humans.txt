@@ -1,0 +1,28 @@
+/* TEAM */
+
+	Diseño Web + Ilustraciones: Emilio Rodríguez (aka lureka)
+	Instagram: lureka_es
+	From: 
+
+	Diseño Web: Salugral Adriana Pazos
+	Twitter: @
+	From: 
+
+	Textos: Libertad Pozos
+	Twitter: @
+	From: 
+
+	Textos + Generador del sitio en Pharo: Rafael Luque
+	Twitter: @rafael_luque
+	From: Móstoles, Madrid, España
+
+/* SITE */
+
+    Última actualización: $GENERATION_DATETIME$
+    Idioma: Español
+    Contacto: gigantas [at] osoco.es
+    Estándares: HTML5, CSS3.
+    Repositorios: 
+        - https://github.com/osoco/a-hombros-de-gigantas/
+        - https://github.com/osoco/ahdg-site-generator
+    Herramientas: Pharo Smalltalk, Visual Studio Code, Photoshop,  

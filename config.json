@@ -7,7 +7,8 @@
     "cardTemplate": "giganta.mustache.html",
     "assets": [
         "../Assets",
-        "../contents/figures"
+        "../contents/figures",
+        "../contents/humans.txt"
     ],
     "cards": [
         {
