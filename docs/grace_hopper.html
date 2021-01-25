@@ -60,15 +60,14 @@
     }
     </script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="Assets/reset.css" rel="stylesheet" media="all" type="text/css">
     <link href="Assets/base2.css" rel="stylesheet" media="all" type="text/css">
     <link href="Assets/masks.css" rel="stylesheet" media="all" type="text/css">
 </head>
-<body  class="Detail bgc-grace_hopper">
+<body  class="Detail">
 
-    <!-- ==== container ==== -->
-    <div class="container">
 
         <!-- ==== header ==== -->
         <header class="header">
@@ -89,27 +88,40 @@
         </header>
 
         <!-- ==== content ==== -->
-        <div class="content">
+        <main class="content">
             <article class="detail-content">                            
-
-                <div class="detail-body">  
+                <div class="detail-header  bgc-grace_hopper">
                     <picture class="portrait grace_hopper"  alt="retrato de Grace Hopper" >  
                         <source 
-                          media="(min-width: 650px)"
-                          srcset="Assets/img/grace_hopper.png">
+                        media="(min-width: 650px)"
+                        srcset="Assets/img/grace_hopper.png">
                         <img class="portrait grace_hopper"
-                          src="Assets/img/grace_hopper-m.png" 
-                          alt="retrato de Grace Hopper" >
-                      </picture>      
-                    <div class="detail-info">
+                        src="Assets/img/grace_hopper-m.png" 
+                        alt="retrato de Grace Hopper" >
+                    </picture>
+                    <div>
                         <h1 class="title"><img src="Assets/img/nombres/grace_hopper.svg" class="names" alt="Grace Hopper"></h1>
                         <h2 class="subtitle">Creó el primer lenguaje de programación de alto nivel</h2>
+                        <p>A Grace Hopper le dijeron que no se podía hacer un lenguaje de programación que 
+            utilizara palabras en inglés. Le dijeron que eso no era posible, que la idea era 
+            inviable, que los ordenadores no entendían el idioma.</p>
                         <address class="authors">
-                            <p>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</p>
-                            <p>Textos por <a rel="author" href="https://twitter.com/LibertadPozos">Libertad Pozos</a>.</p> 
+                            <div>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</div>
+                            <div>Textos por <a rel="author" href="https://twitter.com/LibertadPozos">Libertad Pozos</a>.</div> 
+                            <a href="#Colabora" class="btn-colabora">Colabora</a>
                         </address>
+                        <img class="ico-scrollDown" src="Assets/img/ico-scrollDown.svg">
+                    </div>
+                </div>
+                <div class="detail-body">  
+                       
+                    <div class="detail-info">
                         <p>
-Grace Hooper es una de las pioneras en el mundo de la computación y  miembro de la Marina de Estados Unidos. <em>Amazing Grace</em>, como la llamaban sus amigos, trabajó en la primera computadora y desarrolló el primer compilador. Asimismo, a pesar de la negativa por parte de sus superiores, desarrolló un lenguaje de programación que usó por primera vez palabras en inglés. 
+Grace Hooper es una de las pioneras en el mundo de la computación y  miembro de la 
+Marina de Estados Unidos. <em>Amazing Grace</em>, como la llamaban sus amigos, trabajó en 
+la primera computadora y desarrolló el primer compilador. Asimismo, a pesar de la 
+negativa por parte de sus superiores, desarrolló un lenguaje de programación que 
+usó por primera vez palabras en inglés. 
 </p>
 <p>
 Hopper se graduó en Vassart College en Nueva York y de la Universidad de Yale, en donde obtuvo su doctorado en Matemáticas en 1934. Ese mismo año, Hopper, siguiendo la tradición familiar, decidió enlistarse a la marina después del ataque a Pearl Harbor. Un año más tarde, la ahora teniente Hopper, fue enviada a Harvard para trabajar en el proyecto de la construcción de la <a href="https://es.wikipedia.org/wiki/Harvard_Mark_I">Mark I</a>, bajo la dirección del comandante <a href="https://es.wikipedia.org/wiki/Howard_H._Aiken">Howard Aiken</a>. En Harvard desarrolló varias aplicaciones contables para la Mark I y escribió su manual de uso. 
@@ -117,15 +129,22 @@ Hopper se graduó en Vassart College en Nueva York y de la Universidad de Yale, 
 <p>
 
 <figure>
-	<img src="figures/Grace_Hopper_Mark_I.jpg" width="50%" alt="Hooper junto a Howard Aiken y Ensign Campbel (imagen de los archivos de la Universidad de Harvard)"/>
-	<figcaption>Hooper junto a Howard Aiken y Ensign Campbel (imagen de los archivos de la Universidad de Harvard)</figcaption>
+	<img src="figures/Grace_Hopper_Mark_I.jpg" width="50%" alt="Hooper junto a Howard Aiken y Ensign Campbel (imagen de los archivos de la Universidad de "/>
+	<figcaption>Hooper junto a Howard Aiken y Ensign Campbel (imagen de los archivos de la Universidad de </figcaption>
 </figure>
 </p>
 <p>
 Después de Harvard, Grace Hopper comenzó a trabajar en la Eckert-Mauchly Corporation, en donde realizó una de sus mayores contribuciones: el primer compilador para una computadora electrónica (A-0). El Sistema A-0 era un conjunto de instrucciones que podían traducir código matemático simbólico a lenguaje de máquina.
 </p>
 <p>
-A Grace Hopper le dijeron que no se podía hacer un lenguaje de programación que utilizara palabras en inglés. Le dijeron que eso no era posible, que la idea era inviable, que los ordenadores no entendían el idioma. Sin embargo, ella sabía que podía lograrlo, buscaba que los problemas de procesamientos de datos se pudieran expresar utilizando palabras clave en inglés para que fuera más sencillo para la mayoría de las personas. Así que se puso a trabajar y para 1957 tenía FLOW-MATIC, el primer lenguaje de programación que expresó operaciones utilizando declaraciones similares al inglés. 
+A Grace Hopper le dijeron que no se podía hacer un lenguaje de programación que 
+utilizara palabras en inglés. Le dijeron que eso no era posible, que la idea era 
+inviable, que los ordenadores no entendían el idioma. Sin embargo, ella sabía 
+que podía lograrlo, buscaba que los problemas de procesamientos de datos 
+se pudieran expresar utilizando palabras clave en inglés para que fuera 
+más sencillo para la mayoría de las personas. Así que se puso a trabajar y 
+para 1957 tenía FLOW-MATIC, el primer lenguaje de programación que expresó 
+operaciones utilizando declaraciones similares al inglés. 
 </p>
 <p>
 Los lenguajes de programación se hacían cada vez más numerosos por lo que crecía la necesidad de hacer un lenguaje estandarizado para actividades de negocio. Así surgió <a href="https://es.wikipedia.org/wiki/COBOL#:~:text=El%20lenguaje%20COBOL%20(acr%C3%B3nimo%20de,es%20decir%2C%20a%20la%20llamada">COBOL</a> (Lenguaje Común Orientado a Negocios) introducido como el primer lenguaje estandarizado orientado a negocio. COBOL fue creado por un comité del que Hopper formó parte. Las bases para COBOL salieron de FLOW-MATIC, por lo que en ocasiones se le conoce a Hopper como la madre de este lenguaje. Para los años 70’s COBOL era el lenguaje de computadora más usado en el mundo.  
@@ -148,17 +167,53 @@ A lo largo de su vida, Hopper recibió distintos reconocimientos por su trabajo 
 
 
 
-                        <div class="widget-shop">
-                            <img class="shirt" src="Assets/img/Camiseta.jpg" alt="camiseta">
-                            <a href="#" class="shop-buttom">Comprar camiseta</a>
+                    </div>
+                </div>
+                <div id="Colabora" class="widget-shop">
+                    <div>
+                        <h3>Colabora</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer <a href="/#proyecto">Sobre el proyecto</a> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                        <div class="shop">
+                            <div>
+                                <div  class="print">
+                                    <picture alt="retrato de Grace Hopper" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-grace_hopper.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-grace_hopper.png" 
+                                        alt="retrato de Grace Hopper" >
+                                    </picture>
+                                    <img src="Assets/img/shop-taza.png" alt="tazas">
+                                </div>
+                                <div class="action">
+                                    <div class="price">12€</div>
+                                    <div>donas <strong>3€</strong></div>
+                                    <a href="#">Taza</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="print">
+                                    <picture alt="retrato de Grace Hopper" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-grace_hopper.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-grace_hopper.png" 
+                                        alt="retrato de Grace Hopper" >
+                                    </picture>
+                                    <img src="Assets/img/shop-camiseta.png" alt="camiseta">
+                                </div>
+                                <div class="action">
+                                    <div class="price">20€</div>
+                                    <div>donas <strong>5€</strong></div>
+                                    <a href="#">Camiseta</a>
+                                </div>
+                            
                         </div>
                     </div>
-                </div>                
+                </div>               
             </article>            
-        </div>
+        </main>
         <!-- ==== End content ==== -->
-    </div>
-    <!-- ==== End container ==== -->
 
         <!-- ==== footer ==== -->
     <footer class="footer">
@@ -167,7 +222,7 @@ A lo largo de su vida, Hopper recibió distintos reconocimientos por su trabajo 
             <li class="github"><a href="https://github.com/osoco/a-hombros-de-gigantas/"><span>GitHub</span></a></li>
             <li class="instagram"><a href="#"><span>Instagram</span></a></li>
             <li class="twitter">
-                <a href="http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20las%20gigantas%20de%20la%20inform%C3%A1tica%3F%20Proyecto%20que%20visibiliza%20a%20las%20mujeres%20que%20han%20aportado%20al%20mundo%20de%20la%20computaci%C3%B3n.%20%23Ahombrosdegigantas%20%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2F%0A"></a><span>Twitter</span></a></li>
+                <a target="_blank" href="http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20las%20gigantas%20de%20la%20inform%C3%A1tica%3F%20Proyecto%20que%20visibiliza%20a%20las%20mujeres%20que%20han%20aportado%20al%20mundo%20de%20la%20computaci%C3%B3n.%20%23Ahombrosdegigantas%20%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2F%0A"></a><span>Twitter</span></a></li>
         </ul>
 
     <nav>
@@ -179,8 +234,7 @@ A lo largo de su vida, Hopper recibió distintos reconocimientos por su trabajo 
     <address>
         <strong class="logo"> <img src="Assets/img/logo.svg" alt="A hombros de gigantas"></strong>
         <a href="gigantas@osoco.es" class="e-mail">gigantas@osoco.es</a>
-        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a> con ilustraciones de <a href="https://www.instagram.com/lureka_es/"> 
-            Lureka</a></small>
+        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a></small>
     </address>	
     
 </footer>

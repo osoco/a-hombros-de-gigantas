@@ -1,4 +1,8 @@
-Conocida como ''la madre del Internet'', Radia Perlman es doctora en ciencias de la computación con máster en matemáticas por el MIT. Fue de las pocas mujeres programadoras que trabajó en el montaje de las redes y la tecnología de lo que ahora conocemos como Internet. Asimismo, Perlman ha realizado grandes contribuciones a la seguridad de la red. Dichas aportaciones incluyen la expiración de datos y algoritmos distribuidos resistentes a pesar de los participantes maliciosos.
+Conocida como ''la madre del Internet'', Radia Perlman es doctora en 
+ciencias de la computación con máster en matemáticas por el MIT. Asimismo, 
+Perlman ha realizado grandes contribuciones 
+a la seguridad de la red. Dichas aportaciones incluyen la expiración de datos y 
+algoritmos distribuidos resistentes a pesar de los participantes maliciosos.
 
 Radia no se siente cómoda con su sobrenombre.
 {{{
@@ -15,7 +19,7 @@ También ha mencionado que
 }}}
 
 
-Radia inventó el algoritmo detrás del *Protocolo Spanning Tree>https://es.wikipedia.org/wiki/Spanning_tree* (STP, por sus siglas en inglés). Perlman trabajaba para Digital Equipment Corp. en donde habían estado tratando que las computadoras compartieran información de manera confiable . Un viernes su jefe le pidió ayuda a Perlman para resolver el problema, para el martes Perlman había escrito el STP que lo solucionaba. En dicho documento, escribió también un poema titulado *Algoritmia>https://etherealmind.com/algorhyme-radia-perlman/*. 
+Radia inventó el algoritmo detrás del *Protocolo Spanning Tree>https://es.wikipedia.org/wiki/Spanning_tree|target=_blank* (STP, por sus siglas en inglés). Perlman trabajaba para Digital Equipment Corp. en donde habían estado tratando que las computadoras compartieran información de manera confiable . Un viernes su jefe le pidió ayuda a Perlman para resolver el problema, para el martes Perlman había escrito el STP que lo solucionaba. En dicho documento, escribió también un poema titulado *Algoritmia>https://etherealmind.com/algorhyme-radia-perlman/|target=_blank*. 
 
 El STP asegura que una red permanezca configurada en cualquier caso para garantizar que los datos se entreguen siempre que un usuario o una máquina los solicite. De esta manera, dicho protocolo estableció las reglas para el tráfico de datos en Internet. 
 
@@ -24,8 +28,8 @@ A lo largo de su carrera Perlman ha sido profesora de la Universidad de Harvard 
 
 !!! Referencias sobre Radia Perlman
 
-- *Artículo sobre Perlman del MIT>https://lemelson.mit.edu/resources/radia-perlman*
-- *Artículo sobre Perlman de la BBC>https://www.bbc.com/mundo/noticias-45454773*
--*Salón de la Fama de Inernet>https://internethalloffame.org/inductees/radia-perlman*
--*Artículo sobre Perlman de The Atlantic>https://www.theatlantic.com/technology/archive/2014/03/radia-perlman-dont-call-me-the-mother-of-the-internet/284146/*
+- *Artículo sobre Perlman del MIT>https://lemelson.mit.edu/resources/radia-perlman|target=_blank*
+- *Artículo sobre Perlman de la BBC>https://www.bbc.com/mundo/noticias-45454773|target=_blank*
+-*Salón de la Fama de Inernet>https://internethalloffame.org/inductees/radia-perlman|target=_blank*
+-*Artículo sobre Perlman de The Atlantic>https://www.theatlantic.com/technology/archive/2014/03/radia-perlman-dont-call-me-the-mother-of-the-internet/284146/|target=_blank*
 

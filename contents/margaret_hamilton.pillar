@@ -1,10 +1,3 @@
-
-
-El 20 de julio de 1969, millones de personas en todo el mundo presenciaron asombrados
-la transmisión por televisión de la llegada del hombre a la luna. Lo que la mayoría de ellos 
-ignoraba es que aquella proeza se logró en gran medida gracias al software que había diseñado
-el equipo dirigido por Hamilton, una joven matemática de 33 años.
-
 !!! La llegada del hombre a la luna
 
 Muchos años después, en 2014, alguien publicó en Twitter una foto de Hamilton
@@ -16,7 +9,7 @@ la labor de esta pionera.
 +Margaret Hamilton junto al software de navegación que ella y su equipo MIT produjeron para el Programa Apolo (imagen de Wikipedia con licencia Dominio Público)>file://figures/Margaret_Hamilton_code.jpg|width=50|class=right+
 
 
-En *OSOCO>https://osoco.es* incluso diseñamos nuestra propia pegatina inspirada en 
+En *OSOCO>https://osoco.es|target=_blank* incluso diseñamos nuestra propia pegatina inspirada en 
 la icónica fotografía de Hamilton:
 
 +Pegatina diseñada por OSOCO inspirada en la foto de Hamilton.>file://figures/Margaret_Hamilton_OSOCO_Sticker.png|width=50+
@@ -32,10 +25,10 @@ software para enviar al hombre a la luna. Hamilton fue la primera persona que co
 
 Hamilton se convirtió en directora de la División de Ingeniería de Software del Laboratorio
 de Instrumentación del MIT, que desarrolló el software para el *programa 
-Apolo de la NASA>https://es.wikipedia.org/wiki/Programa_Apolo*. Trabajó en todas las misiones tripuladas y algunas no tripuladas del 
+Apolo de la NASA>https://es.wikipedia.org/wiki/Programa_Apolo|target=_blank*. Trabajó en todas las misiones tripuladas y algunas no tripuladas del 
 programa Apolo, además de en el software de vuelo de la estación
-espacial *Skylab>https://es.wikipedia.org/wiki/Skylab* y en los
-requisitos de software para el programada del *transbordador espacial>https://es.wikipedia.org/wiki/Programa_del_transbordador_espacial*.
+espacial *Skylab>https://es.wikipedia.org/wiki/Skylab|target=_blank* y en los
+requisitos de software para el programada del *transbordador espacial>https://es.wikipedia.org/wiki/Programa_del_transbordador_espacial|target=_blank*.
 
 !!! Nosotros también somos ingenieros
 
@@ -56,7 +49,9 @@ otras disciplinas de ingeniería tradicionales.
 
 !!! Lecciones aprendidas
 
-En 1986 Hamilton fundó su propia empresa *Hamilton Technologies>http://htius.com/* con el objetivo
++Hamilton recibiendo la Medalla Presidencial de la Libertad por el presidente Barack Obama>file://figures/Hamilton_Medal_of_Freedom_from_Obama.jpg|width=50+
+
+En 1986 Hamilton fundó su propia empresa *Hamilton Technologies>http://htius.com/|target=_blank* con el objetivo
 de crear soluciones de software basadas en las lecciones aprendidas en el proyecto Apolo,
 en especial a sus ideas relacionadas con la fiabilidad del software y la protección
 frente a errores.
@@ -67,19 +62,15 @@ diseñarse. Es lo que denomina ''Development Before The Fact'' (DBTF). Su compa�
 dedica desde hace décadas a evolucionar y aplicar estas novedosas ideas en la forma del 
 ''Universal Systems Language'' y su ciclo de vida automatizado (las herramientas 001).
 
-{{{ <hr/> }}}
-
 En 2016, Hamilton recibió la Medalla Presidencial de la Libertad de los Estados Unidos, por
 su trabajo en la misión Apolo y la creación del Universal Systems Language.
 
-+Hamilton recibiendo la Medalla Presidencial de la Libertad por el presidente Barack Obama>file://figures/Hamilton_Medal_of_Freedom_from_Obama.jpg|width=50+
-
 !!! Referencias sobre Margaret Hamilton
 
-- *Homenaje del Museo de la Informática a Margaret Hamilton>https://www.youtube.com/watch?v=4sKY6_nBLG0*
-- *Margaret Hamilton en Wikipedia>https://es.wikipedia.org/wiki/Margaret_Hamilton_(cient%C3%ADfica)*
-- *Vídeo resumiendo la carrera de Hamilton>https://www.youtube.com/watch?v=kTn56jJW4zY*
-- *Artículo sobre su paradigma DBTF>http://htius.com/Articles/r12ham.pdf*
-- *Keynote de Hamilton en ICSE 2018>https://www.youtube.com/watch?v=ZbVOF0Uk5lU*
-- *Tributo de Google en la planta solar de Ivanpah>https://blog.google/products/maps/margaret-hamilton-apollo-11-tribute/*
+- *Homenaje del Museo de la Informática a Margaret Hamilton>https://www.youtube.com/watch?v=4sKY6_nBLG0|target=_blank*
+- *Margaret Hamilton en Wikipedia>https://es.wikipedia.org/wiki/Margaret_Hamilton_(cient%C3%ADfica)|target=_blank*
+- *Vídeo resumiendo la carrera de Hamilton>https://www.youtube.com/watch?v=kTn56jJW4zY|target=_blank*
+- *Artículo sobre su paradigma DBTF>http://htius.com/Articles/r12ham.pdf|target=_blank*
+- *Keynote de Hamilton en ICSE 2018>https://www.youtube.com/watch?v=ZbVOF0Uk5lU|target=_blank*
+- *Tributo de Google en la planta solar de Ivanpah>https://blog.google/products/maps/margaret-hamilton-apollo-11-tribute/|target=_blank*
 

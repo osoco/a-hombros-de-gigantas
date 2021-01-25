@@ -60,62 +60,65 @@
     }
     </script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="Assets/reset.css" rel="stylesheet" media="all" type="text/css">
     <link href="Assets/base2.css" rel="stylesheet" media="all" type="text/css">
     <link href="Assets/masks.css" rel="stylesheet" media="all" type="text/css">
 </head>
-<body  class="Detail bgc-rebecca_wirfs-brock">
+<body  class="Detail">
 
-    <!-- ==== container ==== -->
-    <div class="container">
 
         <!-- ==== header ==== -->
         <header class="header">
             <h1 class="logo"><a href="/"><img src="Assets/img/logo.svg" alt="A hombros de gigantas"></a></h1>
             <nav class="related">
                 <div id="nav_previous" class="nav-previous">
-                    <a href="shafi_goldwasser.html" rel="prev">
-                        <article><div class="media"><img width="100"  src="Assets/img/shafi_goldwasser-t.png" class="thumbnail" alt=" "></div><h1>Shafi Goldwasser</h1></article>
+                    <a href="radia_perlman.html" rel="prev">
+                        <article><div class="media"><img width="100"  src="Assets/img/radia_perlman-t.png" class="thumbnail" alt=" "></div><h1>Radia Perlman</h1></article>
                     </a> 
                 </div>
                 <div id="nav_next" class="nav-next">
-                    <a href="sophie_wilson.html" rel="next">
+                    <a href="shafi_goldwasser.html" rel="next">
                         <article>
-                            <div class="media"><img width="100"  src="Assets/img/sophie_wilson-t.png" class="thumbnail" alt=" "></div><h1>Sophie Wilson</h1></article>
+                            <div class="media"><img width="100"  src="Assets/img/shafi_goldwasser-t.png" class="thumbnail" alt=" "></div><h1>Shafi Goldwasser</h1></article>
                     </a> 
                 </div>
             </nav>
         </header>
 
         <!-- ==== content ==== -->
-        <div class="content">
+        <main class="content">
             <article class="detail-content">                            
-
-                <div class="detail-body">  
+                <div class="detail-header  bgc-rebecca_wirfs-brock">
                     <picture class="portrait rebecca_wirfs-brock"  alt="retrato de Rebecca Wirfs-Brock" >  
                         <source 
-                          media="(min-width: 650px)"
-                          srcset="Assets/img/rebecca_wirfs-brock.png">
+                        media="(min-width: 650px)"
+                        srcset="Assets/img/rebecca_wirfs-brock.png">
                         <img class="portrait rebecca_wirfs-brock"
-                          src="Assets/img/rebecca_wirfs-brock-m.png" 
-                          alt="retrato de Rebecca Wirfs-Brock" >
-                      </picture>      
-                    <div class="detail-info">
+                        src="Assets/img/rebecca_wirfs-brock-m.png" 
+                        alt="retrato de Rebecca Wirfs-Brock" >
+                    </picture>
+                    <div>
                         <h1 class="title"><img src="Assets/img/nombres/rebecca_wirfs-brock.svg" class="names" alt="Rebecca Wirfs-Brock"></h1>
                         <h2 class="subtitle">Pionera del diseño orientado a objetos</h2>
+                        <p>Rebecca Wirfs-Brock es una pionera del diseño de software basado en el paradigma
+            de objetos y es la inventora de Responsibility Driven Design o RDD, según sus
+            siglas en inglés, una técnica que ha influido en otras técnicas de diseño más recientes,
+            que quizá conozcas mejor, como TDD (Test Driven Development), 
+            BDD (Behaviour Driven Development) o DDD (Domain Driven Development).</p>
                         <address class="authors">
-                            <p>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</p>
-                            <p>Textos por <a rel="author" href="https://twitter.com/rafael_luque">Rafael Luque</a>.</p> 
+                            <div>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</div>
+                            <div>Textos por <a rel="author" href="https://twitter.com/rafael_luque">Rafael Luque</a>.</div> 
+                            <a href="#Colabora" class="btn-colabora">Colabora</a>
                         </address>
+                        <img class="ico-scrollDown" src="Assets/img/ico-scrollDown.svg">
+                    </div>
+                </div>
+                <div class="detail-body">  
+                       
+                    <div class="detail-info">
                         <p>
-Rebecca Wirfs-Brock es una pionera del diseño de software basado en el paradigma
-de objetos y es la inventora de <em>Responsibility Driven Design</em> o RDD, según sus
-siglas en inglés, una técnica que ha influido en otras técnicas de diseño más recientes,
-que quizá conozcas mejor, como TDD (<em>Test Driven Development</em>), 
-BDD (<em>Behaviour Driven Development</em>) o DDD (<em>Domain Driven Development</em>).
-</p>
-<p>
 Wirfs-Brock comenzó su carrera como probadora del código de bibliotecas gráficas 
 en <a href="https://es.wikipedia.org/wiki/Tektronix">Tektronix</a>, una empresa que creaba productos
 de electrónica cuyo software estaba escrito en el 
@@ -176,17 +179,53 @@ sobre diseño de software, patrones de diseño, etc.
 
 
 
-                        <div class="widget-shop">
-                            <img class="shirt" src="Assets/img/Camiseta.jpg" alt="camiseta">
-                            <a href="#" class="shop-buttom">Comprar camiseta</a>
+                    </div>
+                </div>
+                <div id="Colabora" class="widget-shop">
+                    <div>
+                        <h3>Colabora</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer <a href="/#proyecto">Sobre el proyecto</a> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                        <div class="shop">
+                            <div>
+                                <div  class="print">
+                                    <picture alt="retrato de Rebecca Wirfs-Brock" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-rebecca_wirfs-brock.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-rebecca_wirfs-brock.png" 
+                                        alt="retrato de Rebecca Wirfs-Brock" >
+                                    </picture>
+                                    <img src="Assets/img/shop-taza.png" alt="tazas">
+                                </div>
+                                <div class="action">
+                                    <div class="price">12€</div>
+                                    <div>donas <strong>3€</strong></div>
+                                    <a href="#">Taza</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="print">
+                                    <picture alt="retrato de Rebecca Wirfs-Brock" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-rebecca_wirfs-brock.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-rebecca_wirfs-brock.png" 
+                                        alt="retrato de Rebecca Wirfs-Brock" >
+                                    </picture>
+                                    <img src="Assets/img/shop-camiseta.png" alt="camiseta">
+                                </div>
+                                <div class="action">
+                                    <div class="price">20€</div>
+                                    <div>donas <strong>5€</strong></div>
+                                    <a href="#">Camiseta</a>
+                                </div>
+                            
                         </div>
                     </div>
-                </div>                
+                </div>               
             </article>            
-        </div>
+        </main>
         <!-- ==== End content ==== -->
-    </div>
-    <!-- ==== End container ==== -->
 
         <!-- ==== footer ==== -->
     <footer class="footer">
@@ -195,7 +234,7 @@ sobre diseño de software, patrones de diseño, etc.
             <li class="github"><a href="https://github.com/osoco/a-hombros-de-gigantas/"><span>GitHub</span></a></li>
             <li class="instagram"><a href="#"><span>Instagram</span></a></li>
             <li class="twitter">
-                <a href="http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20las%20gigantas%20de%20la%20inform%C3%A1tica%3F%20Proyecto%20que%20visibiliza%20a%20las%20mujeres%20que%20han%20aportado%20al%20mundo%20de%20la%20computaci%C3%B3n.%20%23Ahombrosdegigantas%20%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2F%0A"></a><span>Twitter</span></a></li>
+                <a target="_blank" href="http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20las%20gigantas%20de%20la%20inform%C3%A1tica%3F%20Proyecto%20que%20visibiliza%20a%20las%20mujeres%20que%20han%20aportado%20al%20mundo%20de%20la%20computaci%C3%B3n.%20%23Ahombrosdegigantas%20%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2F%0A"></a><span>Twitter</span></a></li>
         </ul>
 
     <nav>
@@ -207,8 +246,7 @@ sobre diseño de software, patrones de diseño, etc.
     <address>
         <strong class="logo"> <img src="Assets/img/logo.svg" alt="A hombros de gigantas"></strong>
         <a href="gigantas@osoco.es" class="e-mail">gigantas@osoco.es</a>
-        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a> con ilustraciones de <a href="https://www.instagram.com/lureka_es/"> 
-            Lureka</a></small>
+        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a></small>
     </address>	
     
 </footer>

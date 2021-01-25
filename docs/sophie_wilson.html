@@ -60,23 +60,22 @@
     }
     </script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="Assets/reset.css" rel="stylesheet" media="all" type="text/css">
     <link href="Assets/base2.css" rel="stylesheet" media="all" type="text/css">
     <link href="Assets/masks.css" rel="stylesheet" media="all" type="text/css">
 </head>
-<body  class="Detail bgc-sophie_wilson">
+<body  class="Detail">
 
-    <!-- ==== container ==== -->
-    <div class="container">
 
         <!-- ==== header ==== -->
         <header class="header">
             <h1 class="logo"><a href="/"><img src="Assets/img/logo.svg" alt="A hombros de gigantas"></a></h1>
             <nav class="related">
                 <div id="nav_previous" class="nav-previous">
-                    <a href="rebecca_wirfs-brock.html" rel="prev">
-                        <article><div class="media"><img width="100"  src="Assets/img/rebecca_wirfs-brock-t.png" class="thumbnail" alt=" "></div><h1>Rebecca Wirfs-Brock</h1></article>
+                    <a href="shafi_goldwasser.html" rel="prev">
+                        <article><div class="media"><img width="100"  src="Assets/img/shafi_goldwasser-t.png" class="thumbnail" alt=" "></div><h1>Shafi Goldwasser</h1></article>
                     </a> 
                 </div>
                 <div id="nav_next" class="nav-next">
@@ -89,25 +88,37 @@
         </header>
 
         <!-- ==== content ==== -->
-        <div class="content">
+        <main class="content">
             <article class="detail-content">                            
-
-                <div class="detail-body">  
+                <div class="detail-header  bgc-sophie_wilson">
                     <picture class="portrait sophie_wilson"  alt="retrato de Sophie Wilson" >  
                         <source 
-                          media="(min-width: 650px)"
-                          srcset="Assets/img/sophie_wilson.png">
+                        media="(min-width: 650px)"
+                        srcset="Assets/img/sophie_wilson.png">
                         <img class="portrait sophie_wilson"
-                          src="Assets/img/sophie_wilson-m.png" 
-                          alt="retrato de Sophie Wilson" >
-                      </picture>      
-                    <div class="detail-info">
+                        src="Assets/img/sophie_wilson-m.png" 
+                        alt="retrato de Sophie Wilson" >
+                    </picture>
+                    <div>
                         <h1 class="title"><img src="Assets/img/nombres/sophie_wilson.svg" class="names" alt="Sophie Wilson"></h1>
                         <h2 class="subtitle">Diseñó los procesadores ARM que utilizan los móviles y tablets</h2>
+                        <p>Es muy probable que tu smartphone funcione con un procesador de la familia 
+            ARM en su interior. De hecho, este tipo de procesadores es tan ubicuo que se 
+            encuentra en un 90% de los discos duros, un 80% de las cámaras digitales y en 
+            muchos otros sistemas embebidos, como impresoras o televisiones digitales. Este prodigio 
+            del diseño de circuitos electrónicos se lo debemos al trabajo y genialidad de 
+            Sophie Wilson.</p>
                         <address class="authors">
-                            <p>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</p>
-                            <p>Textos por <a rel="author" href="https://twitter.com/rafael_luque">Rafael Luque</a>.</p> 
+                            <div>Ilustraciones por <a rel="author" href="https://instagram.com/lureka_es">Emilio Rodríguez</a>.</div>
+                            <div>Textos por <a rel="author" href="https://twitter.com/rafael_luque">Rafael Luque</a>.</div> 
+                            <a href="#Colabora" class="btn-colabora">Colabora</a>
                         </address>
+                        <img class="ico-scrollDown" src="Assets/img/ico-scrollDown.svg">
+                    </div>
+                </div>
+                <div class="detail-body">  
+                       
+                    <div class="detail-info">
                         <p>
 Es muy probable que tu <em>smartphone</em> funcione con un procesador de la familia 
 ARM en su interior. De hecho, este tipo de procesadores es tan ubicuo que se 
@@ -242,7 +253,6 @@ menos de una décima de vatio.
 </figure>
 </p>
 
- <hr/> 
 <p>
 En la actualidad Wilson es la Directora de Diseño de Circuitos Integrados en la 
 oficina de Broadcom en Cambridge, Reino Unido.
@@ -282,17 +292,53 @@ sus servicios a la informática.
 <p>
     
 </p>
-                        <div class="widget-shop">
-                            <img class="shirt" src="Assets/img/Camiseta.jpg" alt="camiseta">
-                            <a href="#" class="shop-buttom">Comprar camiseta</a>
+                    </div>
+                </div>
+                <div id="Colabora" class="widget-shop">
+                    <div>
+                        <h3>Colabora</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer <a href="/#proyecto">Sobre el proyecto</a> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                        <div class="shop">
+                            <div>
+                                <div  class="print">
+                                    <picture alt="retrato de Sophie Wilson" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-sophie_wilson.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-sophie_wilson.png" 
+                                        alt="retrato de Sophie Wilson" >
+                                    </picture>
+                                    <img src="Assets/img/shop-taza.png" alt="tazas">
+                                </div>
+                                <div class="action">
+                                    <div class="price">12€</div>
+                                    <div>donas <strong>3€</strong></div>
+                                    <a href="#">Taza</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="print">
+                                    <picture alt="retrato de Sophie Wilson" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-sophie_wilson.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-sophie_wilson.png" 
+                                        alt="retrato de Sophie Wilson" >
+                                    </picture>
+                                    <img src="Assets/img/shop-camiseta.png" alt="camiseta">
+                                </div>
+                                <div class="action">
+                                    <div class="price">20€</div>
+                                    <div>donas <strong>5€</strong></div>
+                                    <a href="#">Camiseta</a>
+                                </div>
+                            
                         </div>
                     </div>
-                </div>                
+                </div>               
             </article>            
-        </div>
+        </main>
         <!-- ==== End content ==== -->
-    </div>
-    <!-- ==== End container ==== -->
 
         <!-- ==== footer ==== -->
     <footer class="footer">
@@ -301,7 +347,7 @@ sus servicios a la informática.
             <li class="github"><a href="https://github.com/osoco/a-hombros-de-gigantas/"><span>GitHub</span></a></li>
             <li class="instagram"><a href="#"><span>Instagram</span></a></li>
             <li class="twitter">
-                <a href="http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20las%20gigantas%20de%20la%20inform%C3%A1tica%3F%20Proyecto%20que%20visibiliza%20a%20las%20mujeres%20que%20han%20aportado%20al%20mundo%20de%20la%20computaci%C3%B3n.%20%23Ahombrosdegigantas%20%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2F%0A"></a><span>Twitter</span></a></li>
+                <a target="_blank" href="http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20las%20gigantas%20de%20la%20inform%C3%A1tica%3F%20Proyecto%20que%20visibiliza%20a%20las%20mujeres%20que%20han%20aportado%20al%20mundo%20de%20la%20computaci%C3%B3n.%20%23Ahombrosdegigantas%20%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2F%0A"></a><span>Twitter</span></a></li>
         </ul>
 
     <nav>
@@ -313,8 +359,7 @@ sus servicios a la informática.
     <address>
         <strong class="logo"> <img src="Assets/img/logo.svg" alt="A hombros de gigantas"></strong>
         <a href="gigantas@osoco.es" class="e-mail">gigantas@osoco.es</a>
-        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a> con ilustraciones de <a href="https://www.instagram.com/lureka_es/"> 
-            Lureka</a></small>
+        <small>Copyright 2020-2021. Creado por <a href="https://osoco.es">OSOCO</a></small>
     </address>	
     
 </footer>

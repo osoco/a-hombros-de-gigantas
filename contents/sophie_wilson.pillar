@@ -5,7 +5,7 @@ muchos otros sistemas embebidos, como impresoras o televisiones digitales. Hasta
 2020 se han producido unos 160.000 millones de chips basados en ARM. Este prodigio 
 del diseño de circuitos electrónicos se lo debemos al trabajo y genialidad de 
 Sophie Wilson, quien lo diseñó en 1983, junto a 
-*Steve Furber>https://es.wikipedia.org/wiki/Steve_Furber*.
+*Steve Furber>https://es.wikipedia.org/wiki/Steve_Furber|target=_blank*.
 
 !!! La revolución del ordenador doméstico
 
@@ -13,17 +13,17 @@ Antes de su contribución con el ARM, Wilson jugó un papel determinante en la c
 por diseñar los primeros microordenadores para el mercado doméstico, que tuvo lugar a 
 finales de los 70 y comienzos de los 80. Esta historia de rivalidad empresarial y 
 genio técnico es tan apasionante que hasta la BBC emitió el docudrama 
-*Micro Men>https://en.wikipedia.org/wiki/Micro_Men* dedicado a ella, en el que la 
+*Micro Men>https://en.wikipedia.org/wiki/Micro_Men|target=_blank* dedicado a ella, en el que la 
 propia Wilson aparece haciendo un cameo.
 
 Wilson comenzó sus estudios de informática y matemáticas en el Selwyn College de la 
 Universidad de Cambridge en 1975. En unas vacaciones de navidad, Wilson diseñó su 
 primer microordenador, basado en el clásico microprocesador de 8 bits
-*MOS 6502>https://es.wikipedia.org/wiki/MOS_6502*, que se empleó para controlar 
+*MOS 6502>https://es.wikipedia.org/wiki/MOS_6502|target=_blank*, que se empleó para controlar 
 electrónicamente la alimentación de unas vacas.
 
 En 1978, siendo aún estudiante, aceptó el desafío del emprendedor 
-*Hermann Hauser>https://en.wikipedia.org/wiki/Hermann_Hauser* de diseñar un ordenador 
+*Hermann Hauser>https://en.wikipedia.org/wiki/Hermann_Hauser|target=_blank* de diseñar un ordenador 
 personal y entregarle un prototipo funcionando al finalizar sus vacaciones de verano. 
 Wilson volvió a diseñar un sistema basado en el micro 6502 que se convirtió en el 
 ""System 1"", el primer microcomputador ofrecido por ""Acorn Computers"", la 
@@ -74,7 +74,7 @@ Acorn, siguiendo las ideas de una nueva arquitectura de ordenadores basada en un
 reducido de instrucciones (RISC). Este nuevo procesador, denominado ''Acorn RISC Machine'' 
 o ""ARM"", fue utilizado por Acorn en 1987 en el primer ordenador de propósito general basado
 en ARM, el modelo ''Archimedes''. Apple también lo utilizó en su primer dispositivo tipo 
-PDA, la *Apple Newton>https://es.wikipedia.org/wiki/Apple_Newton*.
+PDA, la *Apple Newton>https://es.wikipedia.org/wiki/Apple_Newton|target=_blank*.
 
 Una de las características principales de la familia de procesadores ARM es su bajo consumo 
 de energía. Sin embargo, según reconoce Furber, parece que esta fue una consecuencia 
@@ -108,13 +108,11 @@ menos de una décima de vatio.
 +Wilson junto a una foto del diagrama del primer procesador ARM (imagen de Wikipedia con licencia CC BY)>file://figures/Sophie_Wilson_ARM.jpg|width=50+
 
 
-{{{ <hr/> }}}
-
 En la actualidad Wilson es la Directora de Diseño de Circuitos Integrados en la 
 oficina de Broadcom en Cambridge, Reino Unido.
 
 Las contribuciones de Wilson a la informática han sido reconocidas con multitud de 
-galardones, como el Premio Fellow del *Museo de la Historia del Ordenador>http://www.computerhistory.org/*
+galardones, como el Premio Fellow del *Museo de la Historia del Ordenador>http://www.computerhistory.org/|target=_blank*
 de California en 2012 "por su trabajo, con Steve Furber, en el Computadora BBC Micro y 
 la arquitectura del procesador ARM". 
 
@@ -128,13 +126,13 @@ sus servicios a la informática.
 
 !!! Referencias sobre Sophie Wilson
 
-- *Página personal de Wilson>https://www.sophie.org.uk/*
-- *Charla de Wilson sobre el futuro de los procesadores en la CodeMesh Londong 2016>https://www.youtube.com/watch?v=_9mzmvhwMqw*
-- *Informe sobre el legado del BBC Micro>https://media.nesta.org.uk/documents/the_legacy_of_bbc_micro.pdf*
-- *Sophie Wilson en Wikipedia>https://en.wikipedia.org/wiki/Sophie_Wilson*
-- *BBC Micro en Wikipedia>https://es.wikipedia.org/wiki/BBC_Micro*
-- *Págia de Sophie Wilson del Centro de Historia de la Informática>http://www.computinghistory.org.uk/det/6615/Sophie-Wilson/*
-- *Artículo sobre Sophie Wilson y Steve Furber como creadores de ARM>https://www.theregister.com/2012/05/02/unsung_heroes_of_tech_arm_creators_sophie_wilson_and_steve_furber/*
+- *Página personal de Wilson>https://www.sophie.org.uk/|target=_blank*
+- *Charla de Wilson sobre el futuro de los procesadores en la CodeMesh Londong 2016>https://www.youtube.com/watch?v=_9mzmvhwMqw|target=_blank*
+- *Informe sobre el legado del BBC Micro>https://media.nesta.org.uk/documents/the_legacy_of_bbc_micro.pdf|target=_blank*
+- *Sophie Wilson en Wikipedia>https://en.wikipedia.org/wiki/Sophie_Wilson|target=_blank*
+- *BBC Micro en Wikipedia>https://es.wikipedia.org/wiki/BBC_Micro|target=_blank*
+- *Págia de Sophie Wilson del Centro de Historia de la Informática>http://www.computinghistory.org.uk/det/6615/Sophie-Wilson/|target=_blank*
+- *Artículo sobre Sophie Wilson y Steve Furber como creadores de ARM>https://www.theregister.com/2012/05/02/unsung_heroes_of_tech_arm_creators_sophie_wilson_and_steve_furber/|target=_blank*
 
 
 

@@ -60,15 +60,14 @@
     }
     </script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="Assets/reset.css" rel="stylesheet" media="all" type="text/css">
     <link href="Assets/base2.css" rel="stylesheet" media="all" type="text/css">
     <link href="Assets/masks.css" rel="stylesheet" media="all" type="text/css">
 </head>
-<body  class="Detail bgc-{{alias}}">
+<body  class="Detail">
 
-    <!-- ==== container ==== -->
-    <div class="container">
 
         <!-- ==== header ==== -->
         <header class="header">
@@ -89,37 +88,80 @@
         </header>
 
         <!-- ==== content ==== -->
-        <div class="content">
+        <main class="content">
             <article class="detail-content">                            
-
-                <div class="detail-body">  
+                <div class="detail-header  bgc-{{alias}}">
                     <picture class="portrait {{alias}}"  alt="retrato de {{name}}" >  
                         <source 
-                          media="(min-width: 650px)"
-                          srcset="Assets/img/{{alias}}.png">
+                        media="(min-width: 650px)"
+                        srcset="Assets/img/{{alias}}.png">
                         <img class="portrait {{alias}}"
-                          src="Assets/img/{{alias}}-m.png" 
-                          alt="retrato de {{name}}" >
-                      </picture>      
-                    <div class="detail-info">
+                        src="Assets/img/{{alias}}-m.png" 
+                        alt="retrato de {{name}}" >
+                    </picture>
+                    <div>
                         <h1 class="title"><img src="Assets/img/nombres/{{alias}}.svg" class="names" alt="{{name}}"></h1>
                         <h2 class="subtitle">{{headline}}</h2>
+                        <p>{{summary}}</p>
                         <address class="authors">
-                            <p>Ilustraciones por <a rel="author" href="{{illustratorUrl}}">{{illustrator}}</a>.</p>
-                            <p>Textos por <a rel="author" href="{{authorUrl}}">{{author}}</a>.</p> 
+                            <div>Ilustraciones por <a rel="author" href="{{illustratorUrl}}">{{illustrator}}</a>.</div>
+                            <div>Textos por <a rel="author" href="{{authorUrl}}">{{author}}</a>.</div> 
+                            <a href="#Colabora" class="btn-colabora">Colabora</a>
                         </address>
+                        <img class="ico-scrollDown" src="Assets/img/ico-scrollDown.svg">
+                    </div>
+                </div>
+                <div class="detail-body">  
+                       
+                    <div class="detail-info">
                         {{{contents}}}
-                        <div class="widget-shop">
-                            <img class="shirt" src="Assets/img/Camiseta.jpg" alt="camiseta">
-                            <a href="#" class="shop-buttom">Comprar camiseta</a>
+                    </div>
+                </div>
+                <div id="Colabora" class="widget-shop">
+                    <div>
+                        <h3>Colabora</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer <a href="/#proyecto">Sobre el proyecto</a> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip.</p>
+                        <div class="shop">
+                            <div>
+                                <div  class="print">
+                                    <picture alt="retrato de {{name}}" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-{{alias}}.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-{{alias}}.png" 
+                                        alt="retrato de {{name}}" >
+                                    </picture>
+                                    <img src="Assets/img/shop-taza.png" alt="tazas">
+                                </div>
+                                <div class="action">
+                                    <div class="price">12€</div>
+                                    <div>donas <strong>3€</strong></div>
+                                    <a href="#">Taza</a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="print">
+                                    <picture alt="retrato de {{name}}" >  
+                                        <source  class="print"
+                                        srcset="Assets/img/ts-{{alias}}.png">
+                                        <img class="print"
+                                        src="Assets/img/ts-{{alias}}.png" 
+                                        alt="retrato de {{name}}" >
+                                    </picture>
+                                    <img src="Assets/img/shop-camiseta.png" alt="camiseta">
+                                </div>
+                                <div class="action">
+                                    <div class="price">20€</div>
+                                    <div>donas <strong>5€</strong></div>
+                                    <a href="#">Camiseta</a>
+                                </div>
+                            
                         </div>
                     </div>
-                </div>                
+                </div>               
             </article>            
-        </div>
+        </main>
         <!-- ==== End content ==== -->
-    </div>
-    <!-- ==== End container ==== -->
 
     {{>footer}}
 

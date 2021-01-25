@@ -12,6 +12,10 @@
         {
             "name": "Ada Lovelace",
             "headline": "En el principio fue Ada",
+            "summary": "Ada Lovelace fue la primera 
+            persona que tuvo la visión de ver el potencial de una máquina 
+            calculadora de números e ir más allá y pensar en su generalización y 
+            programación, redactando así el primer algoritmo en la historia.",
             "alias": "ada_lovelace",
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
@@ -21,6 +25,10 @@
         {
             "name": "Adele Goldberg",
             "headline": "Desarrolladora de Smalltalk, precursor de la computación personal",
+            "summary": "Adele Goldberg fue parte importante del equipo de Xerox PARC que
+            creó el ambiente de programación Smalltalk, que fue pionero en la computación
+            personal y en aspectos como la interfaz de usuario gráfica o la 
+            programación orientada a objetos.",
             "alias": "adele_goldberg",
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
@@ -30,6 +38,9 @@
         {
             "name": "Barbara Liskov",
             "headline": "Inventó los Tipos de Datos Abstractos",
+            "summary": "Entre otras aportaciones, Liskov es la autora del principio
+            de programación conocido como Principio de Sustitución de Liskov, al que 
+            se refiere la letra L de los conocidos principios SOLID.",
             "alias": "barbara_liskov",
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
@@ -39,6 +50,9 @@
         {
             "name": "Frances Allen",
             "headline": "Su trabajo se usa para optimizar cada sistema de software actual",
+            "summary": "El trabajo de Allen 
+            juega un papel en casi todo el software que se desarrolla hoy en día, 
+            desde desarrollo de aplicaciones, videojuegos, banca, etc. ",
             "alias": "frances_allen",
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
@@ -48,6 +62,9 @@
         {
             "name": "Grace Hopper",
             "headline": "Creó el primer lenguaje de programación de alto nivel",
+            "summary": "A Grace Hopper le dijeron que no se podía hacer un lenguaje de programación que 
+            utilizara palabras en inglés. Le dijeron que eso no era posible, que la idea era 
+            inviable, que los ordenadores no entendían el idioma.",
             "alias": "grace_hopper",
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
@@ -57,6 +74,10 @@
         {
             "name": "Margaret Hamilton",
             "headline": "Su código nos llevó a la Luna",
+            "summary": "El 20 de julio de 1969, millones de personas en todo el mundo presenciaron asombrados
+            la transmisión por televisión de la llegada del hombre a la luna. Lo que la mayoría de ellos 
+            ignoraba es que aquella proeza se logró en gran medida gracias al software que había diseñado
+            el equipo dirigido por Hamilton, una joven matemática de 33 años.",
             "alias": "margaret_hamilton",
             "author": "Rafael Luque",
             "authorUrl": "https://twitter.com/rafael_luque",
@@ -66,6 +87,8 @@
         {
             "name": "Marian Croak",
             "headline": "Creó la tecnología de las llamadas por Internet",
+            "summary": "¿Te imaginas el teletrabajo sin poder hacer una videoconferencia, o el 
+            confinamiento sin poder hacer una videollamada con tu familia y amigos? Marian Croak ha hecho esto posible. ",
             "alias": "marian_croak",
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
@@ -75,6 +98,9 @@
         {
             "name": "Nancy Lynch",
             "headline": "Pionera de los algoritmos distribuidos",
+            "summary": "Es autora del libro de 
+            texto Algoritmos Distribuidos y es altamente reconocida por sus 
+            contribuciones a la teoría de la informática distribuida.",
             "alias": "nancy_lynch",
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
@@ -84,33 +110,50 @@
         {
             "name": "Radia Perlman",
             "headline": "La madre de Internet",
+            "summary": "Fue de las pocas 
+            mujeres programadoras que trabajó en el montaje de las redes y la tecnología de lo 
+            que ahora conocemos como Internet.",
             "alias": "radia_perlman",
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
             "illustrator": "Emilio Rodríguez",
             "illustratorUrl": "https://instagram.com/lureka_es"
-        }, 
-        {
-            "name": "Shafi Goldwasser",
-            "headline": "Su investigación permite las transmisiones seguras en Internet",
-            "alias": "shafi_goldwasser",
-            "author": "Libertad Pozos",
-            "authorUrl": "https://twitter.com/LibertadPozos",
-            "illustrator": "Emilio Rodríguez",
-            "illustratorUrl": "https://instagram.com/lureka_es"
-        },      
+        },
         {
             "name": "Rebecca Wirfs-Brock",
             "headline": "Pionera del diseño orientado a objetos",
+            "summary": "Rebecca Wirfs-Brock es una pionera del diseño de software basado en el paradigma
+            de objetos y es la inventora de Responsibility Driven Design o RDD, según sus
+            siglas en inglés, una técnica que ha influido en otras técnicas de diseño más recientes,
+            que quizá conozcas mejor, como TDD (Test Driven Development), 
+            BDD (Behaviour Driven Development) o DDD (Domain Driven Development).",
             "alias": "rebecca_wirfs-brock",
             "author": "Rafael Luque",
             "authorUrl": "https://twitter.com/rafael_luque",
             "illustrator": "Emilio Rodríguez",
             "illustratorUrl": "https://instagram.com/lureka_es"            
+        },        
+        {
+            "name": "Shafi Goldwasser",
+            "headline": "Su investigación permite las transmisiones seguras en Internet",
+            "summary": "Shafi Goldwasser ha dedicado su trabajo a 
+            la generación de números pseudoaleatorios, sistemas de cifrado y criptográficos que 
+            han sido fundamentales en garantizar la seguridad en la comunicación en la era digital.",
+            "alias": "shafi_goldwasser",
+            "author": "Libertad Pozos",
+            "authorUrl": "https://twitter.com/LibertadPozos",
+            "illustrator": "Emilio Rodríguez",
+            "illustratorUrl": "https://instagram.com/lureka_es"
         },   
         {
             "name": "Sophie Wilson",
             "headline": "Diseñó los procesadores ARM que utilizan los móviles y tablets",
+            "summary": "Es muy probable que tu smartphone funcione con un procesador de la familia 
+            ARM en su interior. De hecho, este tipo de procesadores es tan ubicuo que se 
+            encuentra en un 90% de los discos duros, un 80% de las cámaras digitales y en 
+            muchos otros sistemas embebidos, como impresoras o televisiones digitales. Este prodigio 
+            del diseño de circuitos electrónicos se lo debemos al trabajo y genialidad de 
+            Sophie Wilson.",
             "alias": "sophie_wilson",
             "author": "Rafael Luque",
             "authorUrl": "https://twitter.com/rafael_luque",
