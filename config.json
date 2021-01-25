@@ -3,6 +3,7 @@
     "indexTemplate": "index.mustache.html",
     "footerTemplate": "footer.mustache.html",
     "cardTemplate": "giganta.mustache.html",
+    "introTemplate": "intro.mustache.html",
     "assets": [
         "../Assets",
         "../contents/figures"
