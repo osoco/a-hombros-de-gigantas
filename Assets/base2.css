@@ -94,7 +94,7 @@ blockquote::before {
     position: relative;
 }
 .social .vimeo a::before {
-    content: url("img/ico-instagram.svg");
+    content: url("img/ico-vimeo.svg");
     display: inline-block;
     width: 32px;
     top: 5px;

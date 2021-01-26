@@ -90,25 +90,25 @@ blockquote::before {
     content: url("img/ico-github.svg");
     display: inline-block;
     width: 32px;
-    top: 8px;
+    height: 32px;
     position: relative;
 }
 .social .vimeo a::before {
-    content: url("img/ico-instagram.svg");
+    content: url("img/ico-vimeo.svg");
     display: inline-block;
     width: 32px;
-    top: 5px;
+    height: 32px;
     position: relative;
 }
 .social .twitter a::before {
     content: url("img/ico-twitter.svg");
     display: inline-block;
     width: 32px;
-    top: 11px;
+    height: 32px;
     position: relative;
 }
 .social {
-    text-align: center; 
+    /* text-align: center;  */
     display: flex;
     justify-content: center;
 }
@@ -121,10 +121,14 @@ blockquote::before {
 
 .social li {
     display: inline-block;
-    margin: 1em 0.5em;
+    margin: 10px;
 }
 .social li a {
    opacity: .6;
+   height: 32px;
+   padding: 0;
+   margin: 0;
+   display: block;
 }
 .social li a:hover {
     opacity: 1;
