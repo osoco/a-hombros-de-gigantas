@@ -54,7 +54,7 @@ blockquote::before {
     display: block;
     width: 100%;
     background: #000;
-    color:rgba(255, 255, 255, 0.733);
+    color:#666;
     padding: 16px;
     font-size: .85rem;
     align-items: baseline;

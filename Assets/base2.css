@@ -54,7 +54,7 @@ blockquote::before {
     display: block;
     width: 100%;
     background: #000;
-    color:rgba(255, 255, 255, 0.733);
+    color:#666;
     padding: 16px;
     font-size: .85rem;
     align-items: baseline;
@@ -90,25 +90,25 @@ blockquote::before {
     content: url("img/ico-github.svg");
     display: inline-block;
     width: 32px;
-    top: 8px;
+    height: 32px;
     position: relative;
 }
 .social .vimeo a::before {
     content: url("img/ico-vimeo.svg");
     display: inline-block;
     width: 32px;
-    top: 5px;
+    height: 32px;
     position: relative;
 }
 .social .twitter a::before {
     content: url("img/ico-twitter.svg");
     display: inline-block;
     width: 32px;
-    top: 11px;
+    height: 32px;
     position: relative;
 }
 .social {
-    text-align: center; 
+    /* text-align: center;  */
     display: flex;
     justify-content: center;
 }
@@ -121,10 +121,14 @@ blockquote::before {
 
 .social li {
     display: inline-block;
-    margin: 1em 0.5em;
+    margin: 10px;
 }
 .social li a {
    opacity: .6;
+   height: 32px;
+   padding: 0;
+   margin: 0;
+   display: block;
 }
 .social li a:hover {
     opacity: 1;
@@ -690,13 +694,13 @@ blockquote::before {
 }
 .project-body h2{
     font-family: 'Roboto', sans-serif;
-    font-size: 1.8em;
+    font-size: 1.5em;
     padding-top: 40px;
     line-height: 1.2em;
 }
 .project-body h3{
     font-family: 'Roboto', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding-top: 30px;
     line-height: 1.2em;
 }
