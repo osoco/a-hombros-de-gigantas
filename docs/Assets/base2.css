@@ -694,13 +694,13 @@ blockquote::before {
 }
 .project-body h2{
     font-family: 'Roboto', sans-serif;
-    font-size: 1.8em;
+    font-size: 1.5em;
     padding-top: 40px;
     line-height: 1.2em;
 }
 .project-body h3{
     font-family: 'Roboto', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding-top: 30px;
     line-height: 1.2em;
 }
