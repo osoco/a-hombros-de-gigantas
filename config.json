@@ -22,7 +22,8 @@
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
             "illustrator": "Emilio Rodríguez Vila",
-            "illustratorUrl": "https://instagram.com/lureka_es"
+            "illustratorUrl": "https://instagram.com/lureka_es",
+            "tweet":" "
         },
         {
             "name": "Adele Goldberg",
@@ -35,7 +36,8 @@
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
             "illustrator": "Emilio Rodríguez Vila",
-            "illustratorUrl": "https://instagram.com/lureka_es"
+            "illustratorUrl": "https://instagram.com/lureka_es",
+            "tweet":""
         },
         {
             "name": "Barbara Liskov",
@@ -47,7 +49,8 @@
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
             "illustrator": "Emilio Rodríguez Vila",
-            "illustratorUrl": "https://instagram.com/lureka_es"
+            "illustratorUrl": "https://instagram.com/lureka_es",
+            "tweet":"",
         },
         {
             "name": "Frances Allen",
@@ -59,7 +62,8 @@
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
             "illustrator": "Emilio Rodríguez Vila",
-            "illustratorUrl": "https://instagram.com/lureka_es"
+            "illustratorUrl": "https://instagram.com/lureka_es",
+            "tweet":""
         },
         {
             "name": "Grace Hopper",
@@ -71,7 +75,8 @@
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
             "illustrator": "Emilio Rodríguez Vila",
-            "illustratorUrl": "https://instagram.com/lureka_es"
+            "illustratorUrl": "https://instagram.com/lureka_es",
+            "tweet":""
         },
         {
             "name": "Margaret Hamilton",
@@ -84,7 +89,8 @@
             "author": "Rafael Luque",
             "authorUrl": "https://twitter.com/rafael_luque",
             "illustrator": "Emilio Rodríguez Vila",
-            "illustratorUrl": "https://instagram.com/lureka_es"            
+            "illustratorUrl": "https://instagram.com/lureka_es",
+            "tweet":""            
         },
         {
             "name": "Marian Croak",
@@ -95,7 +101,8 @@
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
             "illustrator": "Emilio Rodríguez Vila",
-            "illustratorUrl": "https://instagram.com/lureka_es"
+            "illustratorUrl": "https://instagram.com/lureka_es",
+            "tweet":""
         },
         {
             "name": "Nancy Lynch",
@@ -107,7 +114,8 @@
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
             "illustrator": "Emilio Rodríguez Vila",
-            "illustratorUrl": "https://instagram.com/lureka_es"
+            "illustratorUrl": "https://instagram.com/lureka_es",
+            "tweet":""
         },
         {
             "name": "Radia Perlman",
@@ -119,7 +127,8 @@
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
             "illustrator": "Emilio Rodríguez Vila",
-            "illustratorUrl": "https://instagram.com/lureka_es"
+            "illustratorUrl": "https://instagram.com/lureka_es",
+            "tweet":""
         },
         {
             "name": "Rebecca Wirfs-Brock",
@@ -133,7 +142,8 @@
             "author": "Rafael Luque",
             "authorUrl": "https://twitter.com/rafael_luque",
             "illustrator": "Emilio Rodríguez Vila",
-            "illustratorUrl": "https://instagram.com/lureka_es"            
+            "illustratorUrl": "https://instagram.com/lureka_es",
+            "tweet":""          
         },        
         {
             "name": "Shafi Goldwasser",
@@ -145,7 +155,8 @@
             "author": "Libertad Pozos",
             "authorUrl": "https://twitter.com/LibertadPozos",
             "illustrator": "Emilio Rodríguez Vila",
-            "illustratorUrl": "https://instagram.com/lureka_es"
+            "illustratorUrl": "https://instagram.com/lureka_es",
+            "tweet":""
         },   
         {
             "name": "Sophie Wilson",
@@ -160,7 +171,8 @@
             "author": "Rafael Luque",
             "authorUrl": "https://twitter.com/rafael_luque",
             "illustrator": "Emilio Rodríguez Vila",
-            "illustratorUrl": "https://instagram.com/lureka_es"
+            "illustratorUrl": "https://instagram.com/lureka_es",
+            "tweet":""
         }
     ]
 }
