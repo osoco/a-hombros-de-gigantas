@@ -66,10 +66,7 @@
     <link href="Assets/base2.css" rel="stylesheet" media="all" type="text/css">
     <link href="Assets/masks.css" rel="stylesheet" media="all" type="text/css">
 </head>
-<body class="content">
-
-    <!-- ==== container ==== -->
-    <div class="container">
+<body class="Intro">
 
         <!-- ==== header ==== -->
         <header class="header">
@@ -77,15 +74,23 @@
         </header>
 
         <!-- ==== content ==== -->
-        <div class="content">
-            <section class="section project" id="proyecto">
-                <div class="section-content">
-                    {{{contents}}}
+        <main class="content">
+            <section class="project-content">
+                <div class="project-header">
+                    <div class="video-wrapper">
+                        <video autoplay muted loop id="myVideo">
+                            <source src="Assets/img/sobre_el_proyecto.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <div>
+                        {{{contents}}}
+                    </div>
                 </div>
             </section>
-        </div>
-        <!-- ==== End content ==== -->
-    </div>
+        </main>
+
     <!-- ==== End container ==== -->
     {{>footer}}
 </body>

@@ -3,6 +3,9 @@
  /- 02 Home
  /- 03 Details
  /- 04 Home-2 - Gigants-ts
+ /- 05 Intro
+
+ /- KEYFRAMES 
 */
 *{
     box-sizing: border-box;
@@ -90,7 +93,7 @@ blockquote::before {
     top: 8px;
     position: relative;
 }
-.social .instagram a::before {
+.social .vimeo a::before {
     content: url("img/ico-instagram.svg");
     display: inline-block;
     width: 32px;
@@ -108,6 +111,12 @@ blockquote::before {
     text-align: center; 
     display: flex;
     justify-content: center;
+}
+@media (min-width: 768px) {
+    .social {
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+    }
 }
 
 .social li {
@@ -635,6 +644,75 @@ blockquote::before {
 .related .nav-previous a article, .related .nav-next a article {
    display: none;
 }
+/* /- 05 Intro */
+.project-header{
+    background-image: url("img/bg-intro.png");
+    padding: 30px;
+}
+.video-wrapper{
+    overflow:hidden;
+    display:block;
+    max-width: 300px;
+    height: 0;
+    padding-bottom: 300px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 140px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4);
+}
+@media (min-width: 768px) {
+    .video-wrapper{
+        max-width: 700px;
+        padding-bottom: 700px;
+        margin-top: 0;
+    }
+}
+.video-wrapper #myVideo{
+    height: 302px;
+    width: 302px;
+    object-fit: cover;
+}
+@media (min-width: 768px) {
+    .video-wrapper #myVideo{
+        height: 702px;
+        width: 702px;
+    }
+}
+.project-body{
+    margin-bottom: 100px;
+}
+.project-body h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    padding-top: 50px;
+    line-height: 1.2em;
+}
+.project-body h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    padding-top: 40px;
+    line-height: 1.2em;
+}
+.project-body h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    padding-top: 30px;
+    line-height: 1.2em;
+}
+.project-body > div{
+    display: block;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+/* KEYFRAMES */
 
   @keyframes animationFrames{
     0% {
