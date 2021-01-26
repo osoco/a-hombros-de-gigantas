@@ -10,7 +10,7 @@
 
 	Textos: Libertad Pozos
 	Twitter: @LibertadPozos
-	From: 
+	From: México
 
 	Textos + Generador del sitio en Pharo: Rafael Luque
 	Twitter: @rafael_luque
