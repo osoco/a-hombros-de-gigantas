@@ -209,7 +209,7 @@ blockquote::before {
 .widget-shop .shop .print img.print{
     width: 70px;
     position: absolute;
-    top: calc(50% - 35px);
+    top: calc(50% - 55px);
     left: calc(50% - 35px);
     z-index: 2;
 }
