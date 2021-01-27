@@ -84,7 +84,7 @@ blockquote::before {
     display: inline-block;
 }
 .footer address {max-width: 90%; text-align: center; margin: 0 auto;}
-.footer address ul {display: flex; align-items: center; margin: 0 auto;}
+@media (min-width:900px) { .footer address ul {display: flex; align-items: center; margin: 0 auto;}}
 .footer address .logo {margin-right: 32px;}
 
 .social .github a::before {
@@ -113,12 +113,7 @@ blockquote::before {
     display: flex;
     justify-content: center;
 }
-@media (min-width: 768px) {
-    .social {
-        background-color: rgba(255, 255, 255, 0.5);
-        border-radius: 10px;
-    }
-}
+
 
 .social li {
     display: inline-block;
@@ -293,6 +288,8 @@ blockquote::before {
         z-index: 5;
         top: 5vh;
         right: 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
     }
 } 
 
@@ -352,11 +349,10 @@ blockquote::before {
 }
 
 .Home .section-content h1 {
-    font-size: 2.8rem;
-    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
     line-height: 1.2em;
     margin-bottom: 0.2em;
-    padding-top: 1em;
+    padding-top: 2em;
 }
 .Home .section-content h2 {
     font-size: 2rem;
@@ -439,11 +435,15 @@ blockquote::before {
     padding-right: 20px;
 }
 .detail-header{
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+   
     color: #fff;
     position: relative;
     overflow-x: hidden;
 }
+
+@media (min-width: 960px) {
+    .detail-header{ animation: 1s ease-out 0s 1 slideInFromLeft;}
+    }
 .detail-header p{
     font-size: 1.3em;
     line-height: 1.5em;
@@ -476,12 +476,13 @@ blockquote::before {
 }
 .detail-header .ico-scrollDown{
     display: block;
-    height: 80px;
+    opacity: .6;
+    height: 50px;
     width: 100%;
     margin: auto;
     position: absolute;
     left: 0;
-    top: calc(100vh - 80px);
+    top: calc(100vh - 50px);
     z-index: 2;
     animation: animationFrames ease-in-out 2s;
     animation-iteration-count: infinite;
@@ -498,6 +499,14 @@ blockquote::before {
     -ms-animation: animationFrames ease-in-out 2s;
     -ms-animation-iteration-count: infinite;
     -ms-transform-origin: 50% 50%;
+}
+
+@media (min-width: 900px) {
+    .detail-header .ico-scrollDown{  
+        opacity: 1;
+        height: 80px;
+        top: calc(100vh - 80px);
+    }
 }
 .detail-body{
     padding: 50px 0 100px;
@@ -540,9 +549,7 @@ blockquote::before {
     max-width: 100%;
     margin: 30px;
 }
-.detail-body p{
-    text-align: justify;
-}
+
 .detail-body figure:nth-of-type(3n+2){
     transform: rotate(3deg);
 }
@@ -587,11 +594,18 @@ blockquote::before {
 .Detail .portrait {
     width:auto;
     height:100vh;
+    margin-right: -20%;
 }
 @media (min-width: 900px) {
     .Detail .portrait {
         float:right;
         shape-margin: 2rem;
+        margin-right: -10%;
+    }
+}
+@media (min-width: 1400px) {
+    .Detail .portrait {
+        margin-right: 0;
     }
 }
 
@@ -599,18 +613,18 @@ blockquote::before {
     font-size: 2.8rem;
     font-family: 'Roboto', sans-serif;
     line-height: 1.2em;
-    margin-top: 200px;
     margin-bottom: 8px;
     color: #fff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
     position: absolute;
-    top: 35vh;
+    top: 55vh;
     left: 0;
     width: 100%;
     text-align: center;
 }
 @media (min-width: 900px) {
     .Detail .title{
+        margin-top: 200px;
         position: relative;
         top: initial;
         left: initial;
@@ -619,12 +633,26 @@ blockquote::before {
 }
 .Detail .subtitle {
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.2em;
     opacity: .8;
     padding-bottom: 100px;
     line-height: 1.5;
-    max-width: 65%;
     font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: -25vh;
+    margin-bottom: -23vh;
+    text-shadow: 1px 1px 1px #7b7b7b;
+}
+@media (min-width: 900px) {
+    .Detail .subtitle{
+        font-size: 1.3em;
+        text-align: initial;
+        top: initial; 
+        max-width: 65%;
+        margin-bottom: initial;
+        text-shadow: initial;
+    }
 }
 
 .related .nav-previous, .related .nav-next {
@@ -702,19 +730,18 @@ blockquote::before {
     margin-bottom: 100px;
 }
 .project-body h1{
-    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     padding-top: 50px;
+    margin-bottom: 20px;
     line-height: 1.2em;
 }
 .project-body h2{
-    font-family: 'Roboto', sans-serif;
+
     font-size: 1.5em;
     padding-top: 40px;
     line-height: 1.2em;
 }
 .project-body h3{
-    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     padding-top: 30px;
     line-height: 1.2em;
@@ -726,10 +753,14 @@ blockquote::before {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    text-align: justify;
 }
 
-
+@media (min-width: 1200px) {
+    .project-body > div{text-align: justify;}
+    .detail-body p{
+        text-align: justify;
+    }
+}
 
 
 /* KEYFRAMES */
