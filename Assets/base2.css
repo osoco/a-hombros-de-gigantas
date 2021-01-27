@@ -394,9 +394,9 @@ blockquote::before {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
 }
-@media (min-width: 1900px) and (max-width:2284px) {
+@media (min-width: 1900px){
     .Home .gigants-ts ul{
-        grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+        grid-template-columns: repeat(auto-fill, 25%);
     }
 }
 
