@@ -839,3 +839,5 @@ blockquote::before {
       -ms-transform:  translate(0px,0px)  ;
     }
   }
+
+  .widget-shop, .detail-header .authors .btn-colabora { display: none;}
