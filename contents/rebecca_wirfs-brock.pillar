@@ -1,14 +1,17 @@
-Wirfs-Brock comenzó su carrera como probadora del código de bibliotecas gráficas 
-en *Tektronix>https://es.wikipedia.org/wiki/Tektronix|target=_blank*, una empresa que creaba productos
-de electrónica cuyo software estaba escrito en el 
+Wirfs-Brock comenzó su carrera en ingeniería trabajando como probadora del código de 
+bibliotecas gráficas en *Tektronix>https://es.wikipedia.org/wiki/Tektronix|target=_blank*, 
+una empresa que creaba distintos productos de electrónica, entre ellos un estación de trabajo 
+y una familia de osciloscopios que ejecutaban el
 *lenguaje Smalltalk>https://es.wikipedia.org/wiki/Smalltalk|target=_blank* (puede interesarte también el
-trabajo en Smalltalk de *Adele Goldberg>https://ahombrosdegigantas.xyz/adelege_goldberg.html*, otras de 
+trabajo en Smalltalk de *Adele Goldberg>https://ahombrosdegigantas.xyz/adele_goldberg.html*, otras de 
 nuestras ''gigantas''). Según recuerda Wirfs-Brock, en aquellos días los probadores 
 escribían para crear pruebas automatizadas tanto o más código que sus compañeros 
-desarrolladores. Sin embargo, su salario era menor, así que por este motivo decidió 
-convertirse en programadora.
+desarrolladores. Sin embargo, su salario como probadora era menor, así que por este motivo decidió 
+convertirse en ingeniera de software.
 
-Wirfs-Brock llegó a convertirse en la ingeniera jefe para Smalltalk en Tektronix.
+Wirfs-Brock llegó a convertirse en la primera mujer ingeniera principal 
+en Tektronix, lideró el desarrollo de *Color Smalltalk>http://www.wirfs-brock.com/allen/files/tek/tekniques-color-smalltalk.pdf|target=_blank* 
+y gestionó el grupo que produjo la primera máquina Smalltalk comercial.
 Precisamente, las técnicas y patrones empleados por la comunidad de desarrolladores de 
 Smallalk inspiraron sus ideas de ""Responsibility Driven Design"". Smalltalk
 es un ambiente de programación en el que todo es un objeto y la forma de diseñar 

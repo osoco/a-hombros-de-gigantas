@@ -5,6 +5,7 @@
     "introTemplate": "intro.mustache.html",
     "footerTemplate": "footer.mustache.html",
     "cardTemplate": "giganta.mustache.html",
+    "twitterLink":"http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20las%20gigantas%20de%20la%20inform%C3%A1tica%3F%20Proyecto%20que%20visibiliza%20a%20las%20mujeres%20que%20han%20aportado%20al%20mundo%20de%20la%20computaci%C3%B3n.%20%23Ahombrosdegigantas%20%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2F%0A",
     "assets": [
         "../Assets",
         "../contents/figures",
@@ -26,11 +27,12 @@
             "tShirtUrl": "https://www.redbubble.com/es/i/camiseta/Ada-Lovelace-de-ahdg-osoco/69187583.22W0K",
             "mugUrl": "https://www.redbubble.com/es/i/taza/Ada-Lovelace-de-ahdg-osoco/69187583.9Q0AD",
             "tweet":"¿Conocéis a Ada Lovelace?. Ella fue la primera persona programadora de la historia. #Ahombrosdegigantas Conoce más sobre esta giganta en: https://ahombrosdegigantas.xyz/ada_lovelace.html",
-            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/ada_lovelace-t.png"
+            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/ada_lovelace-t.png",
+            "twitterLink":"http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20Ada%20Lovelace%3F.%20Ella%20fue%20la%20primera%20persona%20programadora%20de%20la%20historia.%20%23Ahombrosdegigantas%20Conoce%20m%C3%A1s%20sobre%20esta%20giganta%20en%3A%20  &url=https%3A%2F%2Fahombrosdegigantas.xyz%2Fada_lovelace.html%0A"
         },
         {
             "name": "Adele Goldberg",
-            "headline": "Desarrolladora de Smalltalk, precursor de la computación personal",
+            "headline": "Desarrolladora de Smalltalk, entorno precursor de la computación personal",
             "summary": "Adele Goldberg fue parte importante del equipo de Xerox PARC que
             creó el ambiente de programación Smalltalk, que fue pionero en la computación
             personal y en aspectos como la interfaz de usuario gráfica o la 
@@ -42,8 +44,9 @@
             "illustratorUrl": "https://instagram.com/lureka_es",
             "tShirtUrl": "https://www.redbubble.com/es/i/camiseta/Adele-Goldberg-de-ahdg-osoco/69186040.IJ6L0",
             "mugUrl": "https://www.redbubble.com/es/i/taza/Adele-Goldberg-de-ahdg-osoco/69186040.9Q0AD",
-            "tweet":"¿Conocéis a Adele Goldberg?. Ella es desarrolladora de Smalltalk y precursora de la computación personal. #Ahombrosdegigantas Conoce más sobre esta giganta en: https://ahombrosdegigantas.xyz/adele_goldberg.html ",
-            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/adele_goldberg-t.png"
+            "tweet":"¿Conocéis a Adele Goldberg?. Ella es desarrolladora de Smalltalk, entorno precursor de la computación personal. #Ahombrosdegigantas Conoce más sobre esta giganta en: https://ahombrosdegigantas.xyz/adele_goldberg.html ",
+            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/adele_goldberg-t.png",
+            "twitterLink":"http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20Adele%20Goldberg%3F.%20Ella%20es%20desarrolladora%20de%20Smalltalk%2C%20entorno%20precursor%20de%20la%20computaci%C3%B3n%20personal.%20%23Ahombrosdegigantas%20Conoce%20m%C3%A1s%20sobre%20esta%20giganta%20en%3A%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2Fadele_goldberg.html%0A"
         },
         {
             "name": "Barbara Liskov",
@@ -57,7 +60,8 @@
             "illustrator": "Emilio Rodríguez Vila",
             "illustratorUrl": "https://instagram.com/lureka_es",
             "tweet":"¿Conocéis a Barbara Liskov?. Ella inventó los tipos de datos abstractos. #Ahombrosdegigantas Conoce más sobre esta giganta en: https://ahombrosdegigantas.xyz/barbara_liskov.html",
-            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/barbara_liskov-t.png"
+            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/barbara_liskov-t.png",
+            "twitterLink":"http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20Barbara%20Liskov%3F.%20Ella%20invent%C3%B3%20los%20tipos%20de%20datos%20abstractos.%20%23Ahombrosdegigantas%20Conoce%20m%C3%A1s%20sobre%20esta%20giganta%20en%3A%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2Fbarbara_liskov.html%0A"
         },
         {
             "name": "Frances Allen",
@@ -73,7 +77,8 @@
             "tShirtUrl": "https://www.redbubble.com/es/i/camiseta/Frances-Allen-de-ahdg-osoco/69187774.ADAKE",
             "mugUrl": "https://www.redbubble.com/es/i/taza/Frances-Allen-de-ahdg-osoco/69187774.9Q0AD",
             "tweet":"¿Conocéis a Frances Elizabeth Allen?. Su trabajo se usa para optimizar cada sistema de software actual. #Ahombrosdegigantas Conoce más sobre esta giganta en: https://ahombrosdegigantas.xyz/frances_allen.html",
-            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/frances_allen-t.png"
+            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/frances_allen-t.png",
+            "twitterLink":"http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20Frances%20Elizabeth%20Allen%3F.%20Su%20trabajo%20se%20usa%20para%20optimizar%20cada%20sistema%20de%20software%20actual.%20%23Ahombrosdegigantas%20Conoce%20m%C3%A1s%20sobre%20esta%20giganta%20en%3A%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2Ffrances_allen.html%0A"
         },
         {
             "name": "Grace Hopper",
@@ -89,7 +94,8 @@
             "tShirtUrl": "https://www.redbubble.com/es/i/camiseta/Grace-Hopper-de-ahdg-osoco/69187997.7H7A9",
             "mugUrl": "https://www.redbubble.com/es/i/taza/Grace-Hopper-de-ahdg-osoco/69187997.9Q0AD",
             "tweet":"¿Conocéis a Grace Murray Hooper?. Ella creó el primer lenguaje de programación de alto nivel. #Ahombrosdegigantas Conoce más sobre esta giganta en: https://ahombrosdegigantas.xyz/grace_hopper.html",
-            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/grace_hopper-t.png"
+            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/grace_hopper-t.png",
+            "twitterLink":"http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20Grace%20Murray%20Hooper%3F.%20Ella%20cre%C3%B3%20el%20primer%20lenguaje%20de%20programaci%C3%B3n%20de%20alto%20nivel.%20%23Ahombrosdegigantas%20Conoce%20m%C3%A1s%20sobre%20esta%20giganta%20en%3A%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2Fgrace_hopper.html%0A"
         },
         {
             "name": "Margaret Hamilton",
@@ -106,7 +112,8 @@
             "tShirtUrl": "https://www.redbubble.com/es/i/camiseta/Margaret-Hamilton-de-ahdg-osoco/69188206.240QL",
             "mugUrl": "https://www.redbubble.com/es/i/taza/Margaret-Hamilton-de-ahdg-osoco/69188206.9Q0AD",
             "tweet":"¿Conocéis a Margaret Hamilton?. Su código nos llevó a la luna. #Ahombrosdegigantas Conoce más sobre esta giganta en: https://ahombrosdegigantas.xyz/margaret_hamilton.html",
-            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/margaret_hamilton-t.png"            
+            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/margaret_hamilton-t.png",
+            "twitterLink":"http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20Margaret%20Hamilton%3F.%20Su%20c%C3%B3digo%20nos%20llev%C3%B3%20a%20la%20luna.%20%23Ahombrosdegigantas%20Conoce%20m%C3%A1s%20sobre%20esta%20giganta%20en%3A%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2Fmargaret_hamilton.html%0A"
         },
         {
             "name": "Marian Croak",
@@ -121,7 +128,8 @@
             "tShirtUrl": "https://www.redbubble.com/es/i/camiseta/Marian-Croak-de-ahdg-osoco/69228936.7H7A9",
             "mugUrl": "https://www.redbubble.com/es/i/taza/Marian-Croak-de-ahdg-osoco/69228936.9Q0AD",
             "tweet":"¿Conocéis a Marian Croak?. Ella creó la tecnología de las llamadas por internet. #Ahombrosdegigantas Conoce más sobre esta giganta en: https://ahombrosdegigantas.xyz/marian_croak.html",
-            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/marian_croak-t.png"
+            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/marian_croak-t.png",
+            "twitterLink":"http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20Marian%20Croak%3F.%20Ella%20cre%C3%B3%20la%20tecnolog%C3%ADa%20de%20las%20llamadas%20por%20internet.%20%23Ahombrosdegigantas%20Conoce%20m%C3%A1s%20sobre%20esta%20giganta%20en%3A%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2Fmarian_croak.html%0A"
         },
         {
             "name": "Nancy Lynch",
@@ -137,7 +145,8 @@
             "tShirtUrl": "https://www.redbubble.com/es/i/camiseta/Nancy-Lynch-de-ahdg-osoco/69228739.1482B",
             "mugUrl": "https://www.redbubble.com/es/i/taza/Nancy-Lynch-de-ahdg-osoco/69228739.9Q0AD",
             "tweet":"¿Conocéis a Nancy Lynch?. Ella es pionera de los algoritmos distribuidos. #Ahombrosdegigantas Conoce más sobre esta giganta en: https://ahombrosdegigantas.xyz/nancy_lynch.html",
-            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/nancy_lynch-t.png"
+            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/nancy_lynch-t.png",
+            "twitterLink":"http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20Nancy%20Lynch%3F.%20Ella%20es%20pionera%20de%20los%20algoritmos%20distribuidos.%20%23Ahombrosdegigantas%20Conoce%20m%C3%A1s%20sobre%20esta%20giganta%20en%3A%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2Fnancy_lynch.html%0A"
         },
         {
             "name": "Radia Perlman",
@@ -153,7 +162,8 @@
             "tShirtUrl": "https://www.redbubble.com/es/i/camiseta/Radia-Perlman-de-ahdg-osoco/69229067.9V5H1",
             "mugUrl": "https://www.redbubble.com/es/i/taza/Radia-Perlman-de-ahdg-osoco/69229067.9Q0AD",
             "tweet":"¿Conocéis a Radia Perlman?. Ella trabajó en el montaje de las redes y la tecnología de lo que ahora conocemos como Internet. #Ahombrosdegigantas Conoce más sobre esta giganta en: https://ahombrosdegigantas.xyz/radia_perlman.html",
-            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/radia_perlman-t.png"
+            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/radia_perlman-t.png",
+            "twitterLink":"http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20Radia%20Perlman%3F.%20Ella%20trabaj%C3%B3%20en%20el%20montaje%20de%20las%20redes%20y%20la%20tecnolog%C3%ADa%20de%20lo%20que%20ahora%20conocemos%20como%20Internet.%20%23Ahombrosdegigantas%20Conoce%20m%C3%A1s%20sobre%20esta%20giganta%20en%3A%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2Fradia_perlman.html%0A"
         },
         {
             "name": "Rebecca Wirfs-Brock",
@@ -171,7 +181,8 @@
             "tShirtUrl": "https://www.redbubble.com/es/i/camiseta/Rebecca-Wirfs-Brock-de-ahdg-osoco/69229251.ADAKE",
             "mugUrl": "https://www.redbubble.com/es/i/taza/Rebecca-Wirfs-Brock-de-ahdg-osoco/69229251.9Q0AD",
             "tweet":"¿Conocéis a Rebecca Wirfs-Brock?. Ella es pionera del diseño orientado a objetos. #Ahombrosdegigantas  Conoce más sobre esta giganta en: https://ahombrosdegigantas.xyz/rebecca_wirfs-brock.html",
-            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/rebecca_wirfs-brock-t.png"          
+            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/rebecca_wirfs-brock-t.png",
+            "twitterLink":"http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20Rebecca%20Wirfs-Brock%3F.%20Ella%20es%20pionera%20del%20dise%C3%B1o%20orientado%20a%20objetos.%20%23Ahombrosdegigantas%20%20Conoce%20m%C3%A1s%20sobre%20esta%20giganta%20en%3A%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2Frebecca_wirfs-brock.html%0A"
         },        
         {
             "name": "Shafi Goldwasser",
@@ -187,7 +198,8 @@
             "tShirtUrl": "https://www.redbubble.com/es/i/camiseta/Shafi-Goldwasser-de-ahdg-osoco/69229383.7H7A9",
             "mugUrl": "https://www.redbubble.com/es/i/taza/Shafi-Goldwasser-de-ahdg-osoco/69229383.9Q0AD",
             "tweet":"¿Conocéis a Shafi Goldwasser?. Su investigación permite las transmisiones seguras por internet. #Ahombrosdegigantas Conoce más sobre esta giganta en: https://ahombrosdegigantas.xyz/shafi_goldwasser.html",
-            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/shafi_goldwasser-t.png"
+            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/shafi_goldwasser-t.png",
+            "twitterLink":"http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20Shafi%20Goldwasser%3F.%20Su%20investigaci%C3%B3n%20permite%20las%20transmisiones%20seguras%20por%20internet.%20%23Ahombrosdegigantas%20Conoce%20m%C3%A1s%20sobre%20esta%20giganta%20en%3A%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2Fshafi_goldwasser.html%0A"
         },   
         {
             "name": "Sophie Wilson",
@@ -206,7 +218,8 @@
             "tShirtUrl": "https://www.redbubble.com/es/i/camiseta/Sophie-Wilson-de-ahdg-osoco/69186806.2EZFS",
             "mugUrl": "https://www.redbubble.com/es/i/taza/Sophie-Wilson-de-ahdg-osoco/69186806.9Q0AD",
             "tweet":"¿Conocéis a Sophie Wilson?. Ella diseñó los procesadores ARM que utilizan los móviles y tablets. #Ahombrosdegigantas Conoce más sobre esta giganta en: https://ahombrosdegigantas.xyz/sophie_wilson.html",
-            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/sophie_wilson-t.png"
+            "tweetImg":"https://ahombrosdegigantas.xyz/Assets/img/sophie_wilson-t.png",
+            "twitterLink":"http://twitter.com/intent/tweet?text=%C2%BFConoc%C3%A9is%20a%20Sophie%20Wilson%3F.%20Ella%20dise%C3%B1%C3%B3%20los%20procesadores%20ARM%20que%20utilizan%20los%20m%C3%B3viles%20y%20tablets.%20%23Ahombrosdegigantas%20Conoce%20m%C3%A1s%20sobre%20esta%20giganta%20en%3A%20&url=https%3A%2F%2Fahombrosdegigantas.xyz%2Fsophie_wilson.html%0A"
         }
     ]
 }
