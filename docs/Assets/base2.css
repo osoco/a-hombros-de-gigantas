@@ -564,12 +564,14 @@ blockquote::before {
     }
 }
 
-.Detail .names {
-    height:8rem; 
+.Detail .names { 
     max-width:80%; 
+    height:9rem; 
 }
-@media (min-width: 768px) {
-    height:12rem; 
+@media (min-width: 1200px) {
+    .Detail .names {  height:12rem; }
+    .Detail .bgc-barbara_liskov .names,
+    .Detail .bgc-frances_allen .names {  height:9rem; }
 }
 .Detail picture {display: contents;}
 .Detail .portrait {
@@ -579,6 +581,7 @@ blockquote::before {
 @media (min-width: 900px) {
     .Detail .portrait {
         float:right;
+        shape-margin: 2rem;
     }
 }
 
@@ -606,10 +609,12 @@ blockquote::before {
 }
 .Detail .subtitle {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    padding-top: 50px;
-    line-height: 1.2em;
+    font-size: 1.3em;
+    opacity: .8;
+    padding-bottom: 100px;
+    line-height: 1.5;
+    max-width: 65%;
+    font-weight: bold;
 }
 
 .related .nav-previous, .related .nav-next {

@@ -565,7 +565,7 @@ blockquote::before {
 }
 
 .Detail .names {
-    height:8rem; 
+    height:12rem; 
     max-width:80%; 
 }
 @media (min-width: 768px) {
