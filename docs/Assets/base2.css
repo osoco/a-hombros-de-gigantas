@@ -83,8 +83,9 @@ blockquote::before {
     position: static;
     display: inline-block;
 }
-.footer address {max-width: 90%;}
-
+.footer address {max-width: 90%; text-align: center; margin: 0 auto;}
+.footer address ul {display: flex; align-items: center; margin: 0 auto;}
+.footer address .logo {margin-right: 32px;}
 
 .social .github a::before {
     content: url("img/ico-github.svg");
@@ -462,6 +463,7 @@ blockquote::before {
     position: relative;
     position: relative;
     transform: rotate(-3deg);
+    font-weight: bold;
 }
 .detail-header .ico-scrollDown{
     display: block;
@@ -494,10 +496,9 @@ blockquote::before {
 }
 .detail-body h3,
 .widget-shop h3{
-    font-family: 'Roboto', sans-serif;
-    margin: 1em 0 .5em;
+    margin: 3em 0 .5em;
     display: block;
-    font-size: 2em;
+    font-size: 1.3em;
     line-height: 1em;
 }
 .detail-body ul{
