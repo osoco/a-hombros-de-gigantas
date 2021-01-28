@@ -435,7 +435,7 @@ blockquote::before {
     padding-right: 20px;
 }
 .detail-header{
-   
+    height: 100vh;
     color: #fff;
     position: relative;
     overflow-x: hidden;
@@ -593,21 +593,12 @@ blockquote::before {
 .Detail picture {display: contents;}
 .Detail .portrait {
     width:auto;
-    height:100vh;
+    height:110vh;
     margin-right: -20%;
+    position: relative;
+    right: 10%;
 }
-@media (min-width: 900px) {
-    .Detail .portrait {
-        float:right;
-        shape-margin: 2rem;
-        margin-right: -10%;
-    }
-}
-@media (min-width: 1400px) {
-    .Detail .portrait {
-        margin-right: 0;
-    }
-}
+
 
 .Detail .title {
     font-size: 2.8rem;
@@ -617,13 +608,17 @@ blockquote::before {
     color: #fff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
     position: absolute;
-    top: 55vh;
+    top: 57vh;
     left: 0;
     width: 100%;
     text-align: center;
 }
+.Detail .bgc-sophie_wilson .title {
+    top: 53vh;
+}
+
 @media (min-width: 900px) {
-    .Detail .title{
+    .Detail  .detail-content .title{
         margin-top: 200px;
         position: relative;
         top: initial;
@@ -640,12 +635,15 @@ blockquote::before {
     font-weight: bold;
     position: relative;
     text-align: center;
-    top: -25vh;
-    margin-bottom: -23vh;
+    top: -33vh;
+    margin-bottom: -28vh;
     text-shadow: 1px 1px 1px #7b7b7b;
 }
+.Detail .bgc-sophie_wilson .subtitle {
+    top: -38vh;
+}
 @media (min-width: 900px) {
-    .Detail .subtitle{
+    .Detail .detail-content .subtitle{
         font-size: 1.3em;
         text-align: initial;
         top: initial; 
@@ -653,12 +651,13 @@ blockquote::before {
         margin-bottom: initial;
         text-shadow: initial;
     }
+
 }
 
 .related .nav-previous, .related .nav-next {
     z-index: 6;
     position: fixed;
-    top: calc(95vh - 30px);
+    top: calc(90vh - 30px);
 }
 @media (min-width: 768px) {
     .related .nav-previous, .related .nav-next {
@@ -674,7 +673,7 @@ blockquote::before {
     border: solid #fff; 
     border-width: 0 .2em .2em 0; 
     display: inline-block; 
-    padding: .70em; transform:rotate(135deg); 
+    padding: .40em; transform:rotate(135deg); 
     -webkit-transform:rotate(135deg);
     box-shadow: 3px 2px 3px #aba6a6cc;
 }
@@ -683,7 +682,7 @@ blockquote::before {
     border: solid #fff; 
     border-width: 0 .2em .2em 0; 
     display: inline-block; 
-    padding: .70em; transform:rotate(135deg); 
+    padding: .40em; transform:rotate(135deg); 
     transform:rotate(135deg); -webkit-transform:rotate(-45deg);
     box-shadow: 3px 2px 3px #aba6a6cc;
 }
@@ -691,6 +690,97 @@ blockquote::before {
 .related .nav-previous a article, .related .nav-next a article {
    display: none;
 }
+
+
+
+@media (min-width: 730px), (min-width: 540px) and (orientation: landscape) { 
+
+        .Detail .names {
+            height:auto; 
+            max-width:98%; 
+            width: 50%;
+        }
+        .Detail .portrait {
+            float: right;
+            left: initial;
+            right: 0;
+            shape-margin:16px;
+            margin-bottom: 2rem;
+            margin-right: -10%;
+        }
+        .Detail .detail-content .title {padding-top: 150px; position: relative; top: initial}
+        .Detail .detail-content .subtitle { margin-bottom: 2rem;  position: relative; top: initial}
+        .Detail .detail-info p, .Detail .detail-info h3{ padding-left: 0;}
+    
+    } 
+    @media (min-width: 730px) and (orientation:portrait) {
+        .Detail .portrait {
+            margin-right: -40%;
+         }
+         .Detail .bgc-frances_allen .portrait {
+             margin-right: -45%;
+         }
+    }
+
+    @media (min-width: 1025px) {
+        .Detail .detail-header .portrait {
+            float:right;
+            height:100vh;
+            shape-margin: 2rem;
+            margin-right: -20%;
+            right: initial;
+        }
+    }
+    
+    @media (min-width: 1400px) {
+        .Detail .detail-header .portrait {
+            margin-right: 0;
+        }
+    }
+
+@media (min-width: 1024px) {
+    .related .nav-previous a::before,
+    .related .nav-next a::after { padding: .70em;}
+
+    .related .nav-previous a article, .related .nav-next a article {
+        visibility: hidden;
+        opacity: 0;
+        height: 110px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        color:#000;
+        transition: opacity 1s ease-out;
+        -moz-transition: opacity 1s ease-out;
+        -webkit-transition: opacity 1s ease-out;    
+    }
+    .related .nav-previous, .related .nav-next {
+        z-index: 6;
+        position: fixed;
+        top: calc(50% - 30px);
+    
+    }
+    .related article h1 {
+        font-size: 1.2rem;
+        background: #ffffff36;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    .related .nav-previous a:hover article, .related .nav-next a:hover article {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 1s ease-out;
+        -moz-transition: opacity 1s ease-out;
+        -webkit-transition: opacity 1s ease-out;
+        
+    }
+    
+    .related .thumbnail {
+        position: relative;
+        top: -8px;
+    }
+} 
 /* /- 05 Intro */
 .project-header{
     background-image: url("img/bg-intro.png");
