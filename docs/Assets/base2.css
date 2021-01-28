@@ -730,6 +730,7 @@ blockquote::before {
             margin-right: -20%;
             right: initial;
         }
+        .Detail .detail-content .title {padding-top: 0;}
     }
     
     @media (min-width: 1400px) {
