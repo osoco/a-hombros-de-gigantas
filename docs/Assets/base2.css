@@ -139,93 +139,11 @@ blockquote::before {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-.widget-shop{
-    padding: 30px 0 90px;
-    background-image: url("img/widgetShopShadow.svg");
-    background-repeat: no-repeat;
-    background-position: center 0;
-    background-size: 1500px;
-    border-top: 2px solid #8e8e8e;
-}
-
-.widget-shop .shop{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    grid-gap: 30px;
-}
-.widget-shop .shop > div{
-    position: relative;
-    padding: 30px 0;
-}
-.widget-shop .shop > div:not(:last-child)::after{
+.shop {display: block; margin-bottom: 40px;}
+.shop .banner img{
     width: 100%;
-    height: 1px;
-    content: "";
-    background-color: #a8a8a8;
-    position: absolute;
-    bottom: -15px;
-    right: 0;
-}
-@media (min-width: 850px) {
-    .widget-shop .shop > div{
-        display: flex;
-    }
-    .widget-shop .shop{
-        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-    }
-    .widget-shop .shop > div:not(:last-child)::after{
-        width: 1px;
-        height: 100%;
-        top: 0;
-        bottom: auto;
-        right: -15px;
-    }
-}
-.widget-shop .shop .action{
-    padding-left: 30px;
-    text-align: center;
-}
-.widget-shop .shop .action .price{
-    margin-top: 10px;
-    font-size: 2em;
-    display: block;
-    padding-bottom: 10px;
-}
-.widget-shop .shop .action strong{
-    padding: 1px 5px;
+    box-shadow: 4px 4px 7px #00000047;
     border-radius: 4px;
-    display: inline-block;
-    background-color: #000;
-    color: #fff;
-}
-.widget-shop .shop .print{
-    text-align: center;
-    position: relative;
-}
-.widget-shop .shop .print img.print{
-    width: 70px;
-    position: absolute;
-    top: calc(50% - 55px);
-    left: calc(50% - 35px);
-    z-index: 2;
-}
-.widget-shop .shop .action a{
-    background: #252525;
-    padding: .5em 1.5em;
-    color: #fff;
-    text-decoration: none;
-    margin: 24px 0;
-    display: inline-block;
-
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px #6b6b6b36;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    position: relative;
-    left: -20px;
-    position: relative;
-    left: -20px;
-    transform: rotate(-3deg);
 }
 .bgc-adele_goldberg{
     background-color: #003845;
@@ -435,7 +353,7 @@ blockquote::before {
     padding-right: 20px;
 }
 .detail-header{
-    height: 100vh;
+    min-height: 100vh;
     color: #fff;
     position: relative;
     overflow-x: hidden;
@@ -636,7 +554,7 @@ blockquote::before {
     position: relative;
     text-align: center;
     top: -33vh;
-    margin-bottom: -28vh;
+    margin-bottom: -10vh;
     text-shadow: 1px 1px 1px #7b7b7b;
 }
 .Detail .bgc-sophie_wilson .subtitle {
@@ -705,7 +623,6 @@ blockquote::before {
             left: initial;
             right: 0;
             shape-margin:16px;
-            margin-bottom: 2rem;
             margin-right: -10%;
         }
         .Detail .detail-content .title {padding-top: 150px; position: relative; top: initial}
@@ -930,5 +847,3 @@ blockquote::before {
       -ms-transform:  translate(0px,0px)  ;
     }
   }
-
-  .widget-shop, .detail-header .authors .btn-colabora { display: none;}

@@ -83,8 +83,9 @@ blockquote::before {
     position: static;
     display: inline-block;
 }
-.footer address {max-width: 90%;}
-
+.footer address {max-width: 90%; text-align: center; margin: 0 auto;}
+@media (min-width:900px) { .footer address ul {display: flex; align-items: center; margin: 0 auto;}}
+.footer address .logo {margin-right: 32px;}
 
 .social .github a::before {
     content: url("img/ico-github.svg");
@@ -112,12 +113,7 @@ blockquote::before {
     display: flex;
     justify-content: center;
 }
-@media (min-width: 768px) {
-    .social {
-        background-color: rgba(255, 255, 255, 0.5);
-        border-radius: 10px;
-    }
-}
+
 
 .social li {
     display: inline-block;
@@ -143,93 +139,11 @@ blockquote::before {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-.widget-shop{
-    padding: 30px 0 90px;
-    background-image: url("img/widgetShopShadow.svg");
-    background-repeat: no-repeat;
-    background-position: center 0;
-    background-size: 1500px;
-    border-top: 2px solid #8e8e8e;
-}
-
-.widget-shop .shop{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    grid-gap: 30px;
-}
-.widget-shop .shop > div{
-    position: relative;
-    padding: 30px 0;
-}
-.widget-shop .shop > div:not(:last-child)::after{
+.shop {display: block; margin-bottom: 40px;}
+.shop .banner img{
     width: 100%;
-    height: 1px;
-    content: "";
-    background-color: #a8a8a8;
-    position: absolute;
-    bottom: -15px;
-    right: 0;
-}
-@media (min-width: 850px) {
-    .widget-shop .shop > div{
-        display: flex;
-    }
-    .widget-shop .shop{
-        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-    }
-    .widget-shop .shop > div:not(:last-child)::after{
-        width: 1px;
-        height: 100%;
-        top: 0;
-        bottom: auto;
-        right: -15px;
-    }
-}
-.widget-shop .shop .action{
-    padding-left: 30px;
-    text-align: center;
-}
-.widget-shop .shop .action .price{
-    margin-top: 10px;
-    font-size: 2em;
-    display: block;
-    padding-bottom: 10px;
-}
-.widget-shop .shop .action strong{
-    padding: 1px 5px;
+    box-shadow: 4px 4px 7px #00000047;
     border-radius: 4px;
-    display: inline-block;
-    background-color: #000;
-    color: #fff;
-}
-.widget-shop .shop .print{
-    text-align: center;
-    position: relative;
-}
-.widget-shop .shop .print img.print{
-    width: 70px;
-    position: absolute;
-    top: calc(50% - 55px);
-    left: calc(50% - 35px);
-    z-index: 2;
-}
-.widget-shop .shop .action a{
-    background: #252525;
-    padding: .5em 1.5em;
-    color: #fff;
-    text-decoration: none;
-    margin: 24px 0;
-    display: inline-block;
-
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px #6b6b6b36;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    position: relative;
-    left: -20px;
-    position: relative;
-    left: -20px;
-    transform: rotate(-3deg);
 }
 .bgc-adele_goldberg{
     background-color: #003845;
@@ -292,6 +206,8 @@ blockquote::before {
         z-index: 5;
         top: 5vh;
         right: 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
     }
 } 
 
@@ -351,11 +267,10 @@ blockquote::before {
 }
 
 .Home .section-content h1 {
-    font-size: 2.8rem;
-    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
     line-height: 1.2em;
     margin-bottom: 0.2em;
-    padding-top: 1em;
+    padding-top: 2em;
 }
 .Home .section-content h2 {
     font-size: 2rem;
@@ -438,11 +353,15 @@ blockquote::before {
     padding-right: 20px;
 }
 .detail-header{
-    animation: 1s ease-out 0s 1 slideInFromLeft;
+    min-height: 100vh;
     color: #fff;
     position: relative;
     overflow-x: hidden;
 }
+
+@media (min-width: 960px) {
+    .detail-header{ animation: 1s ease-out 0s 1 slideInFromLeft;}
+    }
 .detail-header p{
     font-size: 1.3em;
     line-height: 1.5em;
@@ -471,15 +390,17 @@ blockquote::before {
     position: relative;
     position: relative;
     transform: rotate(-3deg);
+    font-weight: bold;
 }
 .detail-header .ico-scrollDown{
     display: block;
-    height: 80px;
+    opacity: .6;
+    height: 50px;
     width: 100%;
     margin: auto;
     position: absolute;
     left: 0;
-    top: calc(100vh - 80px);
+    top: calc(100vh - 50px);
     z-index: 2;
     animation: animationFrames ease-in-out 2s;
     animation-iteration-count: infinite;
@@ -497,16 +418,23 @@ blockquote::before {
     -ms-animation-iteration-count: infinite;
     -ms-transform-origin: 50% 50%;
 }
+
+@media (min-width: 900px) {
+    .detail-header .ico-scrollDown{  
+        opacity: 1;
+        height: 80px;
+        top: calc(100vh - 80px);
+    }
+}
 .detail-body{
     padding: 50px 0 100px;
     background-color: #fff;
 }
 .detail-body h3,
 .widget-shop h3{
-    font-family: 'Roboto', sans-serif;
-    margin: 1em 0 .5em;
+    margin: 3em 0 .5em;
     display: block;
-    font-size: 2em;
+    font-size: 1.3em;
     line-height: 1em;
 }
 .detail-body ul{
@@ -539,9 +467,7 @@ blockquote::before {
     max-width: 100%;
     margin: 30px;
 }
-.detail-body p{
-    text-align: justify;
-}
+
 .detail-body figure:nth-of-type(3n+2){
     transform: rotate(3deg);
 }
@@ -573,40 +499,45 @@ blockquote::before {
     }
 }
 
-.Detail .names {
-    height:12rem; 
+.Detail .names { 
     max-width:80%; 
+    height:9rem; 
 }
-@media (min-width: 768px) {
-    height:12rem; 
+@media (min-width: 1200px) {
+    .Detail .names {  height:12rem; }
+    .Detail .bgc-barbara_liskov .names,
+    .Detail .bgc-frances_allen .names {  height:9rem; }
 }
 .Detail picture {display: contents;}
 .Detail .portrait {
     width:auto;
-    height:100vh;
+    height:110vh;
+    margin-right: -20%;
+    position: relative;
+    right: 10%;
 }
-@media (min-width: 900px) {
-    .Detail .portrait {
-        float:right;
-    }
-}
+
 
 .Detail .title {
     font-size: 2.8rem;
     font-family: 'Roboto', sans-serif;
     line-height: 1.2em;
-    margin-top: 200px;
     margin-bottom: 8px;
     color: #fff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
     position: absolute;
-    top: 35vh;
+    top: 57vh;
     left: 0;
     width: 100%;
     text-align: center;
 }
+.Detail .bgc-sophie_wilson .title {
+    top: 53vh;
+}
+
 @media (min-width: 900px) {
-    .Detail .title{
+    .Detail  .detail-content .title{
+        margin-top: 200px;
         position: relative;
         top: initial;
         left: initial;
@@ -615,16 +546,36 @@ blockquote::before {
 }
 .Detail .subtitle {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    padding-top: 50px;
-    line-height: 1.2em;
+    font-size: 1.2em;
+    opacity: .8;
+    padding-bottom: 100px;
+    line-height: 1.5;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: -33vh;
+    margin-bottom: -10vh;
+    text-shadow: 1px 1px 1px #7b7b7b;
+}
+.Detail .bgc-sophie_wilson .subtitle {
+    top: -38vh;
+}
+@media (min-width: 900px) {
+    .Detail .detail-content .subtitle{
+        font-size: 1.3em;
+        text-align: initial;
+        top: initial; 
+        max-width: 65%;
+        margin-bottom: initial;
+        text-shadow: initial;
+    }
+
 }
 
 .related .nav-previous, .related .nav-next {
     z-index: 6;
     position: fixed;
-    top: calc(95vh - 30px);
+    top: calc(90vh - 30px);
 }
 @media (min-width: 768px) {
     .related .nav-previous, .related .nav-next {
@@ -640,7 +591,7 @@ blockquote::before {
     border: solid #fff; 
     border-width: 0 .2em .2em 0; 
     display: inline-block; 
-    padding: .70em; transform:rotate(135deg); 
+    padding: .40em; transform:rotate(135deg); 
     -webkit-transform:rotate(135deg);
     box-shadow: 3px 2px 3px #aba6a6cc;
 }
@@ -649,7 +600,7 @@ blockquote::before {
     border: solid #fff; 
     border-width: 0 .2em .2em 0; 
     display: inline-block; 
-    padding: .70em; transform:rotate(135deg); 
+    padding: .40em; transform:rotate(135deg); 
     transform:rotate(135deg); -webkit-transform:rotate(-45deg);
     box-shadow: 3px 2px 3px #aba6a6cc;
 }
@@ -657,6 +608,97 @@ blockquote::before {
 .related .nav-previous a article, .related .nav-next a article {
    display: none;
 }
+
+
+
+@media (min-width: 730px), (min-width: 540px) and (orientation: landscape) { 
+
+        .Detail .names {
+            height:auto; 
+            max-width:98%; 
+            width: 50%;
+        }
+        .Detail .portrait {
+            float: right;
+            left: initial;
+            right: 0;
+            shape-margin:16px;
+            margin-right: -10%;
+        }
+        .Detail .detail-content .title {padding-top: 150px; position: relative; top: initial}
+        .Detail .detail-content .subtitle { margin-bottom: 2rem;  position: relative; top: initial}
+        .Detail .detail-info p, .Detail .detail-info h3{ padding-left: 0;}
+    
+    } 
+    @media (min-width: 730px) and (orientation:portrait) {
+        .Detail .portrait {
+            margin-right: -40%;
+         }
+         .Detail .bgc-frances_allen .portrait {
+             margin-right: -45%;
+         }
+    }
+
+    @media (min-width: 1025px) {
+        .Detail .detail-header .portrait {
+            float:right;
+            height:100vh;
+            shape-margin: 2rem;
+            margin-right: -20%;
+            right: initial;
+        }
+        .Detail .detail-content .title {padding-top: 0;}
+    }
+    
+    @media (min-width: 1400px) {
+        .Detail .detail-header .portrait {
+            margin-right: 0;
+        }
+    }
+
+@media (min-width: 1024px) {
+    .related .nav-previous a::before,
+    .related .nav-next a::after { padding: .70em;}
+
+    .related .nav-previous a article, .related .nav-next a article {
+        visibility: hidden;
+        opacity: 0;
+        height: 110px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        color:#000;
+        transition: opacity 1s ease-out;
+        -moz-transition: opacity 1s ease-out;
+        -webkit-transition: opacity 1s ease-out;    
+    }
+    .related .nav-previous, .related .nav-next {
+        z-index: 6;
+        position: fixed;
+        top: calc(50% - 30px);
+    
+    }
+    .related article h1 {
+        font-size: 1.2rem;
+        background: #ffffff36;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    
+    .related .nav-previous a:hover article, .related .nav-next a:hover article {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 1s ease-out;
+        -moz-transition: opacity 1s ease-out;
+        -webkit-transition: opacity 1s ease-out;
+        
+    }
+    
+    .related .thumbnail {
+        position: relative;
+        top: -8px;
+    }
+} 
 /* /- 05 Intro */
 .project-header{
     background-image: url("img/bg-intro.png");
@@ -696,19 +738,18 @@ blockquote::before {
     margin-bottom: 100px;
 }
 .project-body h1{
-    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     padding-top: 50px;
+    margin-bottom: 20px;
     line-height: 1.2em;
 }
 .project-body h2{
-    font-family: 'Roboto', sans-serif;
+
     font-size: 1.5em;
     padding-top: 40px;
     line-height: 1.2em;
 }
 .project-body h3{
-    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     padding-top: 30px;
     line-height: 1.2em;
@@ -720,10 +761,14 @@ blockquote::before {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    text-align: justify;
 }
 
-
+@media (min-width: 1200px) {
+    .project-body > div{text-align: justify;}
+    .detail-body p{
+        text-align: justify;
+    }
+}
 
 
 /* KEYFRAMES */
