@@ -456,6 +456,7 @@ blockquote::before {
     left: -20px;
     top: 10px;
 }
+.section-content figure,
 .detail-body figure{
     background-color: #fff;
     border: 1px solid #dddbdb;
@@ -473,7 +474,7 @@ blockquote::before {
 }
 
 @media (min-width: 769px) {
-    .detail-body figure{
+    .section-content figure, .detail-body figure{
         max-width: 450px;
         float: left;
     }
@@ -481,9 +482,10 @@ blockquote::before {
         float: right;
     }
 }
-.detail-body figure img{
+.section-content figure img, .detail-body figure img{
     width: 100%;
 }
+.section-content figure figcaption,
 .detail-body figure figcaption{
     padding-top: 20px;
     font-size: .8em;
